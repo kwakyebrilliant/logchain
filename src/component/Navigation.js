@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { FaFileWord } from 'react-icons/fa'
+import { FaHospitalSymbol } from 'react-icons/fa'
 
 export default function Navigation() {
     const [nav, setNav] = useState(false)
@@ -15,8 +15,8 @@ export default function Navigation() {
         <div className='w-screen h-[70px] z-10 bg-black fixed drop-shadow-lg'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
-        <FaFileWord className=' text-white lg:w-[35px] lg:h-[35px]' />
-          <h1 className='text-3xl font-bold text-white mr-4 sm:text-4xl'>PLAYME.</h1>
+        <FaHospitalSymbol className=' text-white lg:w-[35px] lg:h-[35px]' />
+          <h1 className='text-3xl font-bold text-white mr-4 sm:text-4xl'>LOGCHAIN.</h1>
           <ul className='hidden text-white md:flex'>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/previous">Previous</Link></li>
