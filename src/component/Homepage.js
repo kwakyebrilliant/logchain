@@ -18,9 +18,9 @@ function Homepage() {
             <span className="sm:block"> Through Blockchain. </span>
           </h1>
 
-          <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-            tenetur fuga ducimus numquam ea!
+          <p className="mx-auto mt-4 max-w-2xl sm:text-xl/relaxed">
+            Several problems in the pharmaceutical industry. 
+            Using blockchain technology, we are Solving the supply chain problems in this industry.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
