@@ -1,8 +1,15 @@
 import React from 'react'
+import Navigation from './Navigation'
 
 function Homepage() {
   return (
-    <div>Homepage</div>
+    <div>
+
+      <Navigation />
+
+
+      <h1>Homepage</h1>
+    </div>
   )
 }
 
