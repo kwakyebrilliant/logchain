@@ -12,21 +12,19 @@ export default function Navigation() {
     const handleClose =()=> setNav(!nav)
     return (
 
-        <div className='w-screen h-[70px] z-10 bg-black fixed drop-shadow-lg'>
+        <div className='w-screen h-[70px] z-10 bg-emerald-700 fixed drop-shadow-lg'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
         <FaHospitalSymbol className=' text-white lg:w-[35px] lg:h-[35px]' />
           <h1 className='text-3xl font-bold text-white mr-4 sm:text-4xl'>LOGCHAIN.</h1>
           <ul className='hidden text-white md:flex'>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/previous">Previous</Link></li>
-          <li><Link to="/earners">Top Earners</Link></li>
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>
          
             <a
-            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-black bg-white border border-white rounded hover:bg-transparent hover:text-blue-600 active:text-white focus:outline-none focus:ring"
+            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-emerald-700 bg-white border border-white rounded hover:bg-transparent hover:text-white active:text-white focus:outline-none focus:ring"
             type="submit"
             href='/summary'
             >
