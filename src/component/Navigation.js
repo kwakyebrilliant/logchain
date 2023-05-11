@@ -29,7 +29,7 @@ export default function Navigation() {
             href='/'
             >
             <span className="text-sm font-medium">
-            Connect Wallet
+            Connect
             </span>
             </a>
     
@@ -52,7 +52,7 @@ export default function Navigation() {
             type="submit"
             >
             <span className="text-sm font-medium">
-            Connect Wallet
+            Connect
             </span>
             </a>
         </div>
