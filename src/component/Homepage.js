@@ -1,6 +1,8 @@
 import React from 'react'
 import Navigation from './Navigation'
 
+import logistics from '../assets/logistics.jpg';
+
 function Homepage() {
   return (
     <div>
@@ -8,7 +10,7 @@ function Homepage() {
       <Navigation />
 
       <section>
-      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+      <div className="mx-auto max-w-screen-xl px-4 pt-32 lg:flex lg:h-screen lg:items-center">
         <div className="mx-auto text-center">
           <h1
             className="bg-gradient-to-r from-green-600 via-teal-500 to-emerald-400 bg-clip-text text-3xl font-extrabold text-transparent lg:text-7xl"
@@ -35,8 +37,17 @@ function Homepage() {
       </div>
     </section>
 
+        <div className="flex justify-center items-center">
+              <div>
+              <img
+              alt="Guitar"
+              src={logistics}
+              className="w-full max-h-screen"
+            />
+              </div>
+        </div>
 
-      <h1>Homepage</h1>
+
     </div>
   )
 }
