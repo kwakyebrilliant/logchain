@@ -11,7 +11,7 @@ function Homepage() {
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
         <div className="mx-auto text-center">
           <h1
-            className="bg-gradient-to-r from-blue-500 via-green-400 to-emerald-700 bg-clip-text text-3xl font-extrabold text-transparent lg:text-7xl"
+            className="bg-gradient-to-r from-green-600 via-teal-500 to-emerald-400 bg-clip-text text-3xl font-extrabold text-transparent lg:text-7xl"
           >
             Combating Fake Drugs.
 
@@ -25,7 +25,7 @@ function Homepage() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+              className="block w-full rounded border border-teal-500 bg-teal-500 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-teal-500 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
               href="/get-started"
             >
               Read More
