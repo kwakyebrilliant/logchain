@@ -191,7 +191,7 @@ function Homepage() {
 
           {/* Testimonials */}
           <div
-            className="max-w-3xl text-center mx-auto mt-20"
+            className="max-w-3xl text-center mx-auto mt-16"
             data-aos="zoom-y-out"
           >
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
@@ -236,6 +236,13 @@ function Homepage() {
         </div>
       </div>
     </section>
+
+
+    <div className="flex pt-6 justify-center items-center">
+            <div>
+            <h2 className="text-3xl font-bold sm:text-4xl">FAQs</h2>
+            </div>
+        </div>
 
 
     </div>
