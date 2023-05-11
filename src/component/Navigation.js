@@ -24,7 +24,7 @@ export default function Navigation() {
         <div className='hidden md:flex pr-4'>
          
             <a
-            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-emerald-700 bg-white border border-white rounded hover:bg-transparent hover:text-white active:text-white focus:outline-none focus:ring"
+            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-emerald-600 bg-white border border-white rounded hover:bg-transparent hover:text-white active:text-white focus:outline-none focus:ring"
             type="submit"
             href='/'
             >
