@@ -12,7 +12,7 @@ export default function Navigation() {
     const handleClose =()=> setNav(!nav)
     return (
 
-        <div className='w-screen h-[70px] z-10 bg-emerald-700 fixed drop-shadow-lg'>
+        <div className='w-screen h-[70px] z-10 bg-emerald-600 fixed drop-shadow-lg'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
         <FaHospitalSymbol className=' text-white lg:w-[35px] lg:h-[35px]' />
