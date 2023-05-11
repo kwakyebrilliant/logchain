@@ -119,6 +119,12 @@ function Homepage() {
           </div>
         </section>
 
+        <div className="flex pt-8 justify-center items-center">
+            <div>
+              <h1>Hi</h1>
+            </div>
+        </div>
+
 
     </div>
   )
