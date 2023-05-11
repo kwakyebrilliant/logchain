@@ -122,7 +122,7 @@ function Homepage() {
         </section>
 
         <div className="relative">
-        <div className="flex items-center lg:pt-8 lg:px-24 p-4">
+        <div className="flex items-center lg:pt-8 lg:px-24">
          <p className='text-2xl font-bold'>Partners</p>  <div className="w-full border-b border-gray-300"></div>
         </div>
         </div>
@@ -135,7 +135,7 @@ function Homepage() {
 
 
         <div className="relative">
-        <div className="flex items-center lg:pt-8 lg:px-24 p-4">
+        <div className="flex items-center lg:pt-8 lg:px-24">
         <div className="w-full border-b border-gray-300"></div>
         </div>
         </div>
