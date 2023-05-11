@@ -52,7 +52,7 @@ function Homepage() {
         <section className='flex justify-center items-center'>
           <div className="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
             <div className="max-w-xl">
-              <h2 className="text-3xl font-bold sm:text-4xl">What makes us special</h2>
+              <h2 className="text-3xl font-bold sm:text-4xl">For customers</h2>
 
               <p className="mt-4 text-gray-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
