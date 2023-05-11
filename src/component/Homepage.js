@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from './Navigation'
 
-import logistics from '../assets/logistics.jpg';
+import logistics2 from '../assets/logistics2.jpg';
 
 function Homepage() {
   return (
@@ -37,14 +37,13 @@ function Homepage() {
       </div>
     </section>
 
-        <div className="flex justify-center items-center">
-              <div>
-              <img
-              alt="Guitar"
-              src={logistics}
-              className="w-full max-h-screen"
-            />
-              </div>
+        <div className="flex lg:p-0 sm:p-0 pt-8 justify-center items-center">
+            <div>
+              <img alt="logistics2"
+                src={logistics2}
+                className="w-full max-h-screen"
+              />
+            </div>
         </div>
 
 
