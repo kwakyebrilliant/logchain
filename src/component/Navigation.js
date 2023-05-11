@@ -26,10 +26,10 @@ export default function Navigation() {
             <a
             className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-emerald-700 bg-white border border-white rounded hover:bg-transparent hover:text-white active:text-white focus:outline-none focus:ring"
             type="submit"
-            href='/summary'
+            href='/'
             >
             <span className="text-sm font-medium">
-            Start Game
+            Connect Wallet
             </span>
             </a>
     
@@ -43,18 +43,16 @@ export default function Navigation() {
 
       <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
         <li className='border-b-2 border-zinc-300 w-full'><Link to="/" onClick={handleClose}>Home</Link></li>
-        <li className='border-b-2 border-zinc-300 w-full'><Link to="/previous" onClick={handleClose}>Previous</Link></li>
-        <li className='border-b-2 border-zinc-300 w-full'><Link to="/earners" onClick={handleClose}>Top Earners</Link></li>
 
         <div className='my-4'>
         
             <a
-            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-black border border-black rounded hover:bg-transparent hover:text-blue-700 active:text-black focus:outline-none focus:ring"
-            href='/summary'
+            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-emerald-700 border border-emerald-700 rounded hover:bg-transparent hover:text-emerald-700 active:text-black focus:outline-none focus:ring"
+            href='/'
             type="submit"
             >
             <span className="text-sm font-medium">
-            Start Game
+            Connect Wallet
             </span>
             </a>
         </div>
