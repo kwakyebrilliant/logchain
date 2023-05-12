@@ -178,7 +178,7 @@ function Homepage() {
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-emerald-600"
                 width="58"
                 height="58"
                 viewBox="0 0 48 48"
@@ -197,7 +197,7 @@ function Homepage() {
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-emerald-600"
                 width="58px"
                 height="58px"
                 viewBox="0 0 2000 2000"
@@ -212,7 +212,7 @@ function Homepage() {
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-emerald-600"
                 width="54px"
                 height="54px"
                 viewBox="0 0 24 24"
