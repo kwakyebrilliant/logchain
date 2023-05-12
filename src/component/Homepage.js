@@ -138,7 +138,7 @@ function Homepage() {
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-emerald-600"
                 width="54px"
                 height="54px"
                 viewBox="0 0 24 24"
@@ -155,7 +155,7 @@ function Homepage() {
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-emerald-600"
                 clip-rule="evenodd"
                 fill-rule="evenodd"
                 stroke-linejoin="round"
