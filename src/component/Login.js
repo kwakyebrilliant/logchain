@@ -1,39 +1,63 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function Login() {
+
+    const [selectedOption, setSelectedOption] = useState("");
+
+  const handleOptionChange = (event) => {
+    setSelectedOption(event.target.value);
+  };
+
   return (
     <div>
 
-            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-            <div class="mx-auto max-w-lg">
-                <h1 class="text-center text-2xl font-bold text-emerald-600 sm:text-3xl">
+            <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-lg">
+                <h1 className="text-center text-2xl font-bold text-emerald-600 sm:text-3xl">
                 Get started today
                 </h1>
 
-                <p class="mx-auto mt-4 max-w-md text-center text-gray-500">
+                <p className="mx-auto mt-4 max-w-md text-center text-gray-500">
                     Using blockchain technology, we are Solving the supply chain problems in the pharmaceutical industry.
                 </p>
 
                 <form
                 action=""
-                class="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8"
+                className="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8"
                 >
-                <p class="text-center text-lg font-medium">Choose your account</p>
+                <p className="text-center text-lg font-medium">Choose your account</p>
+
+                <select
+                    className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+                    value={selectedOption}
+                    onChange={handleOptionChange}>
+                    <option value="">User type</option>
+                    <option value="customer">Customer</option>
+                    <option value="administrator">Administrator</option>
+                    <option value="manager">Manager</option>
+                    <option value="manufacturer">Manufacturer</option>
+                    <option value="tester">Tester</option>
+                    <option value="Transporter">Transporter</option>
+                    <option value="wholesaler">Wholesaler/ Retailer</option>
+                    <option value="pharmacy1">Pharmacy 1</option>
+                    <option value="pharmacy2">Pharmacy 2</option>
+                </select>
+      
 
                 <div>
-                    <label for="email" class="sr-only">Email</label>
+                    <label for="email" className="sr-only">Email</label>
 
-                    <div class="relative">
+                    <div className="relative">
                     <input
                         type="email"
-                        class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                        className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                         placeholder="Enter email"
                     />
 
-                    <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+                    <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4 text-gray-400"
+                        className="h-4 w-4 text-gray-400"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -50,19 +74,19 @@ function Login() {
                 </div>
 
                 <div>
-                    <label for="password" class="sr-only">Password</label>
+                    <label for="password" className="sr-only">Password</label>
 
                     <div class="relative">
                     <input
                         type="password"
-                        class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                        className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                         placeholder="Enter password"
                     />
 
-                    <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+                    <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4 text-gray-400"
+                        className="h-4 w-4 text-gray-400"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -86,15 +110,10 @@ function Login() {
 
                 <button
                     type="submit"
-                    class="block w-full rounded-lg bg-emerald-600 px-5 py-3 text-sm font-medium text-white"
+                    className="block w-full rounded-lg bg-emerald-600 px-5 py-3 text-sm font-medium text-white"
                 >
-                    Sign in
+                   Connect
                 </button>
-
-                <p class="text-center text-sm text-gray-500">
-                    No account?
-                    <a class="underline" href="/">Submit</a>
-                </p>
                 </form>
             </div>
             </div>
