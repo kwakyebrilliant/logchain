@@ -43,8 +43,11 @@ function Login() {
                     <option value="pharmacy2">Pharmacy 2</option>
                 </select>
       
+                {
+                      selectedOption ==='administrator' && (
 
-                <div>
+                        <div>
+                            <div>
                     <label for="email" className="sr-only">Email</label>
 
                     <div className="relative">
@@ -73,7 +76,7 @@ function Login() {
                     </div>
                 </div>
 
-                <div>
+                <div className='pt-4'>
                     <label for="password" className="sr-only">Password</label>
 
                     <div class="relative">
@@ -107,6 +110,12 @@ function Login() {
                     </span>
                     </div>
                 </div>
+                        </div>
+                        
+                      )
+                  } 
+
+
 
                 <button
                     type="submit"
