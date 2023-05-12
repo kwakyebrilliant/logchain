@@ -8,27 +8,27 @@ function Login() {
   return (
     <div>
 
-                <section class="bg-white">
-                <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
+                <section className="bg-white">
+                <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
                     <section
-                    class="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6"
+                    className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6"
                     >
                     <img
                         alt="pharmacy"
                         src={pharmacy}
-                        class="absolute inset-0 h-full w-full object-cover opacity-80"
+                        className="absolute inset-0 h-full w-full object-cover opacity-80"
                     />
 
-                    <div class="hidden lg:relative lg:block lg:p-12">
-                        <a class="block text-white" href="/">
+                    <div className="hidden lg:relative lg:block lg:p-12">
+                        <a className="block text-white" href="/">
                             <FaHospitalSymbol className=' text-white lg:w-[35px] lg:h-[35px]' />
                         </a>
 
-                        <h2 class="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+                        <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
                         Welcome to Logchain
                         </h2>
 
-                        <p class="mt-4 leading-relaxed text-white/90">
+                        <p className="mt-4 leading-relaxed text-white/90">
                             Using blockchain technology, we are Solving the supply chain problems in the pharmaceutical industry.
                         </p>
                     </div>
