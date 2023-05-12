@@ -29,8 +29,7 @@ function Login() {
                         </h2>
 
                         <p class="mt-4 leading-relaxed text-white/90">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
-                        dolorum aliquam, quibusdam aperiam voluptatum.
+                            Using blockchain technology, we are Solving the supply chain problems in the pharmaceutical industry.
                         </p>
                     </div>
                     </section>
@@ -55,8 +54,7 @@ function Login() {
                         </h1>
 
                         <p class="mt-4 leading-relaxed text-gray-500">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-                            nam dolorum aliquam, quibusdam aperiam voluptatum.
+                        Using blockchain technology, we are Solving the supply chain problems in the pharmaceutical industry.
                         </p>
                         </div>
 
