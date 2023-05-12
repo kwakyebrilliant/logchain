@@ -2,7 +2,11 @@
 import React from 'react'
 import Navigation from './Navigation'
 
-import { FaCartArrowDown, FaShippingFast, FaCheckCircle } from 'react-icons/fa'
+import {
+  FaCartArrowDown,
+  FaShippingFast,
+  FaCheckCircle 
+} from 'react-icons/fa'
 
 import landing from '../assets/landing.svg';
 import harvard from '../assets/harvard.png';
