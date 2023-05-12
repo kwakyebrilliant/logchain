@@ -26,7 +26,7 @@ export default function Navigation() {
             <a
             className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-emerald-600 bg-white border border-white rounded hover:bg-transparent hover:text-white active:text-white focus:outline-none focus:ring"
             type="submit"
-            href='/'
+            href='/login'
             >
             <span className="text-sm font-medium">
             Connect
@@ -48,7 +48,7 @@ export default function Navigation() {
         
             <a
             className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-emerald-700 border border-emerald-700 rounded hover:bg-transparent hover:text-emerald-700 active:text-black focus:outline-none focus:ring"
-            href='/'
+            href='/login'
             type="submit"
             >
             <span className="text-sm font-medium">
