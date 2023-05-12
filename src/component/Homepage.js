@@ -312,7 +312,7 @@ function Homepage() {
           </p>
 
           <a
-            href="#"
+            href="/login"
             className="inline-block px-12 py-3 mt-8 text-sm font-medium text-emerald-600 border border-emerald-600 rounded-full hover:bg-emerald-600 hover:text-white focus:outline-none focus:ring active:bg-emerald-600"
           >
             Get Started
