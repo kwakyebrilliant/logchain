@@ -22,7 +22,7 @@ function Summary() {
                     </h1>
 
                     <p className="mt-1.5 text-sm text-gray-900">
-                    Check your statistics on SUSTAIN 🎉
+                    Check your statistics on LOGCHAIN 🎉
                     </p>
                 </div>
 
