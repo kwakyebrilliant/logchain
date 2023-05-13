@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import {  AiOutlineLogout, AiOutlineArrowDown, AiOutlineArrowUp, AiFillPieChart } from 'react-icons/ai'
-import {  FaBook, FaMoneyBill } from 'react-icons/fa'
+
 
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Link } from 'react-router-dom';
@@ -32,9 +32,6 @@ const PartialNavbar = () => {
 
             <ul className={!nav ? 'hidden' : 'absolute bg-zinc-900 w-fit px-8 h-screen'}>
                 <li className='border-zinc-900 w-fit text-white'><Link to="/summary" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Summary</Link></li>
-                <li className='border-zinc-900 w-fit text-white'><Link to="/useraction" className='flex' onClick={handleClose}><FaBook className='text-2xl mr-4' />Action</Link></li>
-                <li className='border-zinc-900 w-fit text-white'><Link to="/support" className='flex' onClick={handleClose}><FaMoneyBill className='text-2xl mr-4' />Support</Link></li>
-                {/* <li className='border-zinc-900 w-fit text-white'><Link to="/chat" className='flex' onClick={handleClose}><FaMailBulk className='text-2xl mr-4' />Chat</Link></li> */}
             </ul>
           
             </div>
