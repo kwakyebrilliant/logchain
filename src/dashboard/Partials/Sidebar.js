@@ -3,16 +3,14 @@ import { Link, useLocation } from 'react-router-dom'
 
 import { BsArrowLeftCircle } from 'react-icons/bs'
 import { AiFillPieChart } from 'react-icons/ai'
-import { FaBook, FaMoneyBill, FaCloudversify } from 'react-icons/fa'
+import { FaHospitalSymbol } from 'react-icons/fa'
 
 const Sidebar = () => {
     const [open, setOpen] = useState(false)
     const location = useLocation()
 
     const Menus = [
-        { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
-        { title: 'Action', path: '/useraction', src: <FaBook /> },
-        { title: 'Support', path: '/support', src: <FaMoneyBill /> },
+        { title: 'Summary', path: '/summary', src: <AiFillPieChart /> }
     ]
 
     return (
@@ -30,10 +28,10 @@ const Sidebar = () => {
                 />
                 <Link to='/summary'>
                     <div className={`flex ${open && 'gap-x-4'} items-center`}>
-                    <FaCloudversify className=' text-green-600 lg:w-[35px] lg:h-[35px]' />
+                    <FaHospitalSymbol className=' text-emerald-600 lg:w-[35px] lg:h-[35px]' />
                         {open && (
                             <span className='text-xl font-medium whitespace-nowrap dark:text-white'>
-                                SUSTAIN.
+                                LOGCHAIN.
                             </span>
                         )}
                     </div>
