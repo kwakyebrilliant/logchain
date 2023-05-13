@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import Logo from '../Partial/Logo';
+import Logo from './Logo.js'
 
 const Sidebar = () => {
   return (
