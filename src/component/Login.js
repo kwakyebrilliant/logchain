@@ -116,12 +116,17 @@ function Login() {
                   } 
 
 
-                <button
+                    <a
+                    className=" w-full justify-center flex rounded-lg bg-emerald-600 px-5 py-3 text-sm font-medium hover:bg-transparent border border-emerald-600 hover:text-emerald-600 text-white"
                     type="submit"
-                    className="block w-full rounded-lg bg-emerald-600 px-5 py-3 text-sm font-medium  border border-emerald-600 hover:text-emerald-600 text-white"
-                >
-                   Connect
-                </button>
+                    href='/summary'
+                    >
+                    <span className="text-sm font-medium">
+                    Connect
+                    </span>
+                    </a>
+
+                
                 </form>
             </div>
             </div>
