@@ -119,7 +119,7 @@ function Login() {
                     <a
                     className=" w-full justify-center flex rounded-lg bg-emerald-600 px-5 py-3 text-sm font-medium hover:bg-transparent border border-emerald-600 hover:text-emerald-600 text-white"
                     type="submit"
-                    href='/summary'
+                    href='/adminsummary'
                     >
                     <span className="text-sm font-medium">
                     Connect
