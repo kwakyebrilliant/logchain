@@ -2,7 +2,7 @@ import React from 'react'
 import PartialNavbar from "../Partials/PartialNavbar";
 import Sidebar from '../Partials/Sidebar';
 
-function Summary() {
+function AdminSummary() {
   return (
     <div className='text-black'>
       <>
@@ -41,4 +41,4 @@ function Summary() {
   )
 }
 
-export default Summary
+export default AdminSummary
