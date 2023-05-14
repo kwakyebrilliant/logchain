@@ -1,6 +1,6 @@
 import React from 'react'
-import PartialNavbar from "../Partials/PartialNavbar";
-import Sidebar from '../Partials/Sidebar';
+import PartialNavbar from '../Partial/PartialNavbar'
+import Sidebar from '../Partial/Sidebar'
 
 function AdminSummary() {
   return (
