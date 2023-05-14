@@ -2,7 +2,7 @@ import React from 'react'
 import PartialNavbar from '../Partial/PartialNavbar'
 import Sidebar from '../Partial/Sidebar'
 
-import { FaPlusCircle } from "react-icons/fa";
+import { FaPlusCircle, FaCartArrowDown, FaShippingFast, FaCheckCircle } from "react-icons/fa";
 
 function AdminSummary() {
   return (
@@ -45,6 +45,61 @@ function AdminSummary() {
             </div>
 
             
+            <div className="m-5 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+
+              <div className="flex items-start gap-4">
+                <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
+                <FaCartArrowDown className=' text-white lg:w-5 lg:h-5' />
+                </span>
+
+                <div>
+                  <h2 className="text-lg font-bold">Order.</h2>
+
+                  <p className="mt-1 text-sm text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
+                    Quaerat, saepe?
+                  </p>
+                </div>
+              </div>
+
+
+              <div className="flex items-start gap-4">
+                <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
+                <FaShippingFast className=' text-white lg:w-5 lg:h-5' />
+                </span>
+
+                <div>
+                  <h2 className="text-lg font-bold">Track.</h2>
+
+                  <p className="mt-1 text-sm text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
+                    Quaerat, saepe?
+                  </p>
+                </div>
+              </div>
+
+              
+              <div className="flex items-start gap-4">
+                <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
+                <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
+                </span>
+
+                <div>
+                  <h2 className="text-lg font-bold">Receive.</h2>
+
+                  <p className="mt-1 text-sm text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
+                    Quaerat, saepe?
+                  </p>
+                </div>
+              </div>
+            
+
+             
+            </div>
 
 
 
