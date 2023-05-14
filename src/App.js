@@ -8,6 +8,7 @@ import Manufacturer from './admin/Pages/Manufacturer';
 import Tester from './admin/Pages/Tester';
 import Transporter from './admin/Pages/Transporter';
 import Pharmacy from './admin/Pages/Pharmacy';
+import Dispatcher from './admin/Pages/Dispatcher';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/tester" exact element={<Tester />} />
       <Route path="/transporter" exact element={<Transporter />} />
       <Route path="/pharmacy" exact element={<Pharmacy />} />
+      <Route path="/dispatcher" exact element={<Dispatcher />} />
       </Routes>
     </Router>
   )
