@@ -202,7 +202,8 @@ function AdminSummary() {
             </div>
 
 
-            <div className='m-5 mt-12 border rounded-md shadow-md'>
+
+            <div className='m-5 mt-12 border grid grid-cols-1 rounded-md shadow-md'>
 
               <div className='flex px-8 py-2'>
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
@@ -226,7 +227,73 @@ function AdminSummary() {
               </div>
 
 
+              <div className="overflow-x-auto px-10">
+            <table className="min-w-full overflow-x-auto divide-y-2 divide-gray-200 bg-white text-sm">
+            <thead className="ltr:text-left bg-emerald-50 rtl:text-right">
+            <tr>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                NAME
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                IMAGE
+                </th>
+                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
+                ORDER DATE
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                QUANTITY
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                PRICE
+                </th>
+                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
+                ADDRESS
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                STATE
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                CITY
+                </th>
+                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
+                CONTACT
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                ZIPCODE
+                </th>
+                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
+                REVIEW
+                </th>
+            </tr>
+            </thead>
+
+            <tbody className="divide-y divide-gray-200">
+            <tr style={{height: 70}}>
+                <td className="whitespace-nowrap px-4 py-2 text-lg font-medium text-center text-gray-900">
+                #1
+                </td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
+            </tr>
+
+
+            
+            </tbody>
+        </table>
+        </div>
+
+
             </div>
+
+            
 
 
 
