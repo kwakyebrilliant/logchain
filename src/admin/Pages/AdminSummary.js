@@ -207,7 +207,7 @@ function AdminSummary() {
 
               <div className='flex px-8 py-2'>
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Products
+                  All Orders
                 </h3>
 
                 <form>
@@ -316,11 +316,17 @@ function AdminSummary() {
 
 
               <div className='flex px-8 py-2'>
-                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Products
-                </h3>
 
-                <form>
+                    <div className="relative">
+                    <input
+                        type="text"
+                        className="w-full rounded-lg bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                        placeholder="0xF...y6b"
+                    />
+                    </div>
+              
+
+                <form className='flex'>
                   <select
                       className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
                       <option value="">Select Role</option>
@@ -334,6 +340,137 @@ function AdminSummary() {
                       <option value="dispatcher">Dispatcher</option>
                   </select>
                 </form>
+
+
+            
+
+              <div>
+              <a
+                    className=" w-full justify-center flex rounded-lg bg-emerald-600 p-4 pe-12 text-sm font-medium hover:bg-transparent border border-emerald-600 hover:text-emerald-600 text-white"
+                    type="submit"
+                    href='#'
+                    >
+                    <span className="text-sm font-medium">
+                    Assign Role
+                    </span>
+                    </a>
+              </div>
+               
+
+
+              </div>
+
+
+              </div>
+
+
+              <div className='m-5 mt-12 border grid grid-cols-1 rounded-md shadow-md'>
+
+              <div className='flex px-8 py-2'>
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  All Customers
+                </h3>
+              </div>
+
+              <div className="relative">
+              <div className="flex items-center py-4">
+              <div className="w-full border-b border-gray-300"></div>
+              </div>
+              </div>
+
+
+              <div className="overflow-x-auto px-10">
+              <table className="min-w-full justify-start overflow-x-auto divide-y-2 divide-gray-200 bg-white text-sm">
+              <thead className="ltr:text-left bg-emerald-50 rtl:text-right">
+              <tr>
+                <th className="whitespace-nowrap text-left px-4 text-sm text-gray-400">
+                ADDRESS
+                </th>
+              </tr>
+              </thead>
+
+              <tbody className="divide-y divide-gray-200">
+              <tr style={{height: 70}}>
+                <td className="whitespace-nowrap px-4 py-2 text-lg font-medium text-gray-900">
+                #1
+                </td>
+              </tr>
+
+
+
+              </tbody>
+              </table>
+              </div>
+
+
+              </div>
+
+
+              <div className='m-5 my-12 border grid grid-cols-1 rounded-md shadow-md'>
+
+              <div className='flex px-8 py-2'>
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  All Products
+                </h3>
+
+                <form>
+                  <select
+                      className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
+                      <option value="all">All</option>
+                      <option value="pending">Pending</option>
+                      <option value="returned">Returned</option>
+                  </select>
+                </form>
+              </div>
+
+              <div className="relative">
+              <div className="flex items-center py-4">
+              <div className="w-full border-b border-gray-300"></div>
+              </div>
+              </div>
+
+
+              <div className="overflow-x-auto px-10">
+              <table className="min-w-full overflow-x-auto divide-y-2 divide-gray-200 bg-white text-sm">
+              <thead className="ltr:text-left bg-emerald-50 rtl:text-right">
+              <tr>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                NAME
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                PRICE
+                </th>
+                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
+                IMAGE
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                CATEGORY
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                MANUFACTURER DATE
+                </th>
+                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
+                EXPIRY DATE
+                </th>
+              </tr>
+              </thead>
+
+              <tbody className="divide-y divide-gray-200">
+              <tr style={{height: 70}}>
+                <td className="whitespace-nowrap px-4 py-2 text-lg font-medium text-center text-gray-900">
+                #1
+                </td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+              </tr>
+
+
+
+              </tbody>
+              </table>
               </div>
 
 
