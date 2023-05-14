@@ -8,8 +8,18 @@ import {
   FaCheckCircle 
 } from 'react-icons/fa'
 
+ 
+import {
+  ChipIcon, 
+  SupportIcon
+} from '@heroicons/react/solid'
+import { PhoneIcon, ArrowSmRightIcon } from '@heroicons/react/outline';
+
 import landing from '../assets/landing.svg';
 import harvard from '../assets/harvard.png';
+import pharmacy from '../assets/pharmacy.jpg'
+
+import { Link } from 'react-router-dom'
 
 function Homepage() {
   return (
@@ -124,6 +134,140 @@ function Homepage() {
             </div>
           </div>
         </section>
+
+        <div className='w-full my-14'>
+
+        <div className='w-full h-[700px] bg-gray-900/90 absolute'>
+            <img className='w-full h-full object-cover mix-blend-overlay' src={pharmacy} alt="/" />
+        </div>
+
+        <div className='max-w-[1240px] mx-auto text-white relative'>
+            <div className='px-4 py-12'>
+              <h2 className='text-3xl pt-8 text-slate-300 uppercase text-center'>Support</h2>
+              <h3 className='text-5xl font-bold py-6 text-center'>Got Questions?</h3>
+              <p className='py-4 text-3xl text-slate-300 text-center'>
+                We have a reliable team available to assist you in all your questions and help you go about your 
+                activities on the platform. Remember we are here to serve you to get the best of deals available on
+                this platform.
+            </p>
+            </div>
+
+            <div className='grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
+
+            <div className="relative hover:shadow-lg block bg-white p-8 overflow-hidden border border-gray-100 rounded-lg">
+                    <span
+                        className="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                    ></span>
+
+                    <div className="justify-between sm:flex">
+                        <div>
+                        <h5 className="text-2xl font-bold text-gray-900">
+                            Sales
+                        </h5>
+                        <p className="mt-1 text-xs font-medium text-gray-600">By John Doe</p>
+                        </div>
+
+                        <div className="flex-shrink-0 hidden ml-3 sm:block">
+                        <PhoneIcon className='w-16 h-16 p-4 object-cover bg-green-600 shadow-2xl text-white rounded-lg' />
+                        </div>
+                    </div>
+
+                    <div className="mt-4 sm:pr-8">
+                        <p className="text-sm text-gray-500">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum
+                        provident a, ipsa maiores deleniti consectetur nobis et eaque.
+                        </p>
+                    </div>
+
+                    <dl className="flex mt-6">
+                        <div className="flex flex-col-reverse">
+                        <Link to="/faq">
+                        <dt className="text-sm font-medium flex text-green-600">Continue <ArrowSmRightIcon className='w-5 ml-2' /></dt>
+                            </Link>
+                        <dd className="text-xs text-gray-500">Continue onFAQ's</dd>
+                        </div>
+
+                    </dl>
+                    </div>
+
+                    <div className="relative hover:shadow-lg block bg-white p-8 overflow-hidden border border-gray-100 rounded-lg">
+                    <span
+                        className="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                    ></span>
+
+                    <div className="justify-between sm:flex">
+                        <div>
+                        <h5 className="text-2xl font-bold text-gray-900">
+                        Technical Support
+                        </h5>
+                        <p className="mt-1 text-xs font-medium text-gray-600">By John Doe</p>
+                        </div>
+
+                        <div className="flex-shrink-0 hidden ml-3 sm:block">
+                        <SupportIcon className='w-16 h-16 p-4 object-cover bg-green-600 shadow-2xl text-white rounded-lg' />
+                        </div>
+                    </div>
+
+                    <div className="mt-4 sm:pr-8">
+                        <p className="text-sm text-gray-500">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum
+                        provident a, ipsa maiores deleniti consectetur nobis et eaque.
+                        </p>
+                    </div>
+
+                    <dl className="flex mt-6">
+                        <div className="flex flex-col-reverse">
+                        <Link to="/faq">
+                        <dt className="text-sm font-medium flex text-green-600">Continue <ArrowSmRightIcon className='w-5 ml-2' /></dt>
+                            </Link>
+                        <dd className="text-xs text-gray-500">Continue onFAQ's</dd>
+                        </div>
+
+                    </dl>
+                    </div>
+
+                    <div className="relative hover:shadow-lg block bg-white p-8 overflow-hidden border border-gray-100 rounded-lg">
+                    <span
+                        className="absolute inset-x-0 bottom-0 h-2  bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+                    ></span>
+
+                    <div className="justify-between sm:flex">
+                        <div>
+                        <h5 className="text-2xl font-bold text-gray-900">
+                            Media Inquiries
+                        </h5>
+                        <p className="mt-1 text-xs font-medium text-gray-600">By John Doe</p>
+                        </div>
+
+                        <div className="flex-shrink-0 hidden ml-3 sm:block">
+                        <ChipIcon className='w-16 h-16 p-4 object-cover bg-green-600 shadow-2xl text-white rounded-lg' />
+                        </div>
+                    </div>
+
+                    <div className="mt-4 sm:pr-8">
+                        <p className="text-sm text-gray-500">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At velit illum
+                        provident a, ipsa maiores deleniti consectetur nobis et eaque.
+                        </p>
+                    </div>
+
+                    <dl className="flex mt-6">
+                        <div className="flex flex-col-reverse">
+                        <Link to="/faq">
+                        <dt className="text-sm font-medium flex text-green-600">Continue <ArrowSmRightIcon className='w-5 ml-2' /></dt>
+                            </Link>
+                        <dd className="text-xs text-gray-500">Continue onFAQ's</dd>
+                        </div>
+
+                    </dl>
+                    </div>
+
+                    
+            </div>    
+
+        </div>
+
+        </div>
 
         <div className="relative">
         <div className="flex items-center lg:pt-8 lg:px-24">
