@@ -202,9 +202,13 @@ function AdminSummary() {
             </div>
 
 
-            <div className='m-5 mt-12 border shadow-md'>
+            <div className='m-5 mt-12 border rounded-md shadow-md'>
 
-              <div className='flex'>
+              <div className='flex px-8 py-2'>
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  All Products
+                </h3>
+
 
               </div>
 
