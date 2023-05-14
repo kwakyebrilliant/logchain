@@ -5,8 +5,12 @@ import Sidebar from '../Partial/Sidebar'
 
 import { FaPlusCircle,
   FaShippingFast, 
-  FaCheckCircle 
+  FaCheckCircle,
+  FaCartArrowDown,
+  FaExclamation,
+  FaPeopleCarry 
 } from "react-icons/fa";
+
 
 function AdminSummary() {
   return (
@@ -56,7 +60,7 @@ function AdminSummary() {
               <div className="pt-4 text-gray-500">
 
               <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
-                <FaShippingFast className='text-white lg:w-5 lg:h-5' />
+              <FaPeopleCarry className=' text-white lg:w-5 lg:h-5' />
                 </span>
 
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
@@ -76,42 +80,136 @@ function AdminSummary() {
             </a>
 
 
-              <div className="flex items-start gap-4">
-                <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
-                <FaShippingFast className=' text-white lg:w-5 lg:h-5' />
+            <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8">
+              <div className="pt-4 text-gray-500">
+
+              <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
+              <FaCartArrowDown className=' text-white lg:w-5 lg:h-5' />
                 </span>
 
-                <div>
-                  <h2 className="text-lg font-bold">Track.</h2>
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  All Orders
+                </h3>
 
-                  <p className="mt-1 text-sm text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                    Quaerat, saepe?
-                  </p>
-                </div>
+                <p className="mt-2 hidden text-sm sm:block">
+                  TOTAL NUMBER OF ORDERS
+                </p>
               </div>
+
+              <span
+                className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+              >
+                0
+              </span>
+            </a>
 
               
-              <div className="flex items-start gap-4">
-                <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
-                <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
+            <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8">
+              <div className="pt-4 text-gray-500">
+
+              <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
+              <FaExclamation className=' text-white lg:w-5 lg:h-5' />
                 </span>
 
-                <div>
-                  <h2 className="text-lg font-bold">Receive.</h2>
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                All Pending Orders
+                </h3>
 
-                  <p className="mt-1 text-sm text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                    Quaerat, saepe?
-                  </p>
-                </div>
+                <p className="mt-2 hidden text-sm sm:block">
+                  TOTAL NUMBER OF PENDING ORDERS
+                </p>
               </div>
+
+              <span
+                className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+              >
+                0
+              </span>
+            </a>
             
 
              
             </div>
+
+
+            <div className="m-5 grid grid-cols-1 gap-8 md:mt-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+
+            
+              <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8">
+                <div className="pt-4 text-gray-500">
+
+                <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" className="lg:h-5 lg:w-5 text-white"><path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                  </span>
+
+                  <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                    All Customers
+                  </h3>
+
+                  <p className="mt-2 hidden text-sm sm:block">
+                    TOTAL NUMBER OF CUSTOMERS
+                  </p>
+                </div>
+
+                <span
+                  className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+                >
+                  0
+                </span>
+              </a>
+
+
+              <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8">
+                <div className="pt-4 text-gray-500">
+
+                <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
+                <FaCartArrowDown className=' text-white lg:w-5 lg:h-5' />
+                  </span>
+
+                  <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                    All Orders
+                  </h3>
+
+                  <p className="mt-2 hidden text-sm sm:block">
+                    TOTAL NUMBER OF ORDERS
+                  </p>
+                </div>
+
+                <span
+                  className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+                >
+                  0
+                </span>
+              </a>
+
+                
+              <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8">
+                <div className="pt-4 text-gray-500">
+
+                <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
+                <FaExclamation className=' text-white lg:w-5 lg:h-5' />
+                  </span>
+
+                  <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  All Pending Orders
+                  </h3>
+
+                  <p className="mt-2 hidden text-sm sm:block">
+                    TOTAL NUMBER OF PENDING ORDERS
+                  </p>
+                </div>
+
+                <span
+                  className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+                >
+                  0
+                </span>
+              </a>
+
+
+              
+              </div>
 
 
 
