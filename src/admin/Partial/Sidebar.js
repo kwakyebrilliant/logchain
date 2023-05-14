@@ -15,7 +15,8 @@ const Sidebar = () => {
         { title: 'Manufacturer', path: '/manufacturer', src: <AiFillPieChart /> },
         { title: 'Tester', path: '/tester', src: <AiFillPieChart /> },
         { title: 'Transporter', path: '/transporter', src: <AiFillPieChart /> },
-        { title: 'Pharmacy', path: '/pharmacy', src: <AiFillPieChart /> }
+        { title: 'Pharmacy', path: '/pharmacy', src: <AiFillPieChart /> },
+        { title: 'Dispatcher', path: '/dispatcher', src: <AiFillPieChart /> }
     ]
 
     return (
