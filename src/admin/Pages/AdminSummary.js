@@ -1,8 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import PartialNavbar from '../Partial/PartialNavbar'
 import Sidebar from '../Partial/Sidebar'
 
-import { FaPlusCircle, FaCartArrowDown, FaShippingFast, FaCheckCircle } from "react-icons/fa";
+import { FaPlusCircle,
+  FaShippingFast, 
+  FaCheckCircle 
+} from "react-icons/fa";
 
 function AdminSummary() {
   return (
@@ -47,21 +51,29 @@ function AdminSummary() {
             
             <div className="m-5 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
 
-              <div className="flex items-start gap-4">
-                <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
-                <FaCartArrowDown className=' text-white lg:w-5 lg:h-5' />
+            
+            <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-xl sm:p-6 lg:p-8">
+              <div className="pt-4 text-gray-500">
+
+              <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
+                <FaShippingFast className='text-white lg:w-5 lg:h-5' />
                 </span>
 
-                <div>
-                  <h2 className="text-lg font-bold">Order.</h2>
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  All Customers
+                </h3>
 
-                  <p className="mt-1 text-sm text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                    Quaerat, saepe?
-                  </p>
-                </div>
+                <p className="mt-2 hidden text-sm sm:block">
+                  TOTAL NUMBER OF CUSTOMERS
+                </p>
               </div>
+
+              <span
+                className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+              >
+                0
+              </span>
+            </a>
 
 
               <div className="flex items-start gap-4">
