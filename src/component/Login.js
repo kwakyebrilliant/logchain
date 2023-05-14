@@ -41,6 +41,7 @@ function Login() {
                     <option value="wholesaler">Wholesaler/ Retailer</option>
                     <option value="pharmacy1">Pharmacy 1</option>
                     <option value="pharmacy2">Pharmacy 2</option>
+                    <option value="dispatcher">Dispatcher</option>
                 </select>
       
                 {
