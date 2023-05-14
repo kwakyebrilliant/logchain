@@ -7,6 +7,7 @@ import Manager from './admin/Pages/Manager';
 import Manufacturer from './admin/Pages/Manufacturer';
 import Tester from './admin/Pages/Tester';
 import Transporter from './admin/Pages/Transporter';
+import Pharmacy from './admin/Pages/Pharmacy';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/manufacturer" exact element={<Manufacturer />} />
       <Route path="/tester" exact element={<Tester />} />
       <Route path="/transporter" exact element={<Transporter />} />
+      <Route path="/pharmacy" exact element={<Pharmacy />} />
       </Routes>
     </Router>
   )
