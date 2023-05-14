@@ -296,7 +296,42 @@ function AdminSummary() {
             
 
 
+            <div className='m-5 mt-12 border grid grid-cols-1 rounded-md shadow-md'>
 
+              <div className='flex px-8 py-2'>
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  Assign Roles
+                </h3>
+
+                <h3 className="mt-4 mx-8 text-md italic font-bold text-emerald-600 sm:text-md">
+                  Already assigned roles will be overided
+                </h3>
+              </div>
+
+              <div className="relative">
+              <div className="flex items-center py-4">
+              <div className="w-full border-b border-gray-300"></div>
+              </div>
+              </div>
+
+
+              <div className='flex px-8 py-2'>
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  All Products
+                </h3>
+
+                <form>
+                  <select
+                      className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
+                      <option value="all">All</option>
+                      <option value="pending">Pending</option>
+                      <option value="returned">Returned</option>
+                  </select>
+                </form>
+              </div>
+
+
+              </div>
 
 
           </div>
