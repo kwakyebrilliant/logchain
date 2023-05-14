@@ -211,23 +211,20 @@ function AdminSummary() {
 
                 <form>
                   <select
-                      className="w-full rounded-lg mx-8 bg-gray-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
-                      <option value="">User type</option>
-                      <option value="customer">Customer</option>
-                      <option value="administrator">Administrator</option>
-                      <option value="manager">Manager</option>
-                      <option value="manufacturer">Manufacturer</option>
-                      <option value="tester">Tester</option>
-                      <option value="Transporter">Transporter</option>
-                      <option value="wholesaler">Wholesaler/ Retailer</option>
-                      <option value="pharmacy1">Pharmacy 1</option>
-                      <option value="pharmacy2">Pharmacy 2</option>
+                      className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
+                      <option value="all">All</option>
+                      <option value="pending">Pending</option>
+                      <option value="returned">Returned</option>
                   </select>
                 </form>
               </div>
 
+              <div className="relative">
+              <div className="flex items-center py-4">
+              <div className="w-full border-b border-gray-300"></div>
+              </div>
+              </div>
 
-              
 
             </div>
 
