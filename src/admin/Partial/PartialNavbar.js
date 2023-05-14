@@ -35,6 +35,7 @@ const PartialNavbar = () => {
                 <li className='border-zinc-900 w-fit text-white'><Link to="/manager" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Manager</Link></li>
                 <li className='border-zinc-900 w-fit text-white'><Link to="/manufacturer" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Manaufacturer</Link></li>
                 <li className='border-zinc-900 w-fit text-white'><Link to="/tester" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Tester</Link></li>
+                <li className='border-zinc-900 w-fit text-white'><Link to="/transporter" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Transporter</Link></li>
             </ul>
           
             </div>
