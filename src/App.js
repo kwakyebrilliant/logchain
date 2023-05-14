@@ -5,6 +5,7 @@ import Login from './component/Login';
 import AdminSummary from './admin/Pages/AdminSummary';
 import Manager from './admin/Pages/Manager';
 import Manufacturer from './admin/Pages/Manufacturer';
+import Tester from './admin/Pages/Tester';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/adminsummary" exact element={<AdminSummary />} />
       <Route path="/manager" exact element={<Manager />} />
       <Route path="/manufacturer" exact element={<Manufacturer />} />
+      <Route path="/tester" exact element={<Tester />} />
       </Routes>
     </Router>
   )
