@@ -4,9 +4,10 @@ import Sidebar from '../Partials/Sidebar';
 import PartialNavbar from '../Partials/PartialNavbar';
 
 import {
-    FaCheckCircle,
+  FaArrowCircleLeft,
     FaExclamation,
-    FaPlusCircle
+    FaPlusCircle,
+    FaCartArrowDown
   } from "react-icons/fa";
 
 function Summary() {
@@ -54,6 +55,29 @@ function Summary() {
 
             <div className="m-5 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
             
+
+            <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-md sm:p-6 lg:p-8">
+              <div className="pt-4 text-gray-500">
+
+              <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
+              <FaCartArrowDown className=' text-white lg:w-5 lg:h-5' />
+                </span>
+
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  All Orders
+                </h3>
+
+                <p className="mt-2 hidden text-sm sm:block">
+                  TOTAL NUMBER OF ORDERS
+                </p>
+              </div>
+
+              <span
+                className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+              >
+                0
+              </span>
+            </a>
               
             <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-md sm:p-6 lg:p-8">
               <div className="pt-4 text-gray-500">
@@ -80,27 +104,27 @@ function Summary() {
 
 
             <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-md sm:p-6 lg:p-8">
-              <div className="pt-4 text-gray-500">
+                <div className="pt-4 text-gray-500">
 
-              <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
-              <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
+                <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
+              <FaArrowCircleLeft className=' text-white lg:w-5 lg:h-5' />
                 </span>
 
-                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Confirmed Orders
-                </h3>
+                  <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  All Returned Orders
+                  </h3>
 
-                <p className="mt-2 hidden text-sm sm:block">
-                TOTAL NUMBER OF CONFIRMED ORDERS
-                </p>
-              </div>
+                  <p className="mt-2 hidden text-sm sm:block">
+                  TOTAL NUMBER OF RETURNED ORDERS
+                  </p>
+                </div>
 
-              <span
-                className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
-              >
-                0
-              </span>
-            </a>
+                <span
+                  className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
+                >
+                  0
+                </span>
+              </a>
 
 
              
