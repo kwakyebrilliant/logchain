@@ -209,7 +209,25 @@ function Summary() {
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">
+
+                  <a
+                    className="group relative inline-block overflow-hidden border border-emerald-600 px-8 rounded-lg focus:outline-none focus:ring"
+                    
+                  >
+                    <span
+                      className="absolute inset-y-0 left-0 w-[2px] bg-emerald-600 transition-all group-hover:w-full group-active:bg-emerald-500"
+                    ></span>
+
+                    <span
+                      className="relative text-sm font-medium text-emerald-600 transition-colors group-hover:text-white"
+                    >
+                      View
+                    </span>
+                  </a>
+
+
+                </td>
                 </tr>
 
 
