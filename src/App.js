@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from './component/Homepage';
 import Login from './component/Login';
+import Summary from './dashboard/Pages/Summary';
 import AdminSummary from './admin/Pages/AdminSummary';
 import Manager from './admin/Pages/Manager';
 import Manufacturer from './admin/Pages/Manufacturer';
@@ -16,6 +17,7 @@ function App() {
       <Routes>
       <Route path="/" exact element={<Homepage />} />
       <Route path="/login" exact element={<Login />} />
+      <Route path="/summary" exact element={<Summary />} />
       <Route path="/adminsummary" exact element={<AdminSummary />} />
       <Route path="/manager" exact element={<Manager />} />
       <Route path="/manufacturer" exact element={<Manufacturer />} />
