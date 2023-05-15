@@ -189,6 +189,9 @@ function Summary() {
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
                 ZIPCODE
                 </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                TRACK
+                </th>
                 </tr>
                 </thead>
 
@@ -205,6 +208,7 @@ function Summary() {
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
                 </tr>
 
