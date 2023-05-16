@@ -340,8 +340,6 @@ function AdminSummary() {
                       <option value="dispatcher">Dispatcher</option>
                   </select>
                 </form>
-
-
       
 
               <div>
