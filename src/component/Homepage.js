@@ -33,14 +33,14 @@ function Homepage() {
           <h1
             className="bg-gradient-to-r from-green-600 via-teal-500 to-emerald-400 bg-clip-text text-3xl font-extrabold text-transparent lg:text-7xl"
           >
-            Combating Fake Drugs.
+            Reshaping Supply Chain Operations.
 
-            <span className="sm:block"> Through Blockchain. </span>
+            <span className="sm:block">On The XRP Ledger (XRPL). </span>
           </h1>
 
           <p className="mx-auto mt-4 max-w-2xl sm:text-xl/relaxed">
-            Several problems in the pharmaceutical industry. 
-            Using blockchain technology, we are Solving the supply chain problems in this industry.
+            This comprehensive platform empowers suppliers, manufacturers,
+            and buyers to streamline their financial transactions and mitigate supply chain risks.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
