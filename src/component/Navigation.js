@@ -19,9 +19,11 @@ export default function Navigation() {
           <h1 className='text-3xl font-bold text-white mr-4 sm:text-4xl'>XRChain.</h1>
           <ul className='hidden text-white md:flex'>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/">Lorem 1</Link></li>
-          <li><Link to="/">Lorem 2</Link></li>
-          <li><Link to="/">Lorem 3</Link></li>
+          <li><Link to="/">Invoicing</Link></li>
+          <li><Link to="/">i-Financing</Link></li>
+          <li><Link to="/">i-Factoring</Link></li>
+          <li><Link to="/">t-Financing</Link></li>
+          <li><Link to="/">Tokenization </Link></li>
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>
