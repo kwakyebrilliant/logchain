@@ -21,35 +21,63 @@ export default function Navigation() {
     };
 
     const [showDropdown, setShowDropdown] = useState(false);
+
+    const handleLinkClick = () => {
+      setShowDropdown(false);
+    };
     
     return (
 
         <div className='w-screen h-[70px] z-10 bg-emerald-600 fixed drop-shadow-lg'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
-        <div className='flex items-center'>
-        <FaLinode className=' text-white lg:w-[35px] lg:h-[35px]' />
-          <h1 className='text-3xl font-bold text-white mr-4 sm:text-4xl'>XRChain.</h1>
-          <ul className='hidden text-white md:flex'>
-          <li className='hover:bg-white hover:text-emerald-600 hover:rounded-lg'><Link to="/">Home</Link></li>
-          <li className='relative group hover:bg-white hover:text-emerald-600 hover:rounded-lg'>
-        <span
-          className='cursor-pointer flex'
-          onClick={() => setShowDropdown(!showDropdown)}
-        >
-          {!showDropdown ? <FaArrowAltCircleDown className='mt-0.5 lg:w-5 lg:h-5' /> : <FaArrowAltCircleUp className='mt-0.5 lg:w-5 lg:h-5' /> }
-          Invoicing
-        </span>
-        {showDropdown && (
-          <ul className='absolute w-48 z-10 mt-2 py-2 bg-white text-black rounded-md'>
-            <li className='hover:bg-emerald-600 hover:text-white'><Link to="/">Invoice Financing</Link></li>
-            <li className='hover:bg-emerald-600 hover:text-white'><Link to="/">Invoice Factoring</Link></li>
-            <li className='hover:bg-emerald-600 hover:text-white'><Link to="/">Trade Financing</Link></li>
-          </ul>
-        )}
-      </li>
-          <li className='hover:bg-white hover:text-emerald-600 hover:rounded-lg'><Link to="/">Tokenization </Link></li>
-          </ul>
-        </div>
+      <div className='flex items-center'>
+      <FaLinode className='text-white lg:w-[35px] lg:h-[35px]' />
+      <h1 className='text-3xl font-bold text-white mr-4 sm:text-4xl'>XRChain.</h1>
+      <ul className='hidden text-white md:flex'>
+        <li className='hover:bg-white hover:text-emerald-600 hover:rounded-lg'>
+          <Link to="/" onClick={handleLinkClick}>
+            Home
+          </Link>
+        </li>
+        <li className='relative group hover:bg-white hover:text-emerald-600 hover:rounded-lg'>
+          <span
+            className='cursor-pointer flex'
+            onClick={() => setShowDropdown(!showDropdown)}
+          >
+            {!showDropdown ? (
+              <FaArrowAltCircleDown className='mt-0.5 lg:w-5 lg:h-5' />
+            ) : (
+              <FaArrowAltCircleUp className='mt-0.5 lg:w-5 lg:h-5' />
+            )}
+            Invoicing
+          </span>
+          {showDropdown && (
+            <ul className='absolute w-48 z-10 mt-2 py-2 bg-white text-black rounded-md'>
+              <li className='hover:bg-emerald-600 hover:text-white'>
+                <Link to="/" onClick={handleLinkClick}>
+                  Invoice Financing
+                </Link>
+              </li>
+              <li className='hover:bg-emerald-600 hover:text-white'>
+                <Link to="/" onClick={handleLinkClick}>
+                  Invoice Factoring
+                </Link>
+              </li>
+              <li className='hover:bg-emerald-600 hover:text-white'>
+                <Link to="/" onClick={handleLinkClick}>
+                  Trade Financing
+                </Link>
+              </li>
+            </ul>
+          )}
+        </li>
+        <li className='hover:bg-white hover:text-emerald-600 hover:rounded-lg'>
+          <Link to="/" onClick={handleLinkClick}>
+            Tokenization
+          </Link>
+        </li>
+      </ul>
+    </div>
         <div className='hidden md:flex pr-4'>
          
             <a
