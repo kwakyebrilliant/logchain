@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { FaLinode } from 'react-icons/fa'
+import { FaLinode, FaArrowAltCircleDown, FaArrowAltCircleUp } from 'react-icons/fa'
 
 export default function Navigation() {
     const [nav, setNav] = useState(false)
@@ -23,9 +23,10 @@ export default function Navigation() {
           <li className='hover:bg-white hover:text-emerald-600 hover:rounded-lg'><Link to="/">Home</Link></li>
           <li className='relative group hover:bg-white hover:text-emerald-600 hover:rounded-lg'>
         <span
-          className='cursor-pointer'
+          className='cursor-pointer flex'
           onClick={() => setShowDropdown(!showDropdown)}
         >
+          {!showDropdown ? <FaArrowAltCircleDown className='mt-0.5 lg:w-5 lg:h-5' /> : <FaArrowAltCircleUp className='mt-0.5 lg:w-5 lg:h-5' /> }
           Invoicing
         </span>
         {showDropdown && (
