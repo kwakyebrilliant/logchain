@@ -9,9 +9,19 @@ export default function Navigation() {
     
     const handleClick = () => setNav(!nav)
 
-    const handleClose =()=> setNav(!nav)
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+
+    const handleDropdownToggle = () => {
+      setDropdownOpen(!dropdownOpen);
+    };
+
+    const handleClose = () => {
+      setNav(false);
+      setDropdownOpen(false);
+    };
 
     const [showDropdown, setShowDropdown] = useState(false);
+    
     return (
 
         <div className='w-screen h-[70px] z-10 bg-emerald-600 fixed drop-shadow-lg'>
@@ -60,25 +70,47 @@ export default function Navigation() {
         </div>
       </div>
 
-      <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
-        <li className='border-b-2 border-zinc-300 w-full'><Link to="/" onClick={handleClose}>Home</Link></li>
-        <li className='border-b-2 border-zinc-300 w-full'><Link to="/" onClick={handleClose}>Lorem 1</Link></li>
-        <li className='border-b-2 border-zinc-300 w-full'><Link to="/" onClick={handleClose}>Lorem 2</Link></li>
-        <li className='border-b-2 border-zinc-300 w-full'><Link to="/" onClick={handleClose}>Lorem 3</Link></li>
 
-        <div className='my-4'>
-        
-            <a
-            className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-emerald-700 border border-emerald-700 rounded hover:bg-transparent hover:text-emerald-700 active:text-black focus:outline-none focus:ring"
-            href='/login'
-            type="submit"
-            >
-            <span className="text-sm font-medium">
-            Connect
-            </span>
-            </a>
-        </div>
-      </ul>
+      <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
+            <li className='border-b-2 border-zinc-300 w-full'>
+              <Link to="/" onClick={handleClose}>Home</Link>
+            </li>
+            <li className='border-b-2 border-zinc-300 w-full dropdown'>
+            <div className="flex items-center">
+        <span className="relative group">
+          {!dropdownOpen ? (
+            <FaArrowAltCircleDown className="mt-0.5 lg:w-5 lg:h-5" />
+          ) : (
+            <FaArrowAltCircleUp className="mt-0.5 lg:w-5 lg:h-5" />
+          )}
+        </span>
+        <span onClick={handleDropdownToggle} className="ml-0.5">Invoicing</span>
+      </div>
+              {dropdownOpen && (
+                <div className="dropdown-menu">
+                  <div className="dropdown-content ml-3 flex flex-col">
+                    <Link className='border-b-2 py-2 border-zinc-300 w-full' to="/" onClick={handleClose}>Invoice Financing</Link>
+                    <Link className='border-b-2 py-2 border-zinc-300 w-full' to="/" onClick={handleClose}>Invoice Factoring</Link>
+                    <Link to="/" onClick={handleClose}>Trade Financing</Link>
+                  </div>
+                </div>
+              )}
+            </li>
+            <li className='border-b-2 border-zinc-300 w-full'>
+              <Link to="/" onClick={handleClose}>Tokenization</Link>
+            </li>
+            <div className='my-4'>
+              <a
+                className="text-center cursor-pointer items-center px-8 py-2 mx-2 text-white bg-emerald-700 border border-emerald-700 rounded hover:bg-transparent hover:text-emerald-700 active:text-black focus:outline-none focus:ring"
+                href='/login'
+                type="submit"
+              >
+                <span className="text-sm font-medium">
+                  Connect
+                </span>
+              </a>
+            </div>
+          </ul>
     </div>
     );
 }
