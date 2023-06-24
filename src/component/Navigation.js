@@ -10,6 +10,8 @@ export default function Navigation() {
     const handleClick = () => setNav(!nav)
 
     const handleClose =()=> setNav(!nav)
+
+    const [showDropdown, setShowDropdown] = useState(false);
     return (
 
         <div className='w-screen h-[70px] z-10 bg-emerald-600 fixed drop-shadow-lg'>
@@ -19,10 +21,21 @@ export default function Navigation() {
           <h1 className='text-3xl font-bold text-white mr-4 sm:text-4xl'>XRChain.</h1>
           <ul className='hidden text-white md:flex'>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/">Invoicing</Link></li>
-          <li><Link to="/">i-Financing</Link></li>
-          <li><Link to="/">i-Factoring</Link></li>
-          <li><Link to="/">t-Financing</Link></li>
+          <li className='relative group'>
+        <span
+          className='cursor-pointer'
+          onClick={() => setShowDropdown(!showDropdown)}
+        >
+          Invoicing
+        </span>
+        {showDropdown && (
+          <ul className='absolute w-48 z-10 mt-2 py-2 bg-white text-black rounded-md'>
+            <li><Link to="/">Invoice Financing</Link></li>
+            <li><Link to="/">Invoice Factoring</Link></li>
+            <li><Link to="/">Trade Financing</Link></li>
+          </ul>
+        )}
+      </li>
           <li><Link to="/">Tokenization </Link></li>
           </ul>
         </div>
