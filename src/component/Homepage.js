@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Navigation from './Navigation'
-// import logo from '../assets/xrp-symbol-black.svg'
 
 import {
   FaCheckCircle 
@@ -167,8 +166,6 @@ function Homepage() {
                   </p>
                 </div>
               </div>
-            
-
              
             </div>
           </div>
@@ -309,33 +306,6 @@ function Homepage() {
 
         </div>
 
-        {/* <div className="relative">
-        <div className="flex items-center lg:pt-8 lg:px-24">
-         <p className='text-2xl font-bold'>Transact</p>  <div className="w-full border-b border-gray-300"></div>
-        </div>
-        </div> */}
-
-        {/* <div className="flex py-4 justify-center items-center">
-            <div>
-          <div className="max-w-sm md:max-w-4xl mx-auto">
-            <div className="flex items-center justify-center col-span-2 md:col-auto">
-             <img 
-              src={logo} 
-              alt='logo' 
-              className='h-16 w-16 rounded-full bg-emerald-600 shadow-lg' 
-             />
-            </div>
-            
-          </div>
-            </div>
-        </div> */}
-
-
-        {/* <div className="relative">
-        <div className="flex items-center lg:pt-4 lg:px-24">
-        <div className="w-full border-b border-gray-300"></div>
-        </div>
-        </div> */}
 
         <section className="relative">
 
