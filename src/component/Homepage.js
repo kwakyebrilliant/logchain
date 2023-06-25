@@ -43,8 +43,9 @@ function Homepage() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              className="block w-full rounded border border-emerald-600 bg-emerald-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-emerald-600 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-              href="/get-started"
+              className="block w-full btn-scroll rounded border border-emerald-600 bg-emerald-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-emerald-600 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+              href="#about"
+              data-role="smoothscroll"
             >
               Read More
             </a>
@@ -63,7 +64,7 @@ function Homepage() {
         </div>
 
 
-        <section className='flex justify-center items-center'>
+        <section id="about" className='flex justify-center items-center'>
           <div className="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
             <div className="max-w-xl">
               <h2 className="text-3xl font-bold sm:text-4xl">Know How</h2>
