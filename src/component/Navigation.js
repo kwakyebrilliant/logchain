@@ -24,7 +24,7 @@ export default function Navigation() {
 
     const handleLinkClick = () => {
       setShowDropdown(false);
-    };
+    }; 
     
     return (
 
