@@ -68,7 +68,7 @@ function Homepage() {
         <section className='flex justify-center items-center'>
           <div className="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
             <div className="max-w-xl">
-              <h2 className="text-3xl font-bold sm:text-4xl">For customers</h2>
+              <h2 className="text-3xl font-bold sm:text-4xl">Know How</h2>
 
               <p className="mt-4 text-gray-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
@@ -128,12 +128,61 @@ function Homepage() {
                   </p>
                 </div>
               </div>
+
+              <div className="flex items-start gap-4">
+                <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
+                <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
+                </span>
+
+                <div>
+                  <h2 className="text-lg font-bold">Receive.</h2>
+
+                  <p className="mt-1 text-sm text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
+                    Quaerat, saepe?
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
+                <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
+                </span>
+
+                <div>
+                  <h2 className="text-lg font-bold">Receive.</h2>
+
+                  <p className="mt-1 text-sm text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
+                    Quaerat, saepe?
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
+                <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
+                </span>
+
+                <div>
+                  <h2 className="text-lg font-bold">Receive.</h2>
+
+                  <p className="mt-1 text-sm text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
+                    Quaerat, saepe?
+                  </p>
+                </div>
+              </div>
             
 
              
             </div>
           </div>
         </section>
+
 
         <div className='w-full my-14'>
 
