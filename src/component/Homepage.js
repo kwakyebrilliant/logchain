@@ -201,7 +201,7 @@ function Homepage() {
                         <h5 className="text-2xl font-bold text-gray-900">
                             Sales
                         </h5>
-                        <p className="mt-1 text-xs font-medium text-gray-600">By John Doe</p>
+                        <p className="mt-1 text-xs font-medium text-gray-600">By XRChain</p>
                         </div>
 
                         <div className="flex-shrink-0 hidden ml-3 sm:block">
@@ -221,7 +221,7 @@ function Homepage() {
                         <Link to="/faq">
                         <dt className="text-sm font-medium flex text-green-600">Continue <ArrowSmRightIcon className='w-5 ml-2' /></dt>
                             </Link>
-                        <dd className="text-xs text-gray-500">Continue onFAQ's</dd>
+                        <dd className="text-xs text-gray-500">Continue on FAQ's</dd>
                         </div>
 
                     </dl>
@@ -237,7 +237,7 @@ function Homepage() {
                         <h5 className="text-2xl font-bold text-gray-900">
                         Technical Support
                         </h5>
-                        <p className="mt-1 text-xs font-medium text-gray-600">By John Doe</p>
+                        <p className="mt-1 text-xs font-medium text-gray-600">By XRChain</p>
                         </div>
 
                         <div className="flex-shrink-0 hidden ml-3 sm:block">
@@ -257,7 +257,7 @@ function Homepage() {
                         <Link to="/faq">
                         <dt className="text-sm font-medium flex text-green-600">Continue <ArrowSmRightIcon className='w-5 ml-2' /></dt>
                             </Link>
-                        <dd className="text-xs text-gray-500">Continue onFAQ's</dd>
+                        <dd className="text-xs text-gray-500">Continue on FAQ's</dd>
                         </div>
 
                     </dl>
@@ -273,7 +273,7 @@ function Homepage() {
                         <h5 className="text-2xl font-bold text-gray-900">
                             Media Inquiries
                         </h5>
-                        <p className="mt-1 text-xs font-medium text-gray-600">By John Doe</p>
+                        <p className="mt-1 text-xs font-medium text-gray-600">By XRChain</p>
                         </div>
 
                         <div className="flex-shrink-0 hidden ml-3 sm:block">
@@ -293,7 +293,7 @@ function Homepage() {
                         <Link to="/faq">
                         <dt className="text-sm font-medium flex text-green-600">Continue <ArrowSmRightIcon className='w-5 ml-2' /></dt>
                             </Link>
-                        <dd className="text-xs text-gray-500">Continue onFAQ's</dd>
+                        <dd className="text-xs text-gray-500">Continue on FAQ's</dd>
                         </div>
 
                     </dl>
