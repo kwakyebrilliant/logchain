@@ -3,8 +3,6 @@ import React from 'react'
 import Navigation from './Navigation'
 
 import {
-  FaCartArrowDown,
-  FaShippingFast,
   FaCheckCircle 
 } from 'react-icons/fa'
 
@@ -71,9 +69,10 @@ function Homepage() {
               <h2 className="text-3xl font-bold sm:text-4xl">Know How</h2>
 
               <p className="mt-4 text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-                dolores iure fugit totam iste obcaecati. Consequatur ipsa quod ipsum
-                sequi culpa delectus, cumque id tenetur quibusdam, quos fuga minima.
+              This is a Supply Chain Finance and Insurance decentralized application (dApp) built
+              on the XRP Ledger (XRPL) that provides a comprehensive solution for supply chain participants,
+              offering transparent financing options and insurance coverage.
+              Read the following for better understanding.
               </p>
             </div>
 
@@ -81,16 +80,16 @@ function Homepage() {
 
               <div className="flex items-start gap-4">
                 <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
-                <FaCartArrowDown className=' text-white lg:w-5 lg:h-5' />
+                <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
                 </span>
 
                 <div>
-                  <h2 className="text-lg font-bold">Order.</h2>
+                  <h2 className="text-lg font-bold">Invoice Due.</h2>
 
                   <p className="mt-1 text-sm text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                    Quaerat, saepe?
+                  Suppliers can request funds from buyers or manufacturers against 
+                  their outstanding invoices, which helps them maintain a steady cash 
+                  flow while waiting for payment from buyers. 
                   </p>
                 </div>
               </div>
@@ -98,16 +97,16 @@ function Homepage() {
 
               <div className="flex items-start gap-4">
                 <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
-                <FaShippingFast className=' text-white lg:w-5 lg:h-5' />
+                <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
                 </span>
 
                 <div>
-                  <h2 className="text-lg font-bold">Track.</h2>
+                  <h2 className="text-lg font-bold">Invoice Factoring.</h2>
 
                   <p className="mt-1 text-sm text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                    Quaerat, saepe?
+                  Suppliers can submit their invoices to the platform, indicating
+                  the amount they wish to receive in exchange for selling the invoice
+                  at a discounted rate and matching inestors also make their offer.
                   </p>
                 </div>
               </div>
@@ -119,12 +118,12 @@ function Homepage() {
                 </span>
 
                 <div>
-                  <h2 className="text-lg font-bold">Receive.</h2>
+                  <h2 className="text-lg font-bold">Trade Financing.</h2>
 
                   <p className="mt-1 text-sm text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                    Quaerat, saepe?
+                  Suppliers can request short-term loans against the value of their goods in transit.
+                  Lenders on the platform can review the verified shipping details and collateral information
+                  to assess the risk and determine the loan amount and terms. 
                   </p>
                 </div>
               </div>
@@ -135,12 +134,11 @@ function Homepage() {
                 </span>
 
                 <div>
-                  <h2 className="text-lg font-bold">Receive.</h2>
+                  <h2 className="text-lg font-bold">Insurance Coverage.</h2>
 
                   <p className="mt-1 text-sm text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                    Quaerat, saepe?
+                  Participants in the supply chain can select insurance coverage options to protect against 
+                  various risks such as damage, loss, or delays during transportation. 
                   </p>
                 </div>
               </div>
@@ -151,28 +149,11 @@ function Homepage() {
                 </span>
 
                 <div>
-                  <h2 className="text-lg font-bold">Receive.</h2>
+                  <h2 className="text-lg font-bold">Assets Tokenization.</h2>
 
                   <p className="mt-1 text-sm text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                    Quaerat, saepe?
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <span className="shrink-0 rounded-lg bg-emerald-600 p-4">
-                <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
-                </span>
-
-                <div>
-                  <h2 className="text-lg font-bold">Receive.</h2>
-
-                  <p className="mt-1 text-sm text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                    cumque tempore est ab possimus quisquam reiciendis tempora animi!
-                    Quaerat, saepe?
+                  The platform enables the tokenization of goods, invoices, and insurance policies on the XRPL.
+                  Tokenization enhances the tracking and traceability of assets within the supply chain. 
                   </p>
                 </div>
               </div>
