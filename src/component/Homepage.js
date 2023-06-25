@@ -28,12 +28,11 @@ function Homepage() {
 
       <section>
       <div className="mx-auto max-w-screen-xl px-4 pt-32 lg:flex lg:h-screen lg:items-center">
-        <div className="mx-auto text-center">
+        <div className="relative mx-auto text-center">
           <h1
             className="bg-gradient-to-r from-green-600 via-teal-500 to-emerald-400 bg-clip-text text-3xl font-extrabold text-transparent lg:text-7xl"
           >
             Reshaping Supply Chain Operations.
-
             <span className="sm:block">On The XRP Ledger (XRPL). </span>
           </h1>
 
@@ -51,9 +50,18 @@ function Homepage() {
               Read More
             </a>
           </div>
+
+          {/* Diagonal Circles */}
+          <div className="absolute -top-40 -right-8 flex justify-end items-end">
+            <div className="lg:h-40 lg:w-40 rounded-full bg-white shadow-lg transform rotate-45" />
+          </div>
+          <div className="absolute -bottom-8 -left-0 flex justify-end items-end">
+            <div className="lg:w-24 lg:h-24 rounded-full bg-white shadow-lg transform rotate-45 -ml-10" />
+          </div>
         </div>
       </div>
     </section>
+
 
         <div className="flex lg:p-0 sm:p-0 pt-8 justify-center items-center">
             <div>
@@ -393,6 +401,12 @@ function Homepage() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="absolute -top-1 -right-8 flex justify-end items-end">
+            <div className="lg:h-40 lg:w-40 rounded-full bg-white shadow-lg transform rotate-45" />
+          </div>
+          <div className="absolute -bottom-8 -left-0 flex justify-end items-end">
+            <div className="lg:w-24 lg:h-24 rounded-full bg-white shadow-lg transform rotate-45 -ml-10" />
           </div>
         </div>
       </div>
