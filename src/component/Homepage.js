@@ -324,12 +324,9 @@ function Homepage() {
              <img 
               src={logo} 
               alt='logo' 
-              className='h-16 w-16 rounded-full bg-emerald-600 text-white' 
+              className='h-16 w-16 rounded-full bg-emerald-600 shadow-lg' 
              />
             </div>
-
-
-
             
           </div>
             </div>
@@ -349,11 +346,10 @@ function Homepage() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">
-              Accepted by over 500 cryptocurrencies all over the world
+              Accepted by various participants in the supply chain
             </h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-              Payment for an order can be made in any cryptocurrency of the
-              user's choice
+              All transactions on the platform are made with XRP 
             </p>
           </div>
 
