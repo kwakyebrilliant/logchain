@@ -18,17 +18,17 @@ function Tokenization() {
           className="h-10 w-full rounded-lg border-none bg-white pe-10 ps-4 text-sm shadow-sm sm:w-56"
           id="search"
           type="search"
-          placeholder="Search website..."
+          placeholder="Search assets"
         />
 
         <button
           type="button"
-          className="absolute end-1 top-1/2 -translate-y-1/2 rounded-md bg-gray-50 p-2 text-gray-600 transition hover:text-gray-700"
+          className="absolute end-1 top-1/2 -translate-y-1/2 border-emerald-600 rounded-md bg-gray-50 p-2 text-gray-600 transition hover:text-gray-700"
         >
           <span className="sr-only">Search</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4"
+            className="h-4 w-4 text-emerald-600"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -49,12 +49,12 @@ function Tokenization() {
         <div className="flex gap-4">
           <button
             type="button"
-            className="block shrink-0 rounded-lg bg-white p-2.5 text-gray-600 shadow-sm hover:text-gray-700 sm:hidden"
+            className="block shrink-0 border-emerald-600 rounded-lg bg-white p-2.5 text-gray-600 shadow-sm hover:text-gray-700 sm:hidden"
           >
             <span className="sr-only">Search</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-5 w-5 text-emerald-600"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
