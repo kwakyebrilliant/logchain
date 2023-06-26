@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Navigation from './Navigation'
-import banner from '../assets/banner.svg'
+import images2 from '../assets/images2.webp'
 
 function Tokenization() {
   return (
@@ -10,7 +10,7 @@ function Tokenization() {
       <Navigation />
 
         <div className="relative pt-8">
-          <img src={banner} alt="Background" className="w-full rounded object-cover h-screen" />
+          <img src={images2} alt="Background" className="w-full rounded object-cover h-screen" />
     
           <div
       className="grid absolute inset-0 pt-40 p-8 grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16"
@@ -41,7 +41,7 @@ function Tokenization() {
         
 
       <div
-          className="flex flex-col rounded-lg border border-emerald-600 hover:bg-white hover:border-gray-200 px-4 py-8 text-center"
+          className="flex flex-col rounded-lg border border-emerald-600 hover:bg-gray-200 hover:border-gray-200 px-4 py-8 text-center"
         >
           <dt className="order-last text-lg font-medium text-gray-500">
             Outstanding Invoices
@@ -53,7 +53,7 @@ function Tokenization() {
         </div>
 
         <div
-          className="flex flex-col rounded-lg border border-emerald-600 hover:bg-white hover:border-gray-200 px-4 py-8 text-center"
+          className="flex flex-col rounded-lg border border-emerald-600 hover:bg-gray-200 hover:border-gray-200 px-4 py-8 text-center"
         >
           <dt className="order-last text-lg font-medium text-gray-500">
             Undue Invoices
@@ -66,7 +66,7 @@ function Tokenization() {
 
 
         <div
-          className="flex flex-col rounded-lg border border-emerald-600 hover:bg-white hover:border-gray-200 px-4 py-8 text-center"
+          className="flex flex-col rounded-lg border border-emerald-600 hover:bg-gray-200 hover:border-gray-200 px-4 py-8 text-center"
         >
           <dt className="order-last text-lg font-medium text-gray-500">
             Insurance Coverage
@@ -78,7 +78,7 @@ function Tokenization() {
         </div>
 
         <div
-          className="flex flex-col rounded-lg border border-emerald-600 hover:bg-white hover:border-gray-200 px-4 py-8 text-center"
+          className="flex flex-col rounded-lg border border-emerald-600 hover:bg-gray-200 hover:border-gray-200 px-4 py-8 text-center"
         >
           <dt className="order-last text-lg font-medium text-gray-500">
             Tokenization Value
