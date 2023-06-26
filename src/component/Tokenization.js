@@ -1,11 +1,24 @@
 import React from 'react'
 import Navigation from './Navigation'
+import banner from '../assets/banner.svg'
 
 function Tokenization() {
   return (
     <div>
 
       <Navigation />
+
+      <div className="relative pt-8">
+                        <img src={banner} alt="Background" className="w-full rounded object-cover h-screen" />
+
+                        <div className="absolute inset-0 flex flex-col items-center justify-end p-6">
+                        
+                        <p class="mt-1.5 max-w-[40ch] text-xs text-white">
+                        In the form below, provide the audio file and the necessary details including royalties owners and their entitlement.
+                        </p>
+                        </div>
+                   
+                </div>
 
 
 <header className="bg-white py-20">
