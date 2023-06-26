@@ -72,7 +72,7 @@ export default function Navigation() {
           )}
         </li>
         <li className='hover:bg-white hover:text-emerald-600 hover:rounded-lg'>
-          <Link to="/" onClick={handleLinkClick}>
+          <Link to="/tokenization" onClick={handleLinkClick}>
             Tokenization
           </Link>
         </li>
@@ -125,7 +125,7 @@ export default function Navigation() {
               )}
             </li>
             <li className='border-b-2 border-zinc-300 w-full'>
-              <Link to="/" onClick={handleClose}>Tokenization</Link>
+              <Link to="/tokenization" onClick={handleClose}>Tokenization</Link>
             </li>
             <div className='my-4'>
               <a
