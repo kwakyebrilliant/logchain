@@ -28,9 +28,9 @@ function Tokenization() {
         </p>
 
         <a
-          className="mt-8 inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-gray-200 hover:text-black cursor-pointer focus:outline-none focus:ring"
+          className="mt-8 inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-emerald-600 hover:border-emerald-600 hover:border cursor-pointer focus:outline-none focus:ring"
         >
-          Get Started Today
+          Get Started
         </a>
       </div>
 
