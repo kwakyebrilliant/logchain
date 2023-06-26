@@ -8,14 +8,14 @@ function Tokenization() {
       <Navigation />
 
 
-<header className="bg-gray-50 py-20">
+<header className="bg-white py-20">
   <div className="w-full px-4 py-8 sm:px-6">
     <div className="flex items-center sm:justify-between sm:gap-4">
       <div className="relative hidden sm:block">
         <label className="sr-only" for="search"> Search </label>
 
         <input
-          className="h-10 w-full rounded-lg border-none bg-white pe-10 ps-4 text-sm shadow-sm sm:w-56"
+          className="h-10 w-full rounded-lg border focus:outline-none text-black bg-gray-50 pe-10 ps-4 text-sm shadow-sm sm:w-56"
           id="search"
           type="search"
           placeholder="Search assets"
@@ -70,32 +70,7 @@ function Tokenization() {
 
           <a
             href="#"
-            className="block shrink-0 rounded-lg bg-white p-2.5 text-gray-600 shadow-sm hover:text-gray-700"
-          >
-            <span className="sr-only">Academy</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path
-                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
-          </a>
-
-          <a
-            href="#"
-            className="block shrink-0 rounded-lg bg-white p-2.5 text-gray-600 shadow-sm hover:text-gray-700"
+            className="block border shrink-0 rounded-lg bg-white p-2.5 text-gray-600 shadow-sm hover:text-gray-700"
           >
             <span className="sr-only">Notifications</span>
             <svg
