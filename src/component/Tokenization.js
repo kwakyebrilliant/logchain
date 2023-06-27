@@ -31,39 +31,43 @@ function Tokenization() {
                 Obcaecati, autem.
               </p>
 
-              <div className="flex mt-8  items-center gap-4">
-              <div className="relative">
-              <label className="sr-only" for="search"> Search </label>
+       
+
+            <div className="relative mt-8">
+              <label for="Search" className="sr-only"> Search </label>
 
               <input
-                className="h-10 w-full focus:outline-none rounded-full border-none bg-white pe-10 ps-4 text-sm shadow-sm sm:w-56"
-                id="search"
-                type="search"
+                type="text"
+                id="Search"
                 placeholder="Search tokenized assets..."
+                className="w-full focus:outline-none rounded-full border-none border-gray-200 pe-10 ps-4 text-sm  py-2.5 shadow-sm sm:text-sm"
               />
 
-              <button
-                type="button"
-                className="absolute border border-emerald-700 end-1 top-1/2 -translate-y-1/2 rounded-full bg-gray-50 p-2 text-gray-600 transition hover:text-gray-700"
-              >
-                <span className="sr-only">Search</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                  />
-                </svg>
-              </button>
+              <span className="absolute inset-y-0 end-0 grid w-10 place-content-center">
+                <button 
+                  type="button" 
+                  className="absolute border border-emerald-700 end-1 top-1/2 -translate-y-1/2 rounded-full bg-gray-50 p-2 text-gray-600 transition hover:text-gray-700"
+                  >
+                  <span className="sr-only">Search</span>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    className="h-4 w-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                    />
+                  </svg>
+                </button>
+              </span>
             </div>
-            </div>
+
               
               
             </div>
