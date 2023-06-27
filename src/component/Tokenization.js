@@ -139,12 +139,6 @@ function Tokenization() {
                 </div>
               </div>
             </div>
-            <div className="absolute -top-1 -right-8 flex justify-end items-end">
-              <div className="lg:h-40 lg:w-40 rounded-full bg-white shadow-lg transform rotate-45" />
-            </div>
-            <div className="absolute -bottom-8 -left-0 flex justify-end items-end">
-              <div className="lg:w-24 lg:h-24 rounded-full bg-white shadow-lg transform rotate-45 -ml-10" />
-            </div>
           </div>
         </div>
         </section>
