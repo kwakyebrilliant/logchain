@@ -30,10 +30,42 @@ function Tokenization() {
                 Deleniti quasi inventore, libero reiciendis minima aliquid tempora.
                 Obcaecati, autem.
               </p>
+
+              <div className="flex mt-8  items-center gap-4">
+              <div className="relative">
+              <label className="sr-only" for="search"> Search </label>
+
+              <input
+                className="h-10 w-full focus:outline-none rounded-full border-none bg-white pe-10 ps-4 text-sm shadow-sm sm:w-56"
+                id="search"
+                type="search"
+                placeholder="Search tokenized assets..."
+              />
+
+              <button
+                type="button"
+                className="absolute border border-emerald-700 end-1 top-1/2 -translate-y-1/2 rounded-full bg-gray-50 p-2 text-gray-600 transition hover:text-gray-700"
+              >
+                <span className="sr-only">Search</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+            </div>
               
-              <a className="mt-8 inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-emerald-600 hover:border-emerald-600 hover:border cursor-pointer focus:outline-none focus:ring">
-                Find Them
-              </a>
+              
             </div>
             
             <div>
