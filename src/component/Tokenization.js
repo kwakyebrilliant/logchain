@@ -2,9 +2,10 @@
 import React from 'react';
 import Navigation from './Navigation';
 import images2 from '../assets/images2.webp';
-import harvard from '../assets/harvard.png';
 
 function Tokenization() {
+
+  
   return (
     <div>
       <Navigation />
@@ -116,12 +117,14 @@ function Tokenization() {
           </div>
         </div>
 
-        <section className="relative bg-white">
+        
 
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="py-12 md:py-20">
+        <section className="relative pb-20 bg-white">
+
+        <div className="px-4 sm:px-6">
+          <div className="pt-12 md:pt-20">
             {/* Section header */}
-            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <div className="max-w-6xl mx-auto text-center pb-12 md:pb-16">
               <h2 className="text-xl text-emerald-700 ">
                 Tokenized Assets
               </h2>
@@ -129,53 +132,119 @@ function Tokenization() {
                 The following are some of tokenized assets on the platform.
               </p>
             </div>
+            </div>
 
 
-            {/* Testimonials */}
-            <div
-              className="max-w-3xl text-center mx-auto mt-16"
-              data-aos="zoom-y-out"
-            >
-              <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-                {/* Testimonial */}
-                <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
-                  <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
-                    <svg
-                      className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500"
-                      viewBox="0 0 64 64"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
-                    </svg>
+
+            <div className="px-16">
+
+              <div className=" grid grid-cols-1 lg:grid-cols-4 gap-4 gap-x-8 gap-y-8">
+                <a className="rounded-lg bg-gray-100 p-8">
+                  <div className="flex items-center gap-4">
                     <img
-                      className="relative rounded-full"
-                      src={harvard}
-                      width="96"
-                      height="96"
-                      alt="Testimonial 01"
+                      alt="Man"
+                      src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                      className="h-16 w-16 rounded-full object-cover"
                     />
+
+                    <div>
+                      <div className="flex justify-center gap-0.5 text-green-500">
+                        <h1>Asset Brook</h1>
+                      </div>
+
+                      <p className="mt-1 text-lg font-medium text-gray-700">
+                      0xF...y6b
+                      </p>
+                    </div>
                   </div>
-                  <blockquote className="text-xl font-medium mb-4">
-                    “ One of the most promising applications of emerging
-                    blockchain technology is supply chain management. “
-                  </blockquote>
-                  <cite className="block font-bold text-lg not-italic mb-1">
-                    Harvard Business Review
-                  </cite>
-                  <div className="text-gray-600">
-                    {/* <span>CEO & Co-Founder</span>{" "} */}
-                    <a
-                      className="text-blue-600 hover:underline"
-                      href="https://hbr.org/2020/05/building-a-transparent-supply-chain"
-                    >
-                      @Harvard
-                    </a>
+
+                  <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                    voluptatem alias ut provident sapiente repellendus.
+                  </p>
+                </a>
+
+                <a className="rounded-lg bg-gray-100 p-8">
+                  <div className="flex items-center gap-4">
+                    <img
+                      alt="Man"
+                      src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                      className="h-16 w-16 rounded-full object-cover"
+                    />
+
+                    <div>
+                      <div className="flex justify-center gap-0.5 text-green-500">
+                        <h1>Asset Brook</h1>
+                      </div>
+
+                      <p className="mt-1 text-lg font-medium text-gray-700">
+                      0xF...y6b
+                      </p>
+                    </div>
                   </div>
-                </div>
+
+                  <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                    voluptatem alias ut provident sapiente repellendus.
+                  </p>
+                </a>
+
+                <a className="rounded-lg bg-gray-100 p-8">
+                  <div className="flex items-center gap-4">
+                    <img
+                      alt="Man"
+                      src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                      className="h-16 w-16 rounded-full object-cover"
+                    />
+
+                    <div>
+                      <div className="flex justify-center gap-0.5 text-green-500">
+                        <h1>Asset Brook</h1>
+                      </div>
+
+                      <p className="mt-1 text-lg font-medium text-gray-700">
+                      0xF...y6b
+                      </p>
+                    </div>
+                  </div>
+
+                  <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                    voluptatem alias ut provident sapiente repellendus.
+                  </p>
+                </a>
+
+                <a className="rounded-lg bg-gray-100 p-8">
+                  <div className="flex items-center gap-4">
+                    <img
+                      alt="Man"
+                      src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                      className="h-16 w-16 rounded-full object-cover"
+                    />
+
+                    <div>
+                      <div className="flex justify-center gap-0.5 text-green-500">
+                        <h1>Asset Brook</h1>
+                      </div>
+
+                      <p className="mt-1 text-lg font-medium text-gray-700">
+                      0xF...y6b
+                      </p>
+                    </div>
+                  </div>
+
+                  <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                    voluptatem alias ut provident sapiente repellendus.
+                  </p>
+                </a>
+
+                
+
               </div>
             </div>
-          </div>
+
+         
         </div>
         </section>
 
