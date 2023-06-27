@@ -254,6 +254,11 @@ function Tokenization() {
 
           <div className='bg-gray-50 shadow-lg lg:mx-20 mx-8 rounded-md h-full'>
 
+            <div className='flex justify-center lg:pt-16 pt-8'>
+              <h1 className='lg:text-5xl text-2xl font-bold text-gray-700'>Tokenization in</h1>
+              <h1 className='lg:text-5xl text-2xl font-bold ml-1.5 text-emerald-700'>Today</h1>
+            </div>
+
           </div>
         
         </section>
