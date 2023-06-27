@@ -2,6 +2,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 import images2 from '../assets/images2.webp';
+import banner from '../assets/images2.svg';
 
 function Tokenization() {
 
@@ -136,7 +137,7 @@ function Tokenization() {
 
 
 
-            <div className="px-16">
+            <div className="lg:px-16 px-4">
 
               <div className=" grid grid-cols-1 lg:grid-cols-4 gap-4 gap-x-8 gap-y-8">
                 <a className="rounded-lg bg-gray-100 p-8">
@@ -246,6 +247,15 @@ function Tokenization() {
 
          
         </div>
+        </section>
+
+
+        <section className="relative h-screen bg-white pb-20" style={{backgroundImage: `url(${banner})`}}>
+
+          <div className='bg-gray-50 shadow-lg lg:mx-20 mx-8 rounded-md h-full'>
+
+          </div>
+        
         </section>
 
 
