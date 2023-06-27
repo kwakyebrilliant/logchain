@@ -86,11 +86,11 @@ function Tokenization() {
           <div className="py-12 md:py-20">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-              <h2 className="text-xl mb-4 text-emerald-700 font-bold">
+              <h2 className="text-xl text-emerald-700 ">
                 Tokenized Assets
               </h2>
-              <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-                All transactions on the platform are made with XRP 
+              <p className="text-2xl text-gray-600" data-aos="zoom-y-out">
+                The following are some of tokenized assets on the platform.
               </p>
             </div>
 
