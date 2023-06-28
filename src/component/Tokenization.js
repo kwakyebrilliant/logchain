@@ -4,6 +4,8 @@ import Navigation from './Navigation';
 import images2 from '../assets/images2.webp';
 import banner from '../assets/images2.svg';
 
+import '../component/utils/animations.css';
+
 function Tokenization() {
 
   
@@ -250,18 +252,21 @@ function Tokenization() {
         </section>
 
 
-        <section className="relative h-screen bg-white pb-20" style={{backgroundImage: `url(${banner})`}}>
+        <section className="relative h-screen bg-white pb-20" style={{ backgroundImage: `url(${banner})` }}>
+      <div className='bg-gray-50 shadow-lg lg:mx-20 mx-8 rounded-md h-full'>
 
-          <div className='bg-gray-50 shadow-lg lg:mx-20 mx-8 rounded-md h-full'>
+        <div className='flex justify-center lg:pt-16 pt-8'>
+          <h1 className='lg:text-5xl text-2xl font-bold text-gray-700'>Tokenization in</h1>
+          <h1 className='lg:text-5xl text-2xl font-bold ml-1.5 text-emerald-700'>Today</h1>
+        </div>
 
-            <div className='flex justify-center lg:pt-16 pt-8'>
-              <h1 className='lg:text-5xl text-2xl font-bold text-gray-700'>Tokenization in</h1>
-              <h1 className='lg:text-5xl text-2xl font-bold ml-1.5 text-emerald-700'>Today</h1>
-            </div>
+        <div className="relative">
+          <div className="absolute left-0 bottom-0 w-32 h-32 bg-emerald-50 rounded-full animate-circle"></div>
+          <div className="absolute right-0 bottom-0 w-60 h-60 bg-emerald-50 rounded-full animate-circle"></div>
+        </div>
 
-          </div>
-        
-        </section>
+      </div>
+    </section>
 
 
       </div>
