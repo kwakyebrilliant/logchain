@@ -478,16 +478,16 @@ function Tokenization() {
                   </p>
                 </blockquote>
 
-                <div class="mt-4 flex items-center gap-4">
+                <div className="mt-4 flex items-center gap-4">
                   <img
                     alt="Woman"
                     src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80"
-                    class="h-12 w-12 rounded-full object-cover"
+                    className="h-12 w-12 rounded-full object-cover"
                   />
 
-                  <div class="text-sm">
-                    <p class="font-medium">Gladis Lennon</p>
-                    <p class="mt-1">Head of SEO</p>
+                  <div className="text-sm">
+                    <p className="font-medium">Gladis Lennon</p>
+                    <p className="mt-1">Head of SEO</p>
                   </div>
                 </div>
               </div>
