@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import React, {useState} from 'react';
 import Navigation from './Navigation';
 import images2 from '../assets/images2.webp';
 import banner from '../assets/images2.svg';
@@ -7,6 +7,11 @@ import banner from '../assets/images2.svg';
 import '../component/utils/animations.css';
 
 function Tokenization() {
+  const [activeTab, setActiveTab] = useState(0);
+
+  const handleTabClick = (index) => {
+    setActiveTab(index);
+  };
 
   
   return (
@@ -264,47 +269,86 @@ function Tokenization() {
           </div>
 
           <div className="overflow-x-auto">
-            <nav aria-label="Tabs" className='sm:w-full md:w-2/3 mx-auto'>
-              <ul className="flex border-b border-gray-100 whitespace-nowrap">
-                {/* Tab 1 */}
-                <li className="flex-1">
-                  <a className="relative block p-4" href="">
-                    <span className="absolute inset-x-0 -bottom-px h-px w-full bg-emerald-700"></span>
-                    <div className="flex items-center justify-center gap-4">
-                      <span className="text-sm font-medium text-gray-900">Today</span>
-                    </div>
-                  </a>
-                </li>
+      <nav aria-label="Tabs" className="sm:w-full md:w-2/3 mx-auto">
+        <ul className="flex border-b border-gray-100 whitespace-nowrap">
+          {/* Tab 1 */}
+          <li
+            className={`flex-1 cursor-pointer ${
+              activeTab === 0 ? '' : ''
+            }`}
+            onClick={() => handleTabClick(0)}
+          >
+            <div className="relative block p-4">
+              <div className="flex items-center justify-center gap-4">
+                <span className="text-sm font-medium text-gray-900">Today</span>
+              </div>
+              {activeTab === 0 && (
+                <span className="absolute bottom-0 left-0 h-0.5 bg-emerald-600 w-full"></span>
+              )}
+            </div>
+          </li>
 
-                {/* Tab 2 */}
-                <li className="flex-1">
-                  <a className="relative block p-4" href="">
-                    <div className="flex items-center justify-center gap-4">
-                      <span className="text-sm font-medium text-gray-900">This Week</span>
-                    </div>
-                  </a>
-                </li>
+          {/* Tab 2 */}
+          <li
+            className={`flex-1 cursor-pointer ${
+              activeTab === 1 ? '' : ''
+            }`}
+            onClick={() => handleTabClick(1)}
+          >
+            <div className="relative block p-4">
+              <div className="flex items-center justify-center gap-4">
+                <span className="text-sm font-medium text-gray-900">This Week</span>
+              </div>
+              {activeTab === 1 && (
+                <span className="absolute bottom-0 left-0 h-0.5 bg-emerald-600 w-full"></span>
+              )}
+            </div>
+          </li>
 
-                {/* Tab 3 */}
-                <li className="flex-1">
-                  <a className="relative block p-4" href="">
-                    <div className="flex items-center justify-center gap-4">
-                      <span className="text-sm font-medium text-gray-900">This Month</span>
-                    </div>
-                  </a>
-                </li>
+          {/* Tab 3 */}
+          <li
+            className={`flex-1 cursor-pointer ${
+              activeTab === 2 ? '' : ''
+            }`}
+            onClick={() => handleTabClick(2)}
+          >
+            <div className="relative block p-4">
+              <div className="flex items-center justify-center gap-4">
+                <span className="text-sm font-medium text-gray-900">This Month</span>
+              </div>
+              {activeTab === 2 && (
+                <span className="absolute bottom-0 left-0 h-0.5 bg-emerald-600 w-full"></span>
+              )}
+            </div>
+          </li>
 
-                {/* Tab 4 */}
-                <li className="flex-1">
-                  <a className="relative block p-4" href="">
-                    <div className="flex items-center justify-center gap-4">
-                      <span className="text-sm font-medium text-gray-900">This Year</span>
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+          {/* Tab 4 */}
+          <li
+            className={`flex-1 cursor-pointer ${
+              activeTab === 3 ? '' : ''
+            }`}
+            onClick={() => handleTabClick(3)}
+          >
+            <div className="relative block p-4">
+              <div className="flex items-center justify-center gap-4">
+                <span className="text-sm font-medium text-gray-900">This Year</span>
+              </div>
+              {activeTab === 3 && (
+                <span className="absolute bottom-0 left-0 h-0.5 bg-emerald-600 w-full"></span>
+              )}
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      {/* Content */}
+      <div className="p-4">
+        {activeTab === 0 && <div>Content for Today</div>}
+        {activeTab === 1 && <div>Content for This Week</div>}
+        {activeTab === 2 && <div>Content for This Month</div>}
+        {activeTab === 3 && <div>Content for This Year</div>}
+      </div>
+    </div>
 
           
         </div>
