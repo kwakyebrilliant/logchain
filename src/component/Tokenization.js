@@ -433,46 +433,46 @@ function Tokenization() {
                   </p>
                 </blockquote>
 
-                <div class="mt-4 flex items-center gap-4">
+                <div className="mt-4 flex items-center gap-4">
                   <img
                     alt="Woman"
                     src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80"
-                    class="h-12 w-12 rounded-full object-cover"
+                    className="h-12 w-12 rounded-full object-cover"
                   />
 
-                  <div class="text-sm">
-                    <p class="font-medium">Gladis Lennon</p>
-                    <p class="mt-1">Head of SEO</p>
+                  <div className="text-sm">
+                    <p className="font-medium">Gladis Lennon</p>
+                    <p className="mt-1">Head of SEO</p>
                   </div>
                 </div>
               </div>
 
-              <div class="mb-8 sm:break-inside-avoid">
-                <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-                  <p class="leading-relaxed text-gray-700">
+              <div className="mb-8 sm:break-inside-avoid">
+                <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
+                  <p className="leading-relaxed text-gray-700">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi a
                     voluptatum quidem nulla quisquam natus velit provident earum esse,
                     odio numquam labore recusandae similique sunt.
                   </p>
                 </blockquote>
 
-                <div class="mt-4 flex items-center gap-4">
+                <div className="mt-4 flex items-center gap-4">
                   <img
                     alt="Woman"
                     src="https://images.unsplash.com/photo-1603366445787-09714680cbf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80"
-                    class="h-12 w-12 rounded-full object-cover"
+                    className="h-12 w-12 rounded-full object-cover"
                   />
 
-                  <div class="text-sm">
-                    <p class="font-medium">Gladis Lennon</p>
-                    <p class="mt-1">Head of SEO</p>
+                  <div className="text-sm">
+                    <p className="font-medium">Gladis Lennon</p>
+                    <p className="mt-1">Head of SEO</p>
                   </div>
                 </div>
               </div>
 
-              <div class="mb-8 sm:break-inside-avoid">
-                <blockquote class="rounded-xl bg-gray-50 p-6 shadow">
-                  <p class="leading-relaxed text-gray-700">
+              <div className="mb-8 sm:break-inside-avoid">
+                <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
+                  <p className="leading-relaxed text-gray-700">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ut
                     necessitatibus, repudiandae qui dolor minima.
                   </p>
