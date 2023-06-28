@@ -44,7 +44,7 @@ function Tokenization() {
                 type="text"
                 id="Search"
                 placeholder="Search tokenized assets..."
-                className="w-full focus:outline-none rounded-full border-none border-gray-200 pe-10 ps-4 text-sm  py-2.5 shadow-sm sm:text-sm"
+                className="w-full h-12 focus:outline-none rounded-full border-none border-gray-200 pe-10 ps-4 text-sm  py-2.5 shadow-sm sm:text-sm"
               />
 
               <span className="absolute inset-y-0 end-0 grid w-10 place-content-center">
