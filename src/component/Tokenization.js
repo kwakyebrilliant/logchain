@@ -268,8 +268,8 @@ function Tokenization() {
             <h1 className='lg:text-5xl text-2xl font-bold ml-1.5 text-emerald-700'>Today</h1>
           </div>
 
-          <div className="overflow-x-auto">
-      <nav aria-label="Tabs" className="sm:w-full md:w-2/3 mx-auto">
+          <div className="">
+      <nav aria-label="Tabs" className="overflow-x-auto sm:w-full md:w-2/3 mx-auto">
         <ul className="flex border-b border-gray-100 whitespace-nowrap">
           {/* Tab 1 */}
           <li
