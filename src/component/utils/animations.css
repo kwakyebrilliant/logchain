@@ -1,16 +1,15 @@
 @keyframes moveCircle {
     0% {
-      transform: translateY(0);
+      transform: translateX(0);
     }
     50% {
-      transform: translateY(10px);
+      transform: translateX(20px);
     }
     100% {
-      transform: translateY(0);
+      transform: translateX(0);
     }
   }
   
   .animate-circle {
-    animation: moveCircle 1s infinite;
+    animation: moveCircle 4s infinite alternate;
   }
-  
