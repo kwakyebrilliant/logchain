@@ -306,9 +306,6 @@ function Tokenization() {
             </nav>
           </div>
 
-
-          
-
           
         </div>
         <div className="absolute -top-1 right-0 mr-16 flex justify-end items-end">
