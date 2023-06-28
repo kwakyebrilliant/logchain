@@ -257,24 +257,21 @@ function Tokenization() {
 
 
         <section className="relative h-screen bg-white pb-20" style={{ backgroundImage: `url(${banner})` }}>
-  <div className='bg-gray-50 shadow-lg lg:mx-20 mx-8 rounded-md h-full'>
-    <div className='flex justify-center lg:pt-16 pt-8'>
-      <h1 className='lg:text-5xl text-2xl font-bold text-gray-700'>Tokenization in</h1>
-      <h1 className='lg:text-5xl text-2xl font-bold ml-1.5 text-emerald-700'>Today</h1>
-    </div>
+        <div className='bg-gray-50 shadow-lg lg:mx-20 mx-8 rounded-md h-full'>
+          <div className='flex justify-center lg:pt-16 pt-8'>
+            <h1 className='lg:text-5xl text-2xl font-bold text-gray-700'>Tokenization in</h1>
+            <h1 className='lg:text-5xl text-2xl font-bold ml-1.5 text-emerald-700'>Today</h1>
+          </div>
 
-    {/* <div className="relative">
-      <div className="absolute left-0 bottom-0 w-32 h-32 bg-emerald-50 rounded-full animate-circle"></div>
-      <div className="absolute right-0 bottom-0 w-40 h-40 bg-emerald-50 rounded-full animate-circle"></div>
-    </div> */}
-  </div>
-  <div className="absolute -top-1 right-0 mr-16 flex justify-end items-end">
-            <div className="lg:h-40 lg:w-40 rounded-full bg-emerald-50 shadow-lg transform rotate-45 animate-circle" />
-          </div>
-          <div className="absolute bottom-0 -left-0 flex justify-end items-end">
-            <div className="lg:w-24 lg:h-24 rounded-full bg-emerald-50 shadow-lg transform rotate-45 animate-circle -ml-10" />
-          </div>
-</section>
+          
+        </div>
+        <div className="absolute -top-1 right-0 mr-16 flex justify-end items-end">
+          <div className="lg:h-40 lg:w-40 rounded-full bg-emerald-50 shadow-lg transform rotate-45 animate-circle" />
+        </div>
+        <div className="absolute bottom-0 -left-0 flex justify-end items-end">
+          <div className="lg:w-24 lg:h-24 rounded-full bg-emerald-50 shadow-lg transform rotate-45 animate-circle -ml-10" />
+        </div>
+      </section>
 
 
 
