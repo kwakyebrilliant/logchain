@@ -611,7 +611,7 @@ function Tokenization() {
                       >
                         <div className="mb-8 sm:break-inside-avoid">
                           <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
-                            <p class="leading-relaxed text-gray-700">
+                            <p className="leading-relaxed text-gray-700">
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                               minima dicta amet, molestiae aliquam incidunt suscipit recusandae
                               labore ratione doloremque, architecto et illo minus quo tenetur
