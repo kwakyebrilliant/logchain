@@ -13,7 +13,8 @@ function Tokenization() {
     setActiveTab(index);
   };
 
-  
+  const tabNames = ['Today', 'This Week', 'This Month', 'This Year'];
+
   return (
     <div>
       <Navigation />
@@ -269,75 +270,26 @@ function Tokenization() {
           </div>
 
           <div className="">
-      <nav aria-label="Tabs" className="overflow-x-auto sm:w-full md:w-2/3 mx-auto">
+         <nav aria-label="Tabs" className="overflow-x-auto sm:w-full md:w-2/3 mx-auto">
         <ul className="flex border-b border-gray-100 whitespace-nowrap">
-          {/* Tab 1 */}
-          <li
-            className={`flex-1 cursor-pointer ${
-              activeTab === 0 ? '' : ''
-            }`}
-            onClick={() => handleTabClick(0)}
-          >
-            <div className="relative block p-4">
-              <div className="flex items-center justify-center gap-4">
-                <span className="text-sm font-medium text-gray-900">Today</span>
+          {tabNames.map((name, index) => (
+            <li
+              key={index}
+              className={`flex-1 cursor-pointer ${
+                activeTab === index ? '' : ''
+              }`}
+              onClick={() => handleTabClick(index)}
+            >
+              <div className="relative block p-4">
+                <div className="flex items-center justify-center gap-4">
+                  <span className="text-sm font-medium text-gray-900">{name}</span>
+                </div>
+                {activeTab === index && (
+                  <span className="absolute bottom-0 left-0 h-0.5 bg-emerald-600 w-full"></span>
+                )}
               </div>
-              {activeTab === 0 && (
-                <span className="absolute bottom-0 left-0 h-0.5 bg-emerald-600 w-full"></span>
-              )}
-            </div>
-          </li>
-
-          {/* Tab 2 */}
-          <li
-            className={`flex-1 cursor-pointer ${
-              activeTab === 1 ? '' : ''
-            }`}
-            onClick={() => handleTabClick(1)}
-          >
-            <div className="relative block p-4">
-              <div className="flex items-center justify-center gap-4">
-                <span className="text-sm font-medium text-gray-900">This Week</span>
-              </div>
-              {activeTab === 1 && (
-                <span className="absolute bottom-0 left-0 h-0.5 bg-emerald-600 w-full"></span>
-              )}
-            </div>
-          </li>
-
-          {/* Tab 3 */}
-          <li
-            className={`flex-1 cursor-pointer ${
-              activeTab === 2 ? '' : ''
-            }`}
-            onClick={() => handleTabClick(2)}
-          >
-            <div className="relative block p-4">
-              <div className="flex items-center justify-center gap-4">
-                <span className="text-sm font-medium text-gray-900">This Month</span>
-              </div>
-              {activeTab === 2 && (
-                <span className="absolute bottom-0 left-0 h-0.5 bg-emerald-600 w-full"></span>
-              )}
-            </div>
-          </li>
-
-          {/* Tab 4 */}
-          <li
-            className={`flex-1 cursor-pointer ${
-              activeTab === 3 ? '' : ''
-            }`}
-            onClick={() => handleTabClick(3)}
-          >
-            <div className="relative block p-4">
-              <div className="flex items-center justify-center gap-4">
-                <span className="text-sm font-medium text-gray-900">This Year</span>
-              </div>
-              {activeTab === 3 && (
-                <span className="absolute bottom-0 left-0 h-0.5 bg-emerald-600 w-full"></span>
-              )}
-            </div>
-          </li>
+            </li>
+          ))}
         </ul>
       </nav>
 
