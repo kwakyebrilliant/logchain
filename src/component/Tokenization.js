@@ -258,10 +258,6 @@ function Tokenization() {
         </section>
 
 
-       
-
-
-
         <section className="relative bg-white pb-20" style={{ backgroundImage: `url(${banner})` }}>
         <div className='bg-gray-50 shadow-lg lg:mx-20 mx-8 rounded-md h-full'>
           <div className='flex justify-center lg:pt-16 pt-8'>
@@ -271,7 +267,6 @@ function Tokenization() {
             {name}
           </h1>
         ))}
-            {/* <h1 className='lg:text-5xl text-2xl font-bold ml-1.5 text-emerald-700'>Today</h1> */}
           </div>
 
           <div className="">
@@ -914,6 +909,31 @@ function Tokenization() {
         <div className="absolute bottom-0 -left-0 flex justify-end items-end">
           <div className="lg:w-24 lg:h-24 rounded-full bg-emerald-50 shadow-lg transform rotate-45 animate-circle -ml-10" />
         </div>
+      </section>
+
+
+      <section className="relative pb-20 bg-gray-50">
+
+          <div className='flex justify-center lg:pt-16 pt-8'>
+            <h1 className='lg:text-xl text-2xl font-bold text-blue-950'>The platform</h1>
+          </div>
+          <div className='flex justify-center'>
+            <h1 className='lg:text-6xl text-2xl font-bold text-blue-950'>See the full</h1>
+          </div>
+          <div className='flex justify-center'>
+            <h1 className='lg:text-6xl text-2xl font-bold text-emerald-400'>tokenization assets</h1>
+          </div>
+
+          <div className='flex mt-2 justify-center'>
+          <p className="leading-relaxed text-center max-w-3xl text-gray-700">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ut
+                    necessitatibus, repudiandae qui dolor minima.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero 
+                    aliquid sint distinctio iure ipsum cupiditate? Quis, odit assumenda? 
+                    Deleniti quasi inventore
+          </p>
+          </div>
+
       </section>
 
 
