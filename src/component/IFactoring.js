@@ -7,6 +7,7 @@ import {
   } from 'react-icons/fa'
 
 import images2 from '../assets/images2.webp';
+import Footer from './utils/Footer';
 
 function IFactoring() {
   return (
@@ -227,12 +228,13 @@ function IFactoring() {
             </div>
 
           </div>
+
+
         </div>
 
-        
-
-
-        IFactoring
+        <section className="relative">
+            <Footer />
+          </section>
 
         </div>
     </div>
