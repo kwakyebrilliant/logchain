@@ -1,8 +1,12 @@
 import React from 'react'
+import Navigation from './Navigation';
 
 function IFinancing() {
   return (
-    <div>IFinancing</div>
+    <div>
+         <Navigation />
+        IFinancing
+    </div>
   )
 }
 
