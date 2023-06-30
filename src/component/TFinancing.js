@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Navigation from './Navigation';
 
@@ -103,7 +104,178 @@ function TFinancing() {
             </div>
 
             </div>      
+            </div>
+
+
+            <div>
               
+              <div className="grid grid-cols-3 gap-4 sm:grid-cols-3 mt-12">
+                
+              <a className="rounded-lg bg-white shadow-md p-8">
+            <div className="flex items-center gap-4">
+            <img
+                alt="Man"
+                src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                className="h-16 w-16 rounded-full object-cover"
+            />
+
+            <div>
+                <div className="flex justify-center gap-0.5 text-green-500">
+                <h1>Asset Brook</h1>
+                </div>
+
+                <p className="mt-1 text-lg font-medium text-gray-700">
+                0xF...y6b
+                </p>
+            </div>
+            </div>
+
+            <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            </p>
+            </a>
+
+            <a className="rounded-lg bg-white shadow-md p-8">
+            <div className="flex items-center gap-4">
+            <img
+                alt="Man"
+                src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                className="h-16 w-16 rounded-full object-cover"
+            />
+
+            <div>
+                <div className="flex justify-center gap-0.5 text-green-500">
+                <h1>Asset Brook</h1>
+                </div>
+
+                <p className="mt-1 text-lg font-medium text-gray-700">
+                0xF...y6b
+                </p>
+            </div>
+            </div>
+
+            <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            </p>
+        </a>
+
+        <a className="rounded-lg bg-white shadow-md p-8">
+            <div className="flex items-center gap-4">
+            <img
+                alt="Man"
+                src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                className="h-16 w-16 rounded-full object-cover"
+            />
+
+            <div>
+                <div className="flex justify-center gap-0.5 text-green-500">
+                <h1>Asset Brook</h1>
+                </div>
+
+                <p className="mt-1 text-lg font-medium text-gray-700">
+                0xF...y6b
+                </p>
+            </div>
+            </div>
+
+            <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            </p>
+        </a>
+
+        <a className="rounded-lg bg-white shadow-md p-8">
+            <div className="flex items-center gap-4">
+            <img
+                alt="Man"
+                src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                className="h-16 w-16 rounded-full object-cover"
+            />
+
+            <div>
+                <div className="flex justify-center gap-0.5 text-green-500">
+                <h1>Asset Brook</h1>
+                </div>
+
+                <p className="mt-1 text-lg font-medium text-gray-700">
+                0xF...y6b
+                </p>
+            </div>
+            </div>
+
+            <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            </p>
+        </a>
+
+        <a className="rounded-lg bg-white shadow-md p-8">
+            <div className="flex items-center gap-4">
+            <img
+                alt="Man"
+                src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                className="h-16 w-16 rounded-full object-cover"
+            />
+
+            <div>
+                <div className="flex justify-center gap-0.5 text-green-500">
+                <h1>Asset Brook</h1>
+                </div>
+
+                <p className="mt-1 text-lg font-medium text-gray-700">
+                0xF...y6b
+                </p>
+            </div>
+            </div>
+
+            <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            </p>
+        </a>
+
+        <a className="rounded-lg bg-white shadow-md p-8">
+            <div className="flex items-center gap-4">
+            <img
+                alt="Man"
+                src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                className="h-16 w-16 rounded-full object-cover"
+            />
+
+            <div>
+                <div className="flex justify-center gap-0.5 text-green-500">
+                <h1>Asset Brook</h1>
+                </div>
+
+                <p className="mt-1 text-lg font-medium text-gray-700">
+                0xF...y6b
+                </p>
+            </div>
+            </div>
+
+            <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            voluptatem alias ut provident sapiente repellendus.
+            </p>
+        </a>
+                
+                
+              </div>
+
             </div>
 
             </div>
@@ -111,7 +283,7 @@ function TFinancing() {
 
         </div>
 
-        <section className="relative">
+        <section className="relative mt-8">
             <Footer />
           </section>
 
