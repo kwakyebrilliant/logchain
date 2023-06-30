@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from './component/Homepage';
 import IFinancing from './component/IFinancing';
 import IFactoring from './component/IFactoring';
+import TFinancing from './component/TFinancing';
 import Tokenization from './component/Tokenization';
 import Login from './component/Login';
 import Summary from './dashboard/Pages/Summary';
@@ -21,6 +22,7 @@ function App() {
       <Route path="/" exact element={<Homepage />} />
       <Route path="/ifinancing" exact element={<IFinancing />} />
       <Route path="/ifactoring" exact element={<IFactoring />} />
+      <Route path="/tfinancing" exact element={<TFinancing />} />
       <Route path="/tokenization" exact element={<Tokenization />} />
       <Route path="/login" exact element={<Login />} />
       <Route path="/summary" exact element={<Summary />} />
