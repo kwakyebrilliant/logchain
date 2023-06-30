@@ -323,11 +323,13 @@ function IFinancing() {
 
 
         {/* Diagonal Circles */}
-        <div className="absolute -top-40 right-0 flex justify-end items-end">
-        <div className="lg:h-40 lg:w-40 rounded-full bg-white shadow-lg transform rotate-45 mt-20 mr-10" />
+        <div className="absolute -top-40 right-0 flex justify-end items-end mt-20 mr-20">
+        <span className="lg:h-40 lg:w-40 absolute inline-flex animate-ping bg-emerald-400 opacity-75 rounded-full shadow-lg transform rotate-45" ></span>
+        <span className="relative inline-flex rounded-full lg:h-40 lg:w-40 bg-emerald-500"></span>
         </div>
-        <div className="absolute bottom-0 left-0 flex justify-end items-end">
-        <div className="lg:w-24 lg:h-24 rounded-full bg-white shadow-lg transform rotate-45" />
+        <div className="absolute bottom-0 left-0 flex justify-end items-end ml-12">
+        <span className="lg:w-24 lg:h-24 absolute inline-flex animate-ping rounded-full bg-emerald-400 shadow-lg transform rotate-45" ></span>
+        <span className="relative inline-flex rounded-full lg:w-24 lg:h-24 bg-emerald-500"></span>
         </div>
 
         </section>
