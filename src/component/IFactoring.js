@@ -25,7 +25,7 @@ function IFactoring() {
           }}
         ></div>
 
-        <div className="relative mb-16 z-0 py-8">
+        <div className="relative z-0 py-8">
 
         <nav aria-label="Breadcrumb" className='pt-12'>
             <ol className="flex justify-start items-center gap-1 text-sm text-gray-600">
