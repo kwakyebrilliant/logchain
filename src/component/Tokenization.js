@@ -4,6 +4,8 @@ import Navigation from './Navigation';
 import images2 from '../assets/images2.webp';
 import banner from '../assets/images2.svg';
 
+import assets from '../assets/asssets.png'
+
 import '../component/utils/animations.css';
 
 function Tokenization() {
@@ -323,8 +325,8 @@ function Tokenization() {
                   />
 
                   <div className="text-sm">
-                    <p className="font-medium">Gladis Lennon</p>
-                    <p className="mt-1">Head of SEO</p>
+                    <p className="font-medium text-green-500">Asset Brook</p>
+                    <p className="mt-1">0xF...y6b</p>
                   </div>
                 </div>
               </div>
@@ -346,8 +348,8 @@ function Tokenization() {
                   />
 
                   <div className="text-sm">
-                    <p className="font-medium">Gladis Lennon</p>
-                    <p className="mt-1">Head of SEO</p>
+                    <p className="font-medium text-green-500">Asset Brook</p>
+                    <p className="mt-1">0xF...y6b</p>
                   </div>
                 </div>
               </div>
@@ -370,8 +372,8 @@ function Tokenization() {
                   />
 
                   <div className="text-sm">
-                    <p className="font-medium">Gladis Lennon</p>
-                    <p className="mt-1">Head of SEO</p>
+                    <p className="font-medium text-green-500">Asset Brook</p>
+                    <p className="mt-1">0xF...y6b</p>
                   </div>
                 </div>
               </div>
@@ -392,8 +394,8 @@ function Tokenization() {
                   />
 
                   <div className="text-sm">
-                    <p className="font-medium">Gladis Lennon</p>
-                    <p className="mt-1">Head of SEO</p>
+                    <p className="font-medium text-green-500">Asset Brook</p>
+                    <p className="mt-1">0xF...y6b</p>
                   </div>
                 </div>
               </div>
@@ -415,8 +417,8 @@ function Tokenization() {
                   />
 
                   <div className="text-sm">
-                    <p className="font-medium">Gladis Lennon</p>
-                    <p className="mt-1">Head of SEO</p>
+                    <p className="font-medium text-green-500">Asset Brook</p>
+                    <p className="mt-1">0xF...y6b</p>
                   </div>
                 </div>
               </div>
@@ -437,8 +439,8 @@ function Tokenization() {
                   />
 
                   <div className="text-sm">
-                    <p className="font-medium">Gladis Lennon</p>
-                    <p className="mt-1">Head of SEO</p>
+                    <p className="font-medium text-green-500">Asset Brook</p>
+                    <p className="mt-1">0xF...y6b</p>
                   </div>
                 </div>
               </div>
@@ -913,29 +915,34 @@ function Tokenization() {
 
 
       <section className="relative pb-20 bg-gray-50">
+  <div className='flex justify-center lg:pt-16 pt-8'>
+    <h1 className='lg:text-xl text-2xl font-bold text-blue-950'>The platform</h1>
+  </div>
+  <div className='flex justify-center'>
+    <h1 className='lg:text-6xl text-2xl font-bold text-blue-950'>See the full</h1>
+  </div>
+  <div className='flex justify-center'>
+    <h1 className='lg:text-6xl text-2xl font-bold text-emerald-400'>tokenization assets</h1>
+  </div>
 
-          <div className='flex justify-center lg:pt-16 pt-8'>
-            <h1 className='lg:text-xl text-2xl font-bold text-blue-950'>The platform</h1>
-          </div>
-          <div className='flex justify-center'>
-            <h1 className='lg:text-6xl text-2xl font-bold text-blue-950'>See the full</h1>
-          </div>
-          <div className='flex justify-center'>
-            <h1 className='lg:text-6xl text-2xl font-bold text-emerald-400'>tokenization assets</h1>
-          </div>
+  <div className='flex mt-2 justify-center'>
+    <p className="leading-relaxed text-center max-w-3xl text-gray-700">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ut
+      necessitatibus, repudiandae qui dolor minima.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero 
+      aliquid sint distinctio iure ipsum cupiditate? Quis, odit assumenda? 
+      Deleniti quasi inventore
+    </p>
+  </div>
 
-          <div className='flex mt-2 justify-center'>
-          <p className="leading-relaxed text-center max-w-3xl text-gray-700">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ut
-                    necessitatibus, repudiandae qui dolor minima.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero 
-                    aliquid sint distinctio iure ipsum cupiditate? Quis, odit assumenda? 
-                    Deleniti quasi inventore
-          </p>
-          </div>
-          
+  <div className="absolute left-0 right-0 bottom-0 flex justify-center">
+    <img className="mx-2 hidden lg:block w-96 h-88" src={assets} alt="Image 1" />
+    <img className="mx-2 hidden lg:block w-96 h-88" src={assets} alt="Image 2" />
+    <img className="mx-2 hidden lg:block w-96 h-88" src={assets} alt="Image 3" />
+  </div>
+</section>
 
-      </section>
+
 
 
 
