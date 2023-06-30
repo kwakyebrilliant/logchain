@@ -19,7 +19,7 @@ function IFinancing() {
             <img
             src={wave}
             alt="Wave"
-            className="h-full transform translate-x-96"
+            className="h-full transform translate-x-96 "
             />
         </div>
 
@@ -58,21 +58,41 @@ function IFinancing() {
             </nav>
 
 
-        <div className="relative mx-auto text-center">
-          <h1
-            className="bg-gradient-to-r from-green-600 via-teal-500 to-emerald-400 bg-clip-text text-3xl font-extrabold text-transparent lg:text-7xl"
-          >
-            Reshaping Supply Chain Operations.
-            <span className="sm:block">On The XRP Ledger (XRPL). </span>
-          </h1>
+            <div className="mx-auto max-w-screen-xl px-4 pt-32 lg:flex lg:h-screen lg:items-center">
+            <div className="relative mx-auto text-center">
+            <h1
+                className="bg-gradient-to-r from-green-600 via-teal-500 to-emerald-400 bg-clip-text text-3xl font-extrabold text-transparent lg:text-7xl"
+            >
+                Reshaping Supply Chain Operations.
+                <span className="sm:block">On The XRP Ledger (XRPL). </span>
+            </h1>
 
-          <p className="mx-auto mt-4 max-w-2xl sm:text-xl/relaxed">
-            This comprehensive platform empowers suppliers, manufacturers,
-            and buyers to streamline their financial transactions and mitigate supply chain risks.
-          </p>
+            <p className="mx-auto mt-4 max-w-2xl sm:text-xl/relaxed">
+                This comprehensive platform empowers suppliers, manufacturers,
+                and buyers to streamline their financial transactions and mitigate supply chain risks.
+            </p>
+
+            </div>
+            </div>
+
 
         </div>
+
+        <div className="relative">
+        <div className="fixed inset-0 z-0"></div>
+        <div className="absolute -bottom-20 left-0 h-96 overflow-hidden">
+            <img
+            src={wave}
+            alt="Wave"
+            className="h-full transform -translate-x-96"
+            />
         </div>
+
+
+        </div>
+
+
+
     </div>
   )
 }
