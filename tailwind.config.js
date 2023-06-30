@@ -20,6 +20,31 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
+    extend: {
+      animation: {
+        'bounce-slow': 'bounce-slow 2s infinite',
+        'bounce-fast': 'bounce-fast 1s infinite',
+      },
+      keyframes: {
+        'bounce-slow': {
+          '0%, 100%': {
+            transform: 'translateY(0)',
+          },
+          '50%': {
+            transform: 'translateY(-20px)',
+          },
+        },
+        'bounce-fast': {
+          '0%, 100%': {
+            transform: 'translateY(0)',
+          },
+          '50%': {
+            transform: 'translateY(-40px)',
+          },
+        },
+      },
+    },
   },
-  plugins: [], 
+  variants: {},
+  plugins: [],
 }

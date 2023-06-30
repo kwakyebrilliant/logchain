@@ -5,6 +5,7 @@ import images2 from '../assets/images2.webp';
 import banner from '../assets/images2.svg';
 
 import assets from '../assets/asssets.png'
+import assets2 from '../assets/asssets2.png'
 
 import '../component/utils/animations.css';
 
@@ -915,32 +916,32 @@ function Tokenization() {
 
 
       <section className="relative bg-gray-50">
-  <div className='flex justify-center lg:pt-16 pt-8'>
-    <h1 className='lg:text-xl text-2xl font-bold text-blue-950'>The platform</h1>
-  </div>
-  <div className='flex justify-center'>
-    <h1 className='lg:text-6xl text-2xl font-bold text-blue-950'>See the full</h1>
-  </div>
-  <div className='flex justify-center'>
-    <h1 className='lg:text-6xl text-2xl font-bold text-emerald-400'>tokenization assets</h1>
-  </div>
+        <div className='flex justify-center lg:pt-16 pt-8'>
+          <h1 className='lg:text-xl text-2xl font-bold text-blue-950'>The platform</h1>
+        </div>
+        <div className='flex justify-center'>
+          <h1 className='lg:text-6xl text-2xl font-bold text-blue-950'>See the full</h1>
+        </div>
+        <div className='flex justify-center'>
+          <h1 className='lg:text-6xl text-2xl font-bold text-emerald-400'>tokenization assets</h1>
+        </div>
 
-  <div className='flex mt-2 justify-center'>
-    <p className="leading-relaxed text-center max-w-3xl px-4 sm:px-12">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ut
-      necessitatibus, repudiandae qui dolor minima.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero 
-      aliquid sint distinctio iure ipsum cupiditate? Quis, odit assumenda? 
-      Deleniti quasi inventore
-    </p>
-  </div>
+        <div className='flex mt-2 justify-center'>
+          <p className="leading-relaxed text-center max-w-3xl px-4 sm:px-12">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ut
+            necessitatibus, repudiandae qui dolor minima.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero 
+            aliquid sint distinctio iure ipsum cupiditate? Quis, odit assumenda? 
+            Deleniti quasi inventore
+          </p>
+        </div>
 
-  <div className="relative flex justify-center">
-    <img className="hidden lg:block w-96 h-88" src={assets} alt="Image 1" />
-    <img className="hidden lg:block w-96 h-88" src={assets} alt="Image 2" />
-    <img className="hidden lg:block w-96 h-88" src={assets} alt="Image 3" />
-  </div>
-</section>
+        <div className="relative flex justify-center">
+          <img className="hidden lg:block w-2/6" src={assets} alt="Image 1" />
+          <img className="hidden lg:block animate-bounce-slow w-96 h-88 -bottom-20 left-0 right-0 relative" src={assets2} alt="Image 2" />
+          <img className="hidden lg:block w-2/6" src={assets} alt="Image 3" />
+        </div>
+      </section>
 
 
 
