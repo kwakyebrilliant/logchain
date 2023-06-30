@@ -18,6 +18,7 @@ import harvard from '../assets/harvard.png';
 import pharmacy from '../assets/pharmacy.jpg'
 
 import { Link } from 'react-router-dom'
+import Footer from './utils/Footer';
 
 function Homepage() {
   return (
@@ -375,6 +376,10 @@ function Homepage() {
         </div>
       </div>
     </section>
+
+    <section className="relative mt-12">
+        <Footer />
+      </section>
 
 
 
