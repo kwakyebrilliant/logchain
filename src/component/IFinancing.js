@@ -7,6 +7,7 @@ import {
     FaFileAlt,
     FaEye
   } from 'react-icons/fa'
+import Footer from './utils/Footer';
 
 function IFinancing() {
   return (
@@ -280,7 +281,7 @@ function IFinancing() {
         </div>
 
 
-        <section className="relative py-12 px-8 bg-white">
+        <section className="relative pt-12 px-8 bg-white">
 
         <div className="relative px-16 py-8">
               <label for="Search" className="sr-only"> Search </label>
@@ -518,6 +519,9 @@ function IFinancing() {
         </section>
 
 
+        <section className="relative mt-12">
+        <Footer />
+        </section>
 
 
     </div>
