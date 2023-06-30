@@ -59,7 +59,7 @@ export default function Navigation() {
                 </Link>
               </li>
               <li className='hover:bg-emerald-600 hover:text-white'>
-                <Link to="/" onClick={handleLinkClick}>
+                <Link to="/ifactoring" onClick={handleLinkClick}>
                   Invoice Factoring
                 </Link>
               </li>
@@ -118,7 +118,7 @@ export default function Navigation() {
                 <div className="dropdown-menu">
                   <div className="dropdown-content ml-3 flex flex-col">
                     <Link className='border-b-2 py-2 border-zinc-300 w-full' to="/ifinancing" onClick={handleClose}>Invoice Financing</Link>
-                    <Link className='border-b-2 py-2 border-zinc-300 w-full' to="/" onClick={handleClose}>Invoice Factoring</Link>
+                    <Link className='border-b-2 py-2 border-zinc-300 w-full' to="/ifactoring" onClick={handleClose}>Invoice Factoring</Link>
                     <Link to="/" onClick={handleClose}>Trade Financing</Link>
                   </div>
                 </div>
