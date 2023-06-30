@@ -280,12 +280,24 @@ function IFinancing() {
         </div>
 
 
-        <section className="relative py-12 bg-white">
+        <section className="relative py-12 px-8 bg-white">
+
+        <div className="relative px-16 py-8">
+              <label for="Search" className="sr-only"> Search </label>
+
+              <input
+                type="text"
+                id="Search"
+                placeholder="Search invoices..."
+                className="w-4/12 h-12 focus:outline-none rounded-full border-none border-gray-100 pe-10 ps-4 text-sm  py-2.5 shadow-md sm:text-sm"
+              />
+
+            </div>
 
         <div className="lg:px-16 px-4">
 
         <div className=" grid grid-cols-1 lg:grid-cols-4 gap-4 gap-x-8 gap-y-8">
-        <a className="rounded-lg bg-gray-100 p-8">
+        <a className="rounded-lg bg-white shadow-lg p-8">
             <div className="flex items-center gap-4">
             <img
                 alt="Man"
@@ -309,11 +321,6 @@ function IFinancing() {
             voluptatem alias ut provident sapiente repellendus.
             </p>
         </a>
-
-        
-
-        
-        
 
         
 
