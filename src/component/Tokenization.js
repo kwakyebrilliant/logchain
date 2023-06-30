@@ -9,6 +9,7 @@ import assets from '../assets/asssets.png'
 import assets2 from '../assets/asssets2.png'
 
 import '../component/utils/animations.css';
+import Footer from './utils/Footer';
 
 function Tokenization() {
   const [activeTab, setActiveTab] = useState(0);
@@ -928,7 +929,7 @@ function Tokenization() {
         </div>
 
         <div className='flex mt-2 justify-center'>
-          <p className="leading-relaxed text-center max-w-3xl px-4 sm:px-12">
+          <p className="leading-relaxed text-center max-w-3xl px-4 sm:px-12 py-12 sm:py-12">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ut
             necessitatibus, repudiandae qui dolor minima.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero 
@@ -945,7 +946,9 @@ function Tokenization() {
       </section>
 
 
-
+      <section className="relative mt-12">
+        <Footer />
+      </section>
 
 
       </div>
