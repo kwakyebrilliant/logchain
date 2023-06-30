@@ -54,7 +54,7 @@ export default function Navigation() {
           {showDropdown && (
             <ul className='absolute w-48 z-10 mt-2 py-2 bg-white text-black rounded-md'>
               <li className='hover:bg-emerald-600 hover:text-white'>
-                <Link to="/" onClick={handleLinkClick}>
+                <Link to="/ifinancing" onClick={handleLinkClick}>
                   Invoice Financing
                 </Link>
               </li>
@@ -117,7 +117,7 @@ export default function Navigation() {
               {dropdownOpen && (
                 <div className="dropdown-menu">
                   <div className="dropdown-content ml-3 flex flex-col">
-                    <Link className='border-b-2 py-2 border-zinc-300 w-full' to="/" onClick={handleClose}>Invoice Financing</Link>
+                    <Link className='border-b-2 py-2 border-zinc-300 w-full' to="/ifinancing" onClick={handleClose}>Invoice Financing</Link>
                     <Link className='border-b-2 py-2 border-zinc-300 w-full' to="/" onClick={handleClose}>Invoice Factoring</Link>
                     <Link to="/" onClick={handleClose}>Trade Financing</Link>
                   </div>
