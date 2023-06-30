@@ -104,9 +104,7 @@ function IFactoring() {
               </span>
             </div>
 
-            </div>
-
-              
+            </div>      
               
             </div>
             
