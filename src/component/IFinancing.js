@@ -1,9 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Navigation from './Navigation';
 import wave from '../assets/wave.svg';
 
 import {
     FaFileAlt,
+    FaEye
   } from 'react-icons/fa'
 
 function IFinancing() {
@@ -58,13 +60,13 @@ function IFinancing() {
             </nav>
 
 
-            <div className="mx-auto max-w-screen-xl px-4 pt-32 lg:flex lg:h-screen lg:items-center">
+            <div className="mx-auto max-w-screen-xl px-4 py-12 sm:pt-32 lg:flex lg:h-screen lg:items-center">
             <div className="relative mx-auto text-center">
             <h1
-                className="bg-gradient-to-r from-green-600 via-teal-500 to-emerald-400 bg-clip-text text-3xl font-extrabold text-transparent lg:text-7xl"
+                className=" text-3xl font-extrabold lg:text-7xl"
             >
-                Reshaping Supply Chain Operations.
-                <span className="sm:block">On The XRP Ledger (XRPL). </span>
+                Invoice Financing
+                <span className="sm:block">On The XRP Ledger. </span>
             </h1>
 
             <p className="mx-auto mt-4 max-w-2xl sm:text-xl/relaxed">
@@ -88,8 +90,195 @@ function IFinancing() {
             />
         </div>
 
+        </div>
+
+        <div className="bg-gray-50">
+        <div className="grid container mx-auto sm:pt-20 py-8  px-8 grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
+
+        <div className="mx-auto max-w-lg lg:mx-0 ltr:lg:text-left rtl:lg:text-right">
+        <h2 className="text-2xl font-bold mb-4 justify-center flex sm:text-3xl">For Today</h2>
+        <p className="mt-4 text-gray-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero
+            aliquid sint distinctio iure ipsum cupiditate? Quis, odit assumenda?
+            Deleniti quasi inventore, libero reiciendis minima aliquid tempora.
+            Obcaecati, autem.
+         </p>
+        </div>
+
+        <div className='bg-black p-8 rounded-2xl shadow-2xl'>
+        <div>
+        <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-xl mb-4">
+            <div className="flex items-start gap-4">
+            <span className="text-emerald-600">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="h-6 w-6"
+                >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+                </svg>
+            </span>
+
+            <div className="flex-1">
+                <strong className="block font-medium text-gray-900"> Asset Brook </strong>
+
+                <p className="mt-1 text-sm text-gray-700">
+                Asset description here
+                </p>
+            </div>
+
+            <a className="text-white p-1 rounded-lg bg-emerald-600 cursor-pointer">
+                <FaEye className="lg:w-4 lg:h-4" />
+            </a>
+            </div>
+        </div>
+
+        <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-xl mb-4">
+            <div className="flex items-start gap-4">
+            <span className="text-emerald-600">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="h-6 w-6"
+                >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+                </svg>
+            </span>
+
+            <div className="flex-1">
+                <strong className="block font-medium text-gray-900"> Asset Brook </strong>
+
+                <p className="mt-1 text-sm text-gray-700">
+                Asset description here
+                </p>
+            </div>
+
+            <a className="text-white p-1 rounded-lg bg-emerald-600 cursor-pointer">
+                <FaEye className="lg:w-4 lg:h-4" />
+            </a>
+            </div>
+        </div>
+
+        <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-xl mb-4">
+            <div className="flex items-start gap-4">
+            <span className="text-emerald-600">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="h-6 w-6"
+                >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+                </svg>
+            </span>
+
+            <div className="flex-1">
+                <strong className="block font-medium text-gray-900"> Asset Brook </strong>
+
+                <p className="mt-1 text-sm text-gray-700">
+                Asset description here
+                </p>
+            </div>
+
+            <a className="text-white p-1 rounded-lg bg-emerald-600 cursor-pointer">
+                <FaEye className="lg:w-4 lg:h-4" />
+            </a>
+            </div>
+        </div>
+
+        <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-xl mb-4">
+            <div className="flex items-start gap-4">
+            <span className="text-emerald-600">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="h-6 w-6"
+                >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+                </svg>
+            </span>
+
+            <div className="flex-1">
+                <strong className="block font-medium text-gray-900"> Asset Brook </strong>
+
+                <p className="mt-1 text-sm text-gray-700">
+                Asset description here
+                </p>
+            </div>
+
+            <a className="text-white p-1 rounded-lg bg-emerald-600 cursor-pointer">
+                <FaEye className="lg:w-4 lg:h-4" />
+            </a>
+            </div>
+        </div>
+
+        <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-xl mb-4">
+            <div className="flex items-start gap-4">
+            <span className="text-emerald-600">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="h-6 w-6"
+                >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+                </svg>
+            </span>
+
+            <div className="flex-1">
+                <strong className="block font-medium text-gray-900"> Asset Brook </strong>
+
+                <p className="mt-1 text-sm text-gray-700">
+                Asset description here
+                </p>
+            </div>
+
+            <a className="text-white p-1 rounded-lg bg-emerald-600 cursor-pointer">
+                <FaEye className="lg:w-4 lg:h-4" />
+            </a>
+            </div>
+        </div>
 
         </div>
+        </div>
+
+  
+        </div>
+        </div>
+
 
 
 
