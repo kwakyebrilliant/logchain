@@ -153,41 +153,41 @@ function TFinancing() {
 
                         <a
                             href="#"
-                            class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                            className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
                         >
                             Make Offer
                         </a>
                         </div>
                     </div>
 
-                    <div class="lg:col-span-2 lg:py-8">
-                        <ul class="grid grid-cols-2 gap-4">
+                    <div className="lg:col-span-2 lg:py-8">
+                        <ul className="grid grid-cols-2 gap-4">
                         <li>
-                            <a href="#" class="block group">
+                            <a href="#" className="block group">
                             <img
                                 src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80"
                                 alt=""
-                                class="object-cover w-full rounded aspect-square"
+                                className="object-cover w-full rounded aspect-square"
                             />
 
-                            <div class="mt-3">
+                            <div className="mt-3">
                                 <h3
-                                class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                                className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
                                 >
                                 Simple Watch
                                 </h3>
 
-                                <p class="mt-1 text-sm text-gray-700">$150</p>
+                                <p className="mt-1 text-sm text-gray-700">$150</p>
                             </div>
                             </a>
                         </li>
 
                         <li>
-                            <a href="#" class="block group">
+                            <a href="#" className="block group">
                             <img
                                 src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80"
                                 alt=""
-                                class="object-cover w-full rounded aspect-square"
+                                className="object-cover w-full rounded aspect-square"
                             />
 
                             <div class="mt-3">
