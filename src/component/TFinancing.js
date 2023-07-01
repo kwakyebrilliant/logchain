@@ -129,22 +129,22 @@ function TFinancing() {
             </div>
 
             <ReactModal
-                            isOpen={modalIsOpen}
-                            onRequestClose={closeModal}
-                            contentLabel="Transaction Success Modal"
-                            style={customStyles}
-                          >
-                            <h2 className='text-2xl font-bold'>Alert</h2>
-                            <p>Your track has been successfully added.</p>
-                            <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
-                          </ReactModal>
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                contentLabel="Transaction Success Modal"
+                style={customStyles}
+            >
+                <h2 className='text-2xl font-bold'>Alert</h2>
+                <p>Your track has been successfully added.</p>
+                <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
+            </ReactModal>
 
 
             <div>
               
               <div className="grid grid-cols-3 gap-4 sm:grid-cols-3 mt-12">
                 
-              <a className="rounded-lg bg-white shadow-md p-8">
+              <a onClick={() => setModalIsOpen(true)} className="rounded-lg cursor-pointer bg-white shadow-md p-8">
             <div className="flex items-center gap-4">
             <img
                 alt="Man"
