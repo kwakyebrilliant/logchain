@@ -136,14 +136,14 @@ function TFinancing() {
             >
                 <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
                 <section>
-                <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
-                    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-                    <div class="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
-                        <div class="max-w-md mx-auto text-center lg:text-left">
+                <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
+                    <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
+                    <div className="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
+                        <div className="max-w-md mx-auto text-center lg:text-left">
                         <header>
-                            <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Asset Brook</h2>
+                            <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">Asset Brook</h2>
 
-                            <p class="mt-4 text-gray-500">
+                            <p className="mt-4 text-gray-500">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
                             voluptatem alias ut provident sapiente repellendus.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
