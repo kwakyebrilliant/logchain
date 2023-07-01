@@ -1,15 +1,26 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React, {useState} from 'react'
 import Navigation from './Navigation';
 
 import {
     FaFileAlt
   } from 'react-icons/fa'
 
+  import ReactModal from 'react-modal';
+
 import images2 from '../assets/images2.webp';
 import Footer from './utils/Footer';
 
 function TFinancing() {
+
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+
+    const closeModal = () => {
+        // Close the modal and perform any additional actions
+        setModalIsOpen(false);
+      };
+
+
   return (
     <div>
          <Navigation />
