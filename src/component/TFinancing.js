@@ -190,14 +190,14 @@ function TFinancing() {
                                 className="object-cover w-full rounded aspect-square"
                             />
 
-                            <div class="mt-3">
+                            <div className="mt-3">
                                 <h3
-                                class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                                className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
                                 >
                                 Simple Watch
                                 </h3>
 
-                                <p class="mt-1 text-sm text-gray-700">$150</p>
+                                <p className="mt-1 text-sm text-gray-700">$150</p>
                             </div>
                             </a>
                         </li>
