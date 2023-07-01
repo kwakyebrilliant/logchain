@@ -241,7 +241,7 @@ function TFinancing() {
             </p>
             </a>
 
-            <a className="rounded-lg bg-white shadow-md p-8">
+            <a onClick={() => setModalIsOpen(true)} className="rounded-lg cursor-pointer bg-white shadow-md p-8">
             <div className="flex items-center gap-4">
             <img
                 alt="Man"
