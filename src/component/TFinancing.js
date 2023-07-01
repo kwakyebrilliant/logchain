@@ -11,6 +11,17 @@ import {
 import images2 from '../assets/images2.webp';
 import Footer from './utils/Footer';
 
+const customStyles = {
+    content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+    },
+  };
+
 function TFinancing() {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -116,6 +127,17 @@ function TFinancing() {
 
             </div>      
             </div>
+
+            <ReactModal
+                            isOpen={modalIsOpen}
+                            onRequestClose={closeModal}
+                            contentLabel="Transaction Success Modal"
+                            style={customStyles}
+                          >
+                            <h2 className='text-2xl font-bold'>Alert</h2>
+                            <p>Your track has been successfully added.</p>
+                            <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
+                          </ReactModal>
 
 
             <div>
