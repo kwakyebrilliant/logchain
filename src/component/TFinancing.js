@@ -273,7 +273,6 @@ function TFinancing() {
             </p>
         </a>
                 
-                
               </div>
 
             </div>
