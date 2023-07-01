@@ -152,7 +152,7 @@ function TFinancing() {
                             </p>
                         </header>
 
-                        {itemOne ? (
+                        {/* {itemOne ? (
                             <a
                             onClick={() => setItemOne(!itemOne)}
                             className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
@@ -166,9 +166,9 @@ function TFinancing() {
                         >
                             Make Offer
                         </a>
-                        )}
+                        )} */}
 
-                        <div className='pt-4'>
+                        {/* <div className='pt-4'>
                         {itemOne && <div className="item1">
                         <h3 className='font-bold text-lg text-emerald-600'>Your Offer</h3>
                         <div>
@@ -190,7 +190,13 @@ function TFinancing() {
 
                         </div>
                         </div>}
-                        </div>
+                        </div> */}
+
+                        <a
+                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Make Offer
+                        </a>
                         </div>
                     </div>
 
