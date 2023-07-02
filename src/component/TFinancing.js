@@ -207,13 +207,24 @@ function TFinancing() {
                             
 
                             <div className="">
-                                <h3
-                                className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
-                                >
-                                Simple Watch
+                                <h3 className="font-medium text-lg text-gray-900">
+                                Basic Information
                                 </h3>
+                                <hr />
 
-                                <p className="mt-1 text-sm text-gray-700">$150</p>
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        First Name
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        $150
+                                    </p>
+                                </div>
+
+
+                                
                             </div>
                             </a>
                         </li>
