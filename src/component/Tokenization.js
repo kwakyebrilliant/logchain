@@ -11,6 +11,21 @@ import assets2 from '../assets/asssets2.png'
 import '../component/utils/animations.css';
 import Footer from './utils/Footer';
 
+import ReactModal from 'react-modal';
+
+const customStyles = {
+  content: {
+    top: '60%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+    height: '650px', // Set the desired height of the container
+    overflowY: 'scroll', // Enable vertical scrolling
+  },
+};
+
 function Tokenization() {
   const [activeTab, setActiveTab] = useState(0);
 
