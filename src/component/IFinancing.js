@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React, {useState} from 'react'
 import Navigation from './Navigation';
 import wave from '../assets/wave.svg';
 
@@ -7,7 +7,24 @@ import {
     FaFileAlt,
     FaEye
   } from 'react-icons/fa'
+
+  import ReactModal from 'react-modal';
+
 import Footer from './utils/Footer';
+
+
+const customStyles = {
+    content: {
+      top: '60%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+      height: '650px', // Set the desired height of the container
+      overflowY: 'scroll', // Enable vertical scrolling
+    },
+  };
 
 function IFinancing() {
   return (
