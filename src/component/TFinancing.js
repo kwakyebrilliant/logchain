@@ -201,7 +201,7 @@ function TFinancing() {
                     </div>
 
                     <div className="lg:col-span-2 lg:py-8">
-                        <ul className="grid grid-cols-2 gap-4">
+                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                         <li>
                             <a className="block group p-4 rounded-lg bg-gray-100">
                             
@@ -211,6 +211,17 @@ function TFinancing() {
                                 Basic Information
                                 </h3>
                                 <hr />
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Asset Number
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        #ASGHS007
+                                    </p>
+                                </div>
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
@@ -246,6 +257,41 @@ function TFinancing() {
                                     </p>
                                 </div>
 
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Tracking Number
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        #85GJ0001
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Name of Carrier
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        John Doe
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Contact of Carrier
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        +233 57 009 1076
+                                    </p>
+                                </div>
+
 
                                 
                             </div>
@@ -253,21 +299,97 @@ function TFinancing() {
                         </li>
 
                         <li>
-                            <a href="#" className="block group">
-                            <img
-                                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80"
-                                alt=""
-                                className="object-cover w-full rounded aspect-square"
-                            />
+                        <a className="block group p-4 rounded-lg bg-gray-100">
+                            
 
-                            <div className="mt-3">
-                                <h3
-                                className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
-                                >
-                                Simple Watch
+                            <div className="">
+                                <h3 className="font-medium text-lg text-gray-900">
+                                Other Information
                                 </h3>
+                                <hr />
 
-                                <p className="mt-1 text-sm text-gray-700">$150</p>
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Asset Number
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        #ASGHS007
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Shipment Value
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        $150
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Shipping Method
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        ocean freight
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Estimated Time of Arrival (ETA)
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        13-06-2023 - 13-09-2023
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Tracking Number
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        #85GJ0001
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Name of Carrier
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        John Doe
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Contact of Carrier
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        +233 57 009 1076
+                                    </p>
+                                </div>
+
+
+                                
                             </div>
                             </a>
                         </li>
