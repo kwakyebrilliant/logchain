@@ -277,12 +277,8 @@ function IFinancing() {
                                         <hr />
                                     </label>
 
-                                    <p className='mt-1'>
-                                    <input
-                                        type="text"
-                                        placeholder="Name of buyer"
-                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
-                                    />
+                                    <p className="text-sm text-gray-700">
+                                        John Doe
                                     </p>
                                 </div>
 
@@ -293,12 +289,8 @@ function IFinancing() {
                                         <hr />
                                     </label>
 
-                                    <p className='mt-1'>
-                                    <input
-                                        type="text"
-                                        placeholder="Contact of buyer"
-                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
-                                    />
+                                    <p className="text-sm text-gray-700">
+                                        +233 574 499 701
                                     </p>
                                 </div>
 
@@ -308,12 +300,19 @@ function IFinancing() {
                                         <hr />
                                     </label>
 
-                                    <p className='mt-1'>
-                                    <input
-                                        type="text"
-                                        placeholder="Buyer address"
-                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
-                                    />
+                                    <p className="text-sm text-gray-700">
+                                        GE-4133-9755, Accra, Ghana.
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Repayment Plan
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        2 installment
                                     </p>
                                 </div>
 
