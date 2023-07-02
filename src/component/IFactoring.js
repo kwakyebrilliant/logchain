@@ -25,6 +25,15 @@ const customStyles = {
   };
 
 function IFactoring() {
+
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+    // const [itemOne, setItemOne] = useState(false);
+
+    const closeModal = () => {
+        // Close the modal and perform any additional actions
+        setModalIsOpen(false);
+      };
+
   return (
     <div>
 
@@ -122,12 +131,285 @@ function IFactoring() {
             </div>      
               
             </div>
+
+
+            <ReactModal
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                contentLabel="Transaction Success Modal"
+                style={customStyles}
+            >
+                <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
+                <section>
+                <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
+                    <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
+                    <div className="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
+                        <div className="max-w-md mx-auto text-center lg:text-left">
+                        <header>
+                            <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">Asset Brook</h2>
+
+                            <p className="mt-4 text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                            voluptatem alias ut provident sapiente repellendus.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                            voluptatem alias ut provident sapiente repellendus.
+                            </p>
+                        </header>
+
+                        {/* {itemOne ? (
+                            <a
+                            onClick={() => setItemOne(!itemOne)}
+                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Cancel Offer
+                        </a>
+                        ) : (
+                        <a
+                            onClick={() => setItemOne(!itemOne)}
+                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Make Offer
+                        </a>
+                        )} */}
+
+                        {/* <div className='pt-4'>
+                        {itemOne && <div className="item1">
+                        <h3 className='font-bold text-lg text-emerald-600'>Your Offer</h3>
+                        <div>
+             
+
+                        <label
+                        for="Amount"
+                        className="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-emerald-600 focus-within:ring-1 focus-within:ring-emerald-600"
+                        >
+                        <span className="text-xs font-medium text-gray-700"> Amount </span>
+
+                        <input
+                            type="number"
+                            id="Amount"
+                            placeholder="Enter amount"
+                            className="mt-1 w-full bg-transparent border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm"
+                        />
+                        </label>
+
+                        </div>
+                        </div>}
+                        </div> */}
+
+                        <a
+                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Make Offer
+                        </a>
+                        </div>
+                    </div>
+
+                    <div className="lg:col-span-2 lg:py-8">
+                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                        <li>
+                            <a className="block group p-4 rounded-lg bg-gray-100">
+                            
+
+                            <div className="">
+                                <h3 className="font-medium text-lg text-gray-900">
+                                Basic Information
+                                </h3>
+                                <hr />
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Asset Number
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        #ASGHS007
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Shipment Value
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        $150
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Shipping Method
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        ocean freight
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Estimated Time of Arrival (ETA)
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        13-06-2023 - 13-09-2023
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Tracking Number
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        #85GJ0001
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Name of Carrier
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        John Doe
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Contact of Carrier
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        +233 57 009 1076
+                                    </p>
+                                </div>
+
+
+                                
+                            </div>
+                            </a>
+                        </li>
+
+                        <li>
+                        <a className="block group p-4 rounded-lg bg-gray-100">
+                            
+
+                            <div className="">
+                                <h3 className="font-medium text-lg text-gray-900">
+                                Other Information
+                                </h3>
+                                <hr />
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Loan Amount
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        $140
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Repayment Plan
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        3 installment
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Loan interest
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        7% fixed
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Collateral
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        Office machine 4
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Insurance Provider
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        Enterprise Ltd
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Insured Amount
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        $112
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Insurance Coverage
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        13-06-2023 - 13-09-2023
+                                    </p>
+                                </div>
+
+
+                                
+                            </div>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                </section>
+                
+            </ReactModal>
             
             <div className="overflow-y-auto h-[600px]">
               
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-1">
                 
-              <a className="rounded-lg bg-white shadow-md p-8">
+              <a onClick={() => setModalIsOpen(true)} className="rounded-lg cursor-pointer bg-white shadow-md p-8">
             <div className="flex items-center gap-4">
             <img
                 alt="Man"
