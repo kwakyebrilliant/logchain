@@ -185,10 +185,42 @@ function TFinancing() {
                         <input
                             type="number"
                             id="Amount"
-                            placeholder="Enter amount"
+                            placeholder="Enter proposed loan amount"
                             className="mt-1 w-full bg-transparent border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm"
                         />
                         </label>
+
+                        <div className='mt-2'>
+                            <label className="text-sm font-medium text-gray-600">
+                            Proposed Loan Rate
+                            </label>
+
+                            <p className='mt-1'>
+                                <input
+                                type="text"
+                                placeholder="Enter proposed loan rate"
+                                className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                />
+                            </p>
+                            <hr />
+                        </div>
+
+                        <div className='mt-2'>
+                            <label className="text-sm font-medium text-gray-600">
+                            Proposed Repayment Plan
+                            <hr />
+                            </label>
+
+                            <p className='mt-1'>
+                                <select className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm">
+                                <option value="">Select payment plan</option>
+                                <option value="upfront">Upfront</option>
+                                <option value="2 installment">2 installment</option>
+                                <option value="3 installment">3 installment</option>
+                                </select>
+                            </p>
+                           
+                        </div>
 
                         <a
                             className="inline-block cursor-pointer px-12 py-3 mt-4 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
