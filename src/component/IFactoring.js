@@ -187,7 +187,7 @@ function IFactoring() {
                         <input
                             type="number"
                             id="Amount"
-                            placeholder="Enter amount"
+                            placeholder="Enter proposed invoice amount"
                             className="mt-1 w-full bg-transparent border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm"
                         />
                         </label>
@@ -274,6 +274,17 @@ function IFactoring() {
                                     </p>
                                 </div>
 
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Invoice Due Date
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        18-08-2023
+                                    </p>
+                                </div>
+
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
@@ -281,7 +292,7 @@ function IFactoring() {
                                         <hr />
                                     </label>
 
-                                    <p className='mt-2'>
+                                    <p className='mt-1'>
                                     <input
                                         type="text"
                                         placeholder="Name of buyer"
@@ -291,13 +302,13 @@ function IFactoring() {
                                 </div>
 
 
-                                <div className='mt-2'>
+                                <div className='mt-2 mb-6'>
                                     <label className="text-sm font-medium text-gray-600">
                                         Contact of Buyer
                                         <hr />
                                     </label>
 
-                                    <p className='mt-2'>
+                                    <p className='mt-1'>
                                     <input
                                         type="text"
                                         placeholder="Contact of buyer"
@@ -324,12 +335,16 @@ function IFactoring() {
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Loan Amount
+                                        Buyer Address
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        $140
+                                    <p className='mt-1'>
+                                    <input
+                                        type="text"
+                                        placeholder="Buyer address"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
                                     </p>
                                 </div>
 
@@ -339,31 +354,44 @@ function IFactoring() {
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        3 installment
+                                    <p className='mt-1'>
+                                    <select className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm">
+                                    <option value="">Select payment plan</option>
+                                    <option value="upfront">Upfront</option>
+                                    <option value="2 installment">2 installment</option>
+                                    <option value="3 installment">3 installment</option>
+                                    </select>
                                     </p>
                                 </div>
 
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Loan interest
+                                        Carrier Name
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        7% fixed
+                                    <p className='mt-1'>
+                                    <input
+                                        type="text"
+                                        placeholder="Carrier name"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
                                     </p>
                                 </div>
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Collateral
+                                        Carrier Contact
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        Office machine 4
+                                    <p className='mt-1'>
+                                    <input
+                                        type="text"
+                                        placeholder="Carrier contact"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
                                     </p>
                                 </div>
 
@@ -373,8 +401,12 @@ function IFactoring() {
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        Enterprise Ltd
+                                    <p className='mt-1'>
+                                    <select className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm">
+                                    <option value="">Select insurance provider</option>
+                                    <option value="enterprise">Enterprise</option>
+                                    <option value="glico">Glico</option>
+                                    </select>
                                     </p>
                                 </div>
 
@@ -385,8 +417,12 @@ function IFactoring() {
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        $112
+                                    <p className='mt-1'>
+                                    <input
+                                        type="text"
+                                        placeholder="Insured amount"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
                                     </p>
                                 </div>
 
@@ -397,8 +433,12 @@ function IFactoring() {
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        13-06-2023 - 13-09-2023
+                                    <p className='mt-1'>
+                                    <input
+                                        type="date"
+                                        placeholder="Choose period"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
                                     </p>
                                 </div>
 
