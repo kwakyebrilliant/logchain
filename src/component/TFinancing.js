@@ -19,6 +19,8 @@ const customStyles = {
       bottom: 'auto',
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
+      height: '650px', // Set the desired height of the container
+      overflowY: 'scroll', // Enable vertical scrolling
     },
   };
 
@@ -310,81 +312,81 @@ function TFinancing() {
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Asset Number
+                                        Loan Amount
                                         <hr />
                                     </label>
 
                                     <p className="text-sm text-gray-700">
-                                        #ASGHS007
+                                        $140
                                     </p>
                                 </div>
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Shipment Value
+                                        Repayment Plan
                                         <hr />
                                     </label>
 
                                     <p className="text-sm text-gray-700">
-                                        $150
+                                        3 installment
                                     </p>
                                 </div>
 
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Shipping Method
+                                        Loan interest
                                         <hr />
                                     </label>
 
                                     <p className="text-sm text-gray-700">
-                                        ocean freight
+                                        7% fixed
                                     </p>
                                 </div>
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Estimated Time of Arrival (ETA)
+                                        Collateral
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        Office machine 4
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Insurance Provider
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        Enterprise Ltd
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Insured Amount
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        $112
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Insurance Coverage
                                         <hr />
                                     </label>
 
                                     <p className="text-sm text-gray-700">
                                         13-06-2023 - 13-09-2023
-                                    </p>
-                                </div>
-
-                                <div className='mt-2'>
-                                    <label className="text-sm font-medium text-gray-600">
-                                        Tracking Number
-                                        <hr />
-                                    </label>
-
-                                    <p className="text-sm text-gray-700">
-                                        #85GJ0001
-                                    </p>
-                                </div>
-
-
-                                <div className='mt-2'>
-                                    <label className="text-sm font-medium text-gray-600">
-                                        Name of Carrier
-                                        <hr />
-                                    </label>
-
-                                    <p className="text-sm text-gray-700">
-                                        John Doe
-                                    </p>
-                                </div>
-
-
-                                <div className='mt-2'>
-                                    <label className="text-sm font-medium text-gray-600">
-                                        Contact of Carrier
-                                        <hr />
-                                    </label>
-
-                                    <p className="text-sm text-gray-700">
-                                        +233 57 009 1076
                                     </p>
                                 </div>
 
