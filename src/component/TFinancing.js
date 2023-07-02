@@ -25,7 +25,7 @@ const customStyles = {
 function TFinancing() {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
-    const [itemOne, setItemOne] = useState(false);
+    // const [itemOne, setItemOne] = useState(false);
 
     const closeModal = () => {
         // Close the modal and perform any additional actions
