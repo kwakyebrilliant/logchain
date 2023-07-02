@@ -214,12 +214,35 @@ function TFinancing() {
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        First Name
+                                        Shipment Value
                                         <hr />
                                     </label>
 
                                     <p className="text-sm text-gray-700">
                                         $150
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Shipping Method
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        ocean freight
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Estimated Time of Arrival (ETA)
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        13-06-2023 - 13-09-2023
                                     </p>
                                 </div>
 
