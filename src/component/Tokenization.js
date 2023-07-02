@@ -35,6 +35,14 @@ function Tokenization() {
 
   const tabNames = ['Today', 'This Week', 'This Month', 'This Year'];
 
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+    const [itemOne, setItemOne] = useState(false);
+
+    const closeModal = () => {
+        // Close the modal and perform any additional actions
+        setModalIsOpen(false);
+      };
+
   return (
     <div>
       <Navigation />
@@ -163,12 +171,353 @@ function Tokenization() {
             </div>
             </div>
 
+            <ReactModal
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                contentLabel="Transaction Success Modal"
+                style={customStyles}
+            >
+                <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
+                <section>
+                <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
+                    <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
+                    <div className="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
+                        <div className="max-w-md mx-auto text-center lg:text-left">
+                        <header>
+                            <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">Asset Brook</h2>
 
+                            <p className="mt-4 text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                            voluptatem alias ut provident sapiente repellendus.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                            voluptatem alias ut provident sapiente repellendus.
+                            </p>
+                        </header>
+
+                        {itemOne ? (
+                            <a
+                            onClick={() => setItemOne(!itemOne)}
+                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Cancel Offer
+                        </a>
+                        ) : (
+                        <a
+                            onClick={() => setItemOne(!itemOne)}
+                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Make Offer
+                        </a>
+                        )}
+
+                        <div className='pt-4'>
+                        {itemOne && <div className="item1">
+                        <h3 className='font-bold text-lg text-emerald-600'>Your Offer</h3>
+                        <div>
+             
+
+                        <label
+                        for="Amount"
+                        className="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-emerald-600 focus-within:ring-1 focus-within:ring-emerald-600"
+                        >
+                        <span className="text-xs font-medium text-gray-700"> Amount </span>
+
+                        <input
+                            type="number"
+                            id="Amount"
+                            placeholder="Enter proposed invoice amount"
+                            className="mt-1 w-full bg-transparent border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm"
+                        />
+                        </label>
+
+                        <div className='mt-2'>
+                            <label className="text-sm font-medium text-gray-600">
+                            Proposed Interest Rate
+                            </label>
+
+                            <p className='mt-1'>
+                                <input
+                                type="text"
+                                placeholder="Enter proposed interest rate"
+                                className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                />
+                            </p>
+                            <hr />
+                        </div>
+
+                        <a
+                            className="inline-block cursor-pointer px-12 py-3 mt-4 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Submit Offer
+                        </a>
+
+                        </div>
+                        </div>}
+                        </div>
+
+                        
+                        </div>
+                    </div>
+
+                    <div className="lg:col-span-2 lg:py-8">
+                        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                        <li>
+                            <a className="block group p-4 rounded-lg bg-gray-100">
+                            
+
+                            <div className="">
+                                <h3 className="font-medium text-lg text-gray-900">
+                                Basic Information
+                                </h3>
+                                <hr />
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Invoice Number
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        #ASGHS007
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Invoice Amount
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        $150
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Quantity
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        80
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Unit Price
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        $1.875
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Discount Rate
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        8%
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Invoice Due Date
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        18-08-2023
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Name of Buyer
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        John Doe
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Contact of Buyer
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        +233 574 499 701
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Buyer Address
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        GE-4133-9755, Accra, Ghana.
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Repayment Plan
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        2 installment
+                                    </p>
+                                </div>
+
+
+                                
+                            </div>
+                            </a>
+                        </li>
+
+                        <li>
+                        <a className="block group p-4 rounded-lg bg-gray-100">
+                            
+
+                            <div className="">
+                                <h3 className="font-medium text-lg text-gray-900">
+                                Other Information
+                                </h3>
+                                <hr />
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Invoice Purchase Amount
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        $122
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Lender Name
+                                        <hr />
+                                    </label>
+
+                                    <p className='mt-1'>
+                                    <input
+                                        type="text"
+                                        placeholder="Lender name"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Lender Contact
+                                        <hr />
+                                    </label>
+
+                                    <p className='mt-1'>
+                                    <input
+                                        type="text"
+                                        placeholder="Lender contact"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Insurance Provider
+                                        <hr />
+                                    </label>
+
+                                    <p className='mt-1'>
+                                    <select className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm">
+                                    <option value="">Select insurance provider</option>
+                                    <option value="enterprise">Enterprise</option>
+                                    <option value="glico">Glico</option>
+                                    </select>
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Insured Amount
+                                        <hr />
+                                    </label>
+
+                                    <p className='mt-1'>
+                                    <input
+                                        type="text"
+                                        placeholder="Insured amount"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Insurance Coverage
+                                        <hr />
+                                    </label>
+
+                                    <p className='mt-1'>
+                                    <label className="text-sm text-gray-500">
+                                        Start date
+                                    </label>
+                                    <input
+                                        type="date"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+
+                                    <p className='mt-2 mb-10'>
+                                    <label className="text-sm text-gray-500">
+                                        End date
+                                    </label>
+                                    <input
+                                        type="date"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+                                </div>
+
+
+                                
+                            </div>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                </section>
+                
+            </ReactModal>
 
             <div className="lg:px-16 px-4">
 
               <div className=" grid grid-cols-1 lg:grid-cols-4 gap-4 gap-x-8 gap-y-8">
-                <a className="rounded-lg bg-gray-100 p-8">
+                <a onClick={() => setModalIsOpen(true)} className="rounded-lg cursor-pointer bg-gray-100 p-8">
                   <div className="flex items-center gap-4">
                     <img
                       alt="Man"
@@ -323,7 +672,7 @@ function Tokenization() {
             <div
               className="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8"
             >
-              <div className="mb-8 sm:break-inside-avoid">
+              <div onClick={() => setModalIsOpen(true)} className="mb-8 cursor-pointer sm:break-inside-avoid">
                 <blockquote className="rounded-xl bg-gray-50 p-6 shadow">
                   <p class="leading-relaxed text-gray-700">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
