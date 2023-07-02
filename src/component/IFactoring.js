@@ -302,7 +302,7 @@ function IFactoring() {
                                 </div>
 
 
-                                <div className='mt-2 mb-6'>
+                                <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
                                         Contact of Buyer
                                         <hr />
@@ -312,6 +312,21 @@ function IFactoring() {
                                     <input
                                         type="text"
                                         placeholder="Contact of buyer"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Buyer Address
+                                        <hr />
+                                    </label>
+
+                                    <p className='mt-1'>
+                                    <input
+                                        type="text"
+                                        placeholder="Buyer address"
                                         className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
                                     />
                                     </p>
@@ -332,21 +347,6 @@ function IFactoring() {
                                 Other Information
                                 </h3>
                                 <hr />
-
-                                <div className='mt-2'>
-                                    <label className="text-sm font-medium text-gray-600">
-                                        Buyer Address
-                                        <hr />
-                                    </label>
-
-                                    <p className='mt-1'>
-                                    <input
-                                        type="text"
-                                        placeholder="Buyer address"
-                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
-                                    />
-                                    </p>
-                                </div>
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
@@ -427,16 +427,28 @@ function IFactoring() {
                                 </div>
 
 
-                                <div className='mt-2'>
+                                <div className='mt-2 mb-6'>
                                     <label className="text-sm font-medium text-gray-600">
                                         Insurance Coverage
                                         <hr />
                                     </label>
 
                                     <p className='mt-1'>
+                                    <label className="text-sm text-gray-500">
+                                        Start date
+                                    </label>
                                     <input
                                         type="date"
-                                        placeholder="Choose period"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+
+                                    <p className='mt-1'>
+                                    <label className="text-sm text-gray-500">
+                                        End date
+                                    </label>
+                                    <input
+                                        type="date"
                                         className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
                                     />
                                     </p>
