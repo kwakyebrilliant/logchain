@@ -203,14 +203,10 @@ function TFinancing() {
                     <div className="lg:col-span-2 lg:py-8">
                         <ul className="grid grid-cols-2 gap-4">
                         <li>
-                            <a href="#" className="block group">
-                            <img
-                                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80"
-                                alt=""
-                                className="object-cover w-full rounded aspect-square"
-                            />
+                            <a className="block group p-4 rounded-lg bg-gray-100">
+                            
 
-                            <div className="mt-3">
+                            <div className="">
                                 <h3
                                 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
                                 >
