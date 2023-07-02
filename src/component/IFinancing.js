@@ -4,8 +4,7 @@ import Navigation from './Navigation';
 import wave from '../assets/wave.svg';
 
 import {
-    FaFileAlt,
-    FaEye
+    FaFileAlt
   } from 'react-icons/fa'
 
   import ReactModal from 'react-modal';
@@ -467,8 +466,7 @@ function IFinancing() {
         </div>
 
         <div className='bg-black p-8 rounded-2xl shadow-2xl'>
-        <div>
-        <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-xl mb-4">
+        <div className="rounded-xl cursor-pointer border border-gray-100 bg-white p-4 shadow-xl mb-4">
             <div className="flex items-start gap-4">
             <span className="text-emerald-600">
                 <svg
@@ -488,20 +486,17 @@ function IFinancing() {
             </span>
 
             <div className="flex-1">
-                <strong className="block font-medium text-gray-900"> Asset Brook </strong>
+                <strong className="block font-medium text-gray-900">Accelerate Your Business Growth </strong>
 
                 <p className="mt-1 text-sm text-gray-700">
-                Asset description here
+                "Unlock the cash trapped in your invoices and fuel your business growth."
                 </p>
             </div>
 
-            <a className="text-white p-1 rounded-lg bg-emerald-600 cursor-pointer">
-                <FaEye onClick={() => setModalIsOpen(true)} className="lg:w-4 cursor-pointer lg:h-4" />
-            </a>
             </div>
         </div>
 
-        <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-xl mb-4">
+        <div className="rounded-xl cursor-pointer border border-gray-100 bg-white p-4 shadow-xl mb-4">
             <div className="flex items-start gap-4">
             <span className="text-emerald-600">
                 <svg
@@ -521,20 +516,17 @@ function IFinancing() {
             </span>
 
             <div className="flex-1">
-                <strong className="block font-medium text-gray-900"> Asset Brook </strong>
+                <strong className="block font-medium text-gray-900"> Get Paid Faster </strong>
 
                 <p className="mt-1 text-sm text-gray-700">
-                Asset description here
+                "Get paid today for the work you've already done."
                 </p>
             </div>
 
-            <a className="text-white p-1 rounded-lg bg-emerald-600 cursor-pointer">
-                <FaEye className="lg:w-4 lg:h-4" />
-            </a>
             </div>
         </div>
 
-        <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-xl mb-4">
+        <div className="rounded-xl cursor-pointer border border-gray-100 bg-white p-4 shadow-xl mb-4">
             <div className="flex items-start gap-4">
             <span className="text-emerald-600">
                 <svg
@@ -554,20 +546,17 @@ function IFinancing() {
             </span>
 
             <div className="flex-1">
-                <strong className="block font-medium text-gray-900"> Asset Brook </strong>
+                <strong className="block font-medium text-gray-900">Seize Opportunities with Confidence </strong>
 
                 <p className="mt-1 text-sm text-gray-700">
-                Asset description here
+                "Say goodbye to cash flow gaps with our invoice financing solutions."
                 </p>
             </div>
 
-            <a className="text-white p-1 rounded-lg bg-emerald-600 cursor-pointer">
-                <FaEye className="lg:w-4 lg:h-4" />
-            </a>
             </div>
         </div>
 
-        <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-xl mb-4">
+        <div className="rounded-xl cursor-pointer border border-gray-100 bg-white p-4 shadow-xl mb-4">
             <div className="flex items-start gap-4">
             <span className="text-emerald-600">
                 <svg
@@ -587,20 +576,17 @@ function IFinancing() {
             </span>
 
             <div className="flex-1">
-                <strong className="block font-medium text-gray-900"> Asset Brook </strong>
+                <strong className="block font-medium text-gray-900"> Smooth Cash Flow Management </strong>
 
                 <p className="mt-1 text-sm text-gray-700">
-                Asset description here
+                "Keep your business running smoothly with our quick and reliable invoice financing."
                 </p>
             </div>
 
-            <a className="text-white p-1 rounded-lg bg-emerald-600 cursor-pointer">
-                <FaEye className="lg:w-4 lg:h-4" />
-            </a>
             </div>
         </div>
 
-        <div className="rounded-xl border border-gray-100 bg-white p-4 shadow-xl mb-4">
+        <div className="rounded-xl cursor-pointer border border-gray-100 bg-white p-4 shadow-xl mb-4">
             <div className="flex items-start gap-4">
             <span className="text-emerald-600">
                 <svg
@@ -620,20 +606,18 @@ function IFinancing() {
             </span>
 
             <div className="flex-1">
-                <strong className="block font-medium text-gray-900"> Asset Brook </strong>
+                <strong className="block font-medium text-gray-900"> Unlock Your Cash Flow </strong>
 
                 <p className="mt-1 text-sm text-gray-700">
-                Asset description here
+                "Invoice financing made easy - access cash without the wait."
                 </p>
             </div>
 
-            <a className="text-white p-1 rounded-lg bg-emerald-600 cursor-pointer">
-                <FaEye className="lg:w-4 lg:h-4" />
-            </a>
             </div>
         </div>
+                            
+        
 
-        </div>
         </div>
 
   
