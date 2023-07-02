@@ -36,7 +36,6 @@ function Tokenization() {
   const tabNames = ['Today', 'This Week', 'This Month', 'This Year'];
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
-    const [itemOne, setItemOne] = useState(false);
 
     const closeModal = () => {
         // Close the modal and perform any additional actions
@@ -194,66 +193,12 @@ function Tokenization() {
                             </p>
                         </header>
 
-                        {itemOne ? (
-                            <a
-                            onClick={() => setItemOne(!itemOne)}
-                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
-                        >
-                            Cancel Offer
-                        </a>
-                        ) : (
-                        <a
-                            onClick={() => setItemOne(!itemOne)}
-                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
-                        >
-                            Make Offer
-                        </a>
-                        )}
-
-                        <div className='pt-4'>
-                        {itemOne && <div className="item1">
-                        <h3 className='font-bold text-lg text-emerald-600'>Your Offer</h3>
-                        <div>
-             
-
-                        <label
-                        for="Amount"
-                        className="block overflow-hidden rounded-md border border-gray-200 px-3 py-2 shadow-sm focus-within:border-emerald-600 focus-within:ring-1 focus-within:ring-emerald-600"
-                        >
-                        <span className="text-xs font-medium text-gray-700"> Amount </span>
-
-                        <input
-                            type="number"
-                            id="Amount"
-                            placeholder="Enter proposed invoice amount"
-                            className="mt-1 w-full bg-transparent border-none p-0 focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm"
-                        />
-                        </label>
-
-                        <div className='mt-2'>
-                            <label className="text-sm font-medium text-gray-600">
-                            Proposed Interest Rate
-                            </label>
-
-                            <p className='mt-1'>
-                                <input
-                                type="text"
-                                placeholder="Enter proposed interest rate"
-                                className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
-                                />
-                            </p>
-                            <hr />
-                        </div>
-
                         <a
                             className="inline-block cursor-pointer px-12 py-3 mt-4 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
                         >
                             Submit Offer
                         </a>
 
-                        </div>
-                        </div>}
-                        </div>
 
                         
                         </div>
