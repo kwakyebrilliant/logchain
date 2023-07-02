@@ -27,6 +27,15 @@ const customStyles = {
   };
 
 function IFinancing() {
+
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+    const [itemOne, setItemOne] = useState(false);
+
+    const closeModal = () => {
+        // Close the modal and perform any additional actions
+        setModalIsOpen(false);
+      };
+      
   return (
     <div>
          <Navigation />
