@@ -27,7 +27,7 @@ const customStyles = {
 function IFactoring() {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
-    // const [itemOne, setItemOne] = useState(false);
+    const [itemOne, setItemOne] = useState(false);
 
     const closeModal = () => {
         // Close the modal and perform any additional actions
@@ -156,7 +156,7 @@ function IFactoring() {
                             </p>
                         </header>
 
-                        {/* {itemOne ? (
+                        {itemOne ? (
                             <a
                             onClick={() => setItemOne(!itemOne)}
                             className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
@@ -170,9 +170,9 @@ function IFactoring() {
                         >
                             Make Offer
                         </a>
-                        )} */}
+                        )}
 
-                        {/* <div className='pt-4'>
+                        <div className='pt-4'>
                         {itemOne && <div className="item1">
                         <h3 className='font-bold text-lg text-emerald-600'>Your Offer</h3>
                         <div>
@@ -192,15 +192,17 @@ function IFactoring() {
                         />
                         </label>
 
+                        <a
+                            className="inline-block cursor-pointer px-12 py-3 mt-4 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Submit Offer
+                        </a>
+
                         </div>
                         </div>}
-                        </div> */}
+                        </div>
 
-                        <a
-                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
-                        >
-                            Make Offer
-                        </a>
+                        
                         </div>
                     </div>
 
@@ -436,7 +438,7 @@ function IFactoring() {
             </p>
             </a>
 
-            <a className="rounded-lg bg-white shadow-md p-8">
+            <a onClick={() => setModalIsOpen(true)} className="rounded-lg cursor-pointer bg-white shadow-md p-8">
             <div className="flex items-center gap-4">
             <img
                 alt="Man"
