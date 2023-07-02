@@ -177,6 +177,21 @@ function IFinancing() {
                         />
                         </label>
 
+                        <div className='mt-2'>
+                            <label className="text-sm font-medium text-gray-600">
+                            Proposed Interest Rate
+                            </label>
+
+                            <p className='mt-1'>
+                                <input
+                                type="text"
+                                placeholder="Enter proposed interest rate"
+                                className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                />
+                            </p>
+                            <hr />
+                        </div>
+
                         <a
                             className="inline-block cursor-pointer px-12 py-3 mt-4 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
                         >
@@ -334,31 +349,26 @@ function IFinancing() {
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Repayment Plan
+                                        Invoice Purchase Amount
                                         <hr />
                                     </label>
 
-                                    <p className='mt-1'>
-                                    <select className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm">
-                                    <option value="">Select payment plan</option>
-                                    <option value="upfront">Upfront</option>
-                                    <option value="2 installment">2 installment</option>
-                                    <option value="3 installment">3 installment</option>
-                                    </select>
+                                    <p className="text-sm text-gray-700">
+                                        $122
                                     </p>
                                 </div>
 
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Carrier Name
+                                        Lender Name
                                         <hr />
                                     </label>
 
                                     <p className='mt-1'>
                                     <input
                                         type="text"
-                                        placeholder="Carrier name"
+                                        placeholder="Lender name"
                                         className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
                                     />
                                     </p>
@@ -366,14 +376,14 @@ function IFinancing() {
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Carrier Contact
+                                        Lender Contact
                                         <hr />
                                     </label>
 
                                     <p className='mt-1'>
                                     <input
                                         type="text"
-                                        placeholder="Carrier contact"
+                                        placeholder="Lender contact"
                                         className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
                                     />
                                     </p>
@@ -411,7 +421,7 @@ function IFinancing() {
                                 </div>
 
 
-                                <div className='mt-2 mb-6'>
+                                <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
                                         Insurance Coverage
                                         <hr />
@@ -427,7 +437,7 @@ function IFinancing() {
                                     />
                                     </p>
 
-                                    <p className='mt-1'>
+                                    <p className='mt-2 mb-10'>
                                     <label className="text-sm text-gray-500">
                                         End date
                                     </label>
