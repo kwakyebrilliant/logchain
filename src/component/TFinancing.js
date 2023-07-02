@@ -294,6 +294,17 @@ function TFinancing() {
                                     </p>
                                 </div>
 
+                                <div className='mt-2 mb-6'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Loan Amount
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        $140
+                                    </p>
+                                </div>
+
 
                                 
                             </div>
@@ -309,17 +320,6 @@ function TFinancing() {
                                 Other Information
                                 </h3>
                                 <hr />
-
-                                <div className='mt-2'>
-                                    <label className="text-sm font-medium text-gray-600">
-                                        Loan Amount
-                                        <hr />
-                                    </label>
-
-                                    <p className="text-sm text-gray-700">
-                                        $140
-                                    </p>
-                                </div>
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
@@ -361,8 +361,12 @@ function TFinancing() {
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        Enterprise Ltd
+                                    <p className='mt-1'>
+                                    <select className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm">
+                                    <option value="">Select insurance provider</option>
+                                    <option value="enterprise">Enterprise</option>
+                                    <option value="glico">Glico</option>
+                                    </select>
                                     </p>
                                 </div>
 
@@ -373,8 +377,12 @@ function TFinancing() {
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        $112
+                                    <p className='mt-1'>
+                                    <input
+                                        type="text"
+                                        placeholder="Insured amount"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
                                     </p>
                                 </div>
 
@@ -385,8 +393,24 @@ function TFinancing() {
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        13-06-2023 - 13-09-2023
+                                    <p className='mt-1'>
+                                    <label className="text-sm text-gray-500">
+                                        Start date
+                                    </label>
+                                    <input
+                                        type="date"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+
+                                    <p className='mt-1'>
+                                    <label className="text-sm text-gray-500">
+                                        End date
+                                    </label>
+                                    <input
+                                        type="date"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
                                     </p>
                                 </div>
 
