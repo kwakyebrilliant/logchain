@@ -220,7 +220,7 @@ function IFactoring() {
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Asset Number
+                                        Invoice Number
                                         <hr />
                                     </label>
 
@@ -231,7 +231,7 @@ function IFactoring() {
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Shipment Value
+                                        Invoice Amount
                                         <hr />
                                     </label>
 
@@ -243,58 +243,66 @@ function IFactoring() {
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Shipping Method
+                                        Quantity
                                         <hr />
                                     </label>
 
                                     <p className="text-sm text-gray-700">
-                                        ocean freight
+                                        80
                                     </p>
                                 </div>
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Estimated Time of Arrival (ETA)
+                                        Unit Price
                                         <hr />
                                     </label>
 
                                     <p className="text-sm text-gray-700">
-                                        13-06-2023 - 13-09-2023
+                                        $1.875
                                     </p>
                                 </div>
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Tracking Number
+                                        Discount Rate
                                         <hr />
                                     </label>
 
                                     <p className="text-sm text-gray-700">
-                                        #85GJ0001
-                                    </p>
-                                </div>
-
-
-                                <div className='mt-2'>
-                                    <label className="text-sm font-medium text-gray-600">
-                                        Name of Carrier
-                                        <hr />
-                                    </label>
-
-                                    <p className="text-sm text-gray-700">
-                                        John Doe
+                                        8%
                                     </p>
                                 </div>
 
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Contact of Carrier
+                                        Name of Buyer
                                         <hr />
                                     </label>
 
-                                    <p className="text-sm text-gray-700">
-                                        +233 57 009 1076
+                                    <p className='mt-2'>
+                                    <input
+                                        type="text"
+                                        placeholder="Name of buyer"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+                                </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Contact of Buyer
+                                        <hr />
+                                    </label>
+
+                                    <p className='mt-2'>
+                                    <input
+                                        type="text"
+                                        placeholder="Contact of buyer"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
                                     </p>
                                 </div>
 
