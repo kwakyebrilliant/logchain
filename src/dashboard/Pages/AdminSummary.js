@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import PartialNavbar from '../Partial/PartialNavbar'
-import Sidebar from '../Partial/Sidebar'
+import PartialNavbar from '../Partials/PartialNavbar'
+import Sidebar from '../Partials/Sidebar'
 
 import { FaPlusCircle,
   FaProductHunt, 

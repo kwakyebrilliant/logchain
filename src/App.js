@@ -7,7 +7,7 @@ import TFinancing from './component/TFinancing';
 import Tokenization from './component/Tokenization';
 import Login from './component/Login';
 import Summary from './dashboard/Pages/Summary';
-import AdminSummary from './admin/Pages/AdminSummary';
+import AdminSummary from './dashboard/Pages/AdminSummary';
 import Manager from './admin/Pages/Manager';
 import Manufacturer from './admin/Pages/Manufacturer';
 import Tester from './admin/Pages/Tester';
