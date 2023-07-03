@@ -10,7 +10,8 @@ const Sidebar = () => {
     const location = useLocation()
 
     const Menus = [
-        { title: 'Summary', path: '/summary', src: <AiFillPieChart /> }
+        { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
+        { title: 'Summary', path: '/adminsummary', src: <AiFillPieChart /> },
     ]
 
     return (
