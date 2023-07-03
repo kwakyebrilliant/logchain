@@ -6,9 +6,9 @@ import Sidebar from '../Partials/Sidebar'
 import { FaPlusCircle,
   FaProductHunt, 
   FaArrowCircleLeft,
-  FaCartArrowDown,
   FaExclamation,
-  FaPeopleCarry 
+  FaPeopleCarry,
+  FaFileAlt 
 } from "react-icons/fa";
 
 
@@ -28,7 +28,7 @@ function AdminSummary() {
                 <div className="sm:justify-between sm:items-center sm:flex">
                 <div className="text-center sm:text-left">
                     <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl">
-                    Welcome Back, Brilliant!
+                    Welcome Back, Admin!
                     </h1>
 
                     <p className="mt-1.5 text-sm text-gray-900">
@@ -64,11 +64,11 @@ function AdminSummary() {
                 </span>
 
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Customers
+                  All Users
                 </h3>
 
                 <p className="mt-2 hidden text-sm sm:block">
-                  TOTAL NUMBER OF CUSTOMERS
+                  TOTAL NUMBER OF USERS
                 </p>
               </div>
 
@@ -84,15 +84,15 @@ function AdminSummary() {
               <div className="pt-4 text-gray-500">
 
               <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
-              <FaCartArrowDown className=' text-white lg:w-5 lg:h-5' />
+              <FaFileAlt className=' text-white lg:w-5 lg:h-5' />
                 </span>
 
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Orders
+                  All Invoices
                 </h3>
 
                 <p className="mt-2 hidden text-sm sm:block">
-                  TOTAL NUMBER OF ORDERS
+                  TOTAL NUMBER OF INVOICES
                 </p>
               </div>
 
@@ -329,15 +329,11 @@ function AdminSummary() {
                 <form className='flex'>
                   <select
                       className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
-                      <option value="">Select Role</option>
-                      <option value="manager">Manager</option>
-                      <option value="manufacturer">Manufacturer</option>
-                      <option value="tester">Tester</option>
-                      <option value="Transporter">Transporter</option>
-                      <option value="wholesaler">Wholesaler/ Retailer</option>
-                      <option value="pharmacy1">Pharmacy 1</option>
-                      <option value="pharmacy2">Pharmacy 2</option>
-                      <option value="dispatcher">Dispatcher</option>
+                        <option value="">User type</option>
+                        <option value="administrator">Administrator</option>
+                        <option value="supplier">Supplier</option>
+                        <option value="manufacturer">Manufacturer / Buyer</option>
+                        <option value="insurance">Insurance Provider</option>
                   </select>
                 </form>
       
