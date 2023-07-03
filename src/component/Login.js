@@ -18,7 +18,8 @@ function Login() {
                 </h1>
 
                 <p className="mx-auto mt-4 max-w-md text-center text-gray-500">
-                    Using blockchain technology, we are Solving the supply chain problems in the pharmaceutical industry.
+                    This comprehensive platform empowers suppliers, manufacturers, and 
+                    buyers to streamline their financial transactions and mitigate supply chain risks.
                 </p>
 
                 <form
@@ -32,15 +33,10 @@ function Login() {
                     value={selectedOption}
                     onChange={handleOptionChange}>
                     <option value="">User type</option>
-                    <option value="customer">Customer</option>
                     <option value="administrator">Administrator</option>
-                    <option value="manager">Manager</option>
-                    <option value="manufacturer">Manufacturer</option>
-                    <option value="tester">Tester</option>
-                    <option value="Transporter">Transporter</option>
-                    <option value="wholesaler">Wholesaler/ Retailer</option>
-                    <option value="pharmacy">Pharmacy</option>
-                    <option value="dispatcher">Dispatcher</option>
+                    <option value="supplier">Supplier</option>
+                    <option value="manufacturer">Manufacturer / Buyer</option>
+                    <option value="insurance">Insurance Provider</option>
                 </select>
       
                 {
