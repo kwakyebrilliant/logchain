@@ -3,12 +3,11 @@ import React from 'react'
 import PartialNavbar from '../Partials/PartialNavbar'
 import Sidebar from '../Partials/Sidebar'
 
-import { FaPlusCircle,
-  FaProductHunt, 
-  FaArrowCircleLeft,
-  FaExclamation,
-  FaPeopleCarry,
-  FaFileAlt 
+import { 
+    FaPlusCircle,
+    FaExclamation,
+    FaPeopleCarry,
+    FaFileAlt 
 } from "react-icons/fa";
 
 
@@ -112,11 +111,11 @@ function AdminSummary() {
                 </span>
 
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                All Pending Orders
+                All Tokenized Assets
                 </h3>
 
                 <p className="mt-2 hidden text-sm sm:block">
-                  TOTAL NUMBER OF PENDING ORDERS
+                  TOTAL NUMBER OF TOKENIZED ASSETS
                 </p>
               </div>
 
@@ -126,77 +125,6 @@ function AdminSummary() {
                 0
               </span>
             </a>
-
-            <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-md sm:p-6 lg:p-8">
-                <div className="pt-4 text-gray-500">
-
-                <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
-              <FaArrowCircleLeft className=' text-white lg:w-5 lg:h-5' />
-                </span>
-
-                  <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Returned Orders
-                  </h3>
-
-                  <p className="mt-2 hidden text-sm sm:block">
-                  TOTAL NUMBER OF RETURNED ORDERS
-                  </p>
-                </div>
-
-                <span
-                  className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
-                >
-                  0
-                </span>
-              </a>
-
-
-              <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-md sm:p-6 lg:p-8">
-                <div className="pt-4 text-gray-500">
-
-                <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
-                <FaProductHunt className=' text-white lg:w-5 lg:h-5' />
-                </span>
-
-                  <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Products
-                  </h3>
-
-                  <p className="mt-2 hidden text-sm sm:block">
-                  TOTAL NUMBER OF PRODUCTS AVAILABLE
-                  </p>
-                </div>
-
-                <span
-                  className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
-                >
-                  0
-                </span>
-              </a>
-
-              
-              <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-md sm:p-6 lg:p-8">
-                <div className="pt-4 text-gray-500">
-
-                <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
-                <FaProductHunt className=' text-white lg:w-5 lg:h-5' />
-                </span>
-
-                  <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Products
-                  </h3>
-
-                  <p className="mt-2 hidden text-sm sm:block">
-                  TOTAL NUMBER OF PRODUCTS AVAILABLE
-                  </p>
-                </div>
-
-                <span
-                  className="rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600"
-                >
-                  0
-                </span>
-              </a>
 
              
             </div>
