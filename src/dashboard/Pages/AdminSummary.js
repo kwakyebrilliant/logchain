@@ -193,7 +193,7 @@ function AdminSummary() {
 
               <div className='flex px-8 py-2'>
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Orders
+                  All Invoices
                 </h3>
 
                 <form>
@@ -330,15 +330,15 @@ function AdminSummary() {
 
               <div className='flex px-8 py-2'>
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Products
+                  All Tokenized Assets
                 </h3>
 
                 <form>
                   <select
                       className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
                       <option value="all">All</option>
-                      <option value="pending">Pending</option>
-                      <option value="returned">Returned</option>
+                      <option value="reselling">Reselling</option>
+                      <option value="delisted">Delisted</option>
                   </select>
                 </form>
               </div>
