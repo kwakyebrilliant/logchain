@@ -7,7 +7,7 @@ import {
     FaPlusCircle,
     FaExclamation,
     FaPeopleCarry,
-    FaFileAlt 
+    FaFileAlt, 
 } from "react-icons/fa";
 
 
@@ -31,7 +31,7 @@ function AdminSummary() {
                     </h1>
 
                     <p className="mt-1.5 text-sm text-gray-900">
-                    Check your statistics on LOGCHAIN 🎉
+                    Check your statistics on XRChain 🎉
                     </p>
                 </div>
 
@@ -129,9 +129,67 @@ function AdminSummary() {
              
             </div>
 
+            
 
 
             <div className='m-5 mt-12 border grid grid-cols-1 rounded-md shadow-md'>
+
+              <div className='flex px-8 py-2'>
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                  Assign Roles
+                </h3>
+              </div>
+
+              <div className="relative">
+              <div className="flex items-center py-4">
+              <div className="w-full border-b border-gray-300"></div>
+              </div>
+              </div>
+
+
+              <div className='flex px-8 py-2'>
+
+                    <div className="relative">
+                    <input
+                        type="text"
+                        className="w-full rounded-lg bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                        placeholder="0xF...y6b"
+                    />
+                    </div>
+              
+
+                <form className='flex'>
+                  <select
+                      className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
+                        <option value="">User type</option>
+                        <option value="administrator">Administrator</option>
+                        <option value="supplier">Supplier</option>
+                        <option value="manufacturer">Manufacturer / Buyer</option>
+                        <option value="insurance">Insurance Provider</option>
+                  </select>
+                </form>
+      
+              <div>
+              <a
+                    className=" w-full justify-center flex rounded-lg bg-emerald-600 p-4 pe-12 text-sm font-medium hover:bg-transparent border border-emerald-600 hover:text-emerald-600 text-white"
+                    type="submit"
+                    href='#'
+                    >
+                    <span className="text-sm font-medium">
+                    Assign Role
+                    </span>
+                    </a>
+              </div>
+               
+
+
+              </div>
+
+
+              </div>
+
+
+              <div className='m-5 mt-12 border grid grid-cols-1 rounded-md shadow-md'>
 
               <div className='flex px-8 py-2'>
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
@@ -221,75 +279,12 @@ function AdminSummary() {
 
             </div>
 
-            
-
-
-            <div className='m-5 mt-12 border grid grid-cols-1 rounded-md shadow-md'>
-
-              <div className='flex px-8 py-2'>
-                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  Assign Roles
-                </h3>
-
-                <h3 className="mt-4 mx-8 text-md italic font-bold text-emerald-600 sm:text-md">
-                  Already assigned roles will be overided
-                </h3>
-              </div>
-
-              <div className="relative">
-              <div className="flex items-center py-4">
-              <div className="w-full border-b border-gray-300"></div>
-              </div>
-              </div>
-
-
-              <div className='flex px-8 py-2'>
-
-                    <div className="relative">
-                    <input
-                        type="text"
-                        className="w-full rounded-lg bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm"
-                        placeholder="0xF...y6b"
-                    />
-                    </div>
-              
-
-                <form className='flex'>
-                  <select
-                      className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
-                        <option value="">User type</option>
-                        <option value="administrator">Administrator</option>
-                        <option value="supplier">Supplier</option>
-                        <option value="manufacturer">Manufacturer / Buyer</option>
-                        <option value="insurance">Insurance Provider</option>
-                  </select>
-                </form>
-      
-              <div>
-              <a
-                    className=" w-full justify-center flex rounded-lg bg-emerald-600 p-4 pe-12 text-sm font-medium hover:bg-transparent border border-emerald-600 hover:text-emerald-600 text-white"
-                    type="submit"
-                    href='#'
-                    >
-                    <span className="text-sm font-medium">
-                    Assign Role
-                    </span>
-                    </a>
-              </div>
-               
-
-
-              </div>
-
-
-              </div>
-
 
               <div className='m-5 mt-12 border grid grid-cols-1 rounded-md shadow-md'>
 
               <div className='flex px-8 py-2'>
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Customers
+                  All Users
                 </h3>
               </div>
 
@@ -307,6 +302,9 @@ function AdminSummary() {
                 <th className="whitespace-nowrap text-left px-4 text-sm text-gray-400">
                 ADDRESS
                 </th>
+                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
+                USER TYPE
+                </th>
               </tr>
               </thead>
 
@@ -315,6 +313,7 @@ function AdminSummary() {
                 <td className="whitespace-nowrap px-4 py-2 text-lg font-medium text-gray-900">
                 #1
                 </td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Supplier</td>
               </tr>
 
 
