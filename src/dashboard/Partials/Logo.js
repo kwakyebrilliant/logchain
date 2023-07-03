@@ -7,7 +7,7 @@ const Logo = () => {
                 <div className='flex items-center'>
                     <FaLinode className=' text-emerald-600 lg:w-[35px] lg:h-[35px]' />
                     <span className='text-xl font-medium whitespace-nowrap'>
-                        LOGCHAIN.
+                    XRChain.
                     </span>
                 </div>
 
