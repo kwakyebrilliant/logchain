@@ -8,6 +8,7 @@ import Tokenization from './component/Tokenization';
 import Login from './component/Login';
 import Summary from './dashboard/Pages/Summary';
 import AdminSummary from './dashboard/Pages/AdminSummary';
+import Tokenizationsingle from './dashboard/Single/Tokenizationsingle';
 import Manager from './admin/Pages/Manager';
 import Manufacturer from './admin/Pages/Manufacturer';
 import Tester from './admin/Pages/Tester';
@@ -27,6 +28,7 @@ function App() {
       <Route path="/login" exact element={<Login />} />
       <Route path="/summary" exact element={<Summary />} />
       <Route path="/adminsummary" exact element={<AdminSummary />} />
+      <Route path="/tokenizationsingle" exact element={<Tokenizationsingle />} />
       <Route path="/manager" exact element={<Manager />} />
       <Route path="/manufacturer" exact element={<Manufacturer />} />
       <Route path="/tester" exact element={<Tester />} />
