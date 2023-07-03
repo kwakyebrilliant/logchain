@@ -36,6 +36,7 @@ function Tokenization() {
   const tabNames = ['Today', 'This Week', 'This Month', 'This Year'];
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [itemOne, setItemOne] = useState(false);
 
     const closeModal = () => {
         // Close the modal and perform any additional actions
@@ -193,12 +194,84 @@ function Tokenization() {
                             </p>
                         </header>
 
+                        {itemOne ? (
+                            <a
+                            onClick={() => setItemOne(!itemOne)}
+                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Cancel Offer
+                        </a>
+                        ) : (
+                        <a
+                            onClick={() => setItemOne(!itemOne)}
+                            className="inline-block cursor-pointer px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Make Offer
+                        </a>
+                        )}
+
+                        <div className='pt-4'>
+                        {itemOne && <div className="item1">
+                        <h3 className='font-bold text-lg text-emerald-600'>Your Details</h3>
+                        <div>
+             
+
+                        <div className='mt-2'>
+                            <label className="text-sm font-medium text-gray-600">
+                            Your Name
+                            </label>
+
+                            <p className='mt-1'>
+                                <input
+                                type="text"
+                                placeholder="Enter your name"
+                                className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                />
+                            </p>
+                            <hr />
+                        </div>
+
+                        <div className='mt-2'>
+                            <label className="text-sm font-medium text-gray-600">
+                            Your Contact
+                            </label>
+
+                            <p className='mt-1'>
+                                <input
+                                type="text"
+                                placeholder="Enter your contact"
+                                className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                />
+                            </p>
+                            <hr />
+                        </div>
+
+                        <div className='mt-2'>
+                            <label className="text-sm font-medium text-gray-600">
+                            Your Address
+                            </label>
+
+                            <p className='mt-1'>
+                                <input
+                                type="text"
+                                placeholder="Enter your address"
+                                className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                />
+                            </p>
+                            <hr />
+                        </div>
+
+                        
+
                         <a
                             className="inline-block cursor-pointer px-12 py-3 mt-4 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
                         >
                             Submit Offer
                         </a>
 
+                        </div>
+                        </div>}
+                        </div>
 
                         
                         </div>
