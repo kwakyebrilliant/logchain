@@ -274,6 +274,17 @@ function Tokenization() {
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
+                                        Invoice Date
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        01-08-2023
+                                    </p>
+                                </div>
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
                                         Invoice Due Date
                                         <hr />
                                     </label>
@@ -318,17 +329,6 @@ function Tokenization() {
                                     </p>
                                 </div>
 
-                                <div className='mt-2'>
-                                    <label className="text-sm font-medium text-gray-600">
-                                        Repayment Plan
-                                        <hr />
-                                    </label>
-
-                                    <p className="text-sm text-gray-700">
-                                        2 installment
-                                    </p>
-                                </div>
-
 
                                 
                             </div>
@@ -347,45 +347,50 @@ function Tokenization() {
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Invoice Purchase Amount
+                                        Name of Buyer
                                         <hr />
                                     </label>
 
                                     <p className="text-sm text-gray-700">
-                                        $122
+                                        John Doe
                                     </p>
                                 </div>
 
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Lender Name
+                                        Contact of Buyer
                                         <hr />
                                     </label>
 
-                                    <p className='mt-1'>
-                                    <input
-                                        type="text"
-                                        placeholder="Lender name"
-                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
-                                    />
+                                    <p className="text-sm text-gray-700">
+                                        +233 574 499 701
                                     </p>
                                 </div>
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
-                                        Lender Contact
+                                        Buyer Address
                                         <hr />
                                     </label>
 
-                                    <p className='mt-1'>
-                                    <input
-                                        type="text"
-                                        placeholder="Lender contact"
-                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
-                                    />
+                                    <p className="text-sm text-gray-700">
+                                        GE-4133-9755, Accra, Ghana.
                                     </p>
                                 </div>
+
+
+                                <div className='mt-2'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Repayment Plan
+                                        <hr />
+                                    </label>
+
+                                    <p className="text-sm text-gray-700">
+                                        2 installment
+                                    </p>
+                                </div>
+
 
                                 <div className='mt-2'>
                                     <label className="text-sm font-medium text-gray-600">
