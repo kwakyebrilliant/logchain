@@ -426,22 +426,22 @@ function AdminSummary() {
                 <thead className="ltr:text-left bg-emerald-50 rtl:text-right">
                 <tr>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                NAME
+                INVOICE NUMBER
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                PRICE
+                INVOICE AMOUNT
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                IMAGE
+                PROVIDER
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                CATEGORY
+                INSURED AMOUNT
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                MANUFACTURER DATE
+                START DATE
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                EXPIRY DATE
+                END DATE
                 </th>
                 </tr>
                 </thead>
