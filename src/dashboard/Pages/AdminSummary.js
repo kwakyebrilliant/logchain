@@ -378,9 +378,9 @@ function AdminSummary() {
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">
-                <a
-                className="group cursor-pointer relative inline-block overflow-hidden border border-emerald-600 px-4 py-0.5 focus:outline-none focus:ring"
-                >
+                <a 
+                href='/tokenizationsingle'
+                className="group cursor-pointer relative inline-block overflow-hidden border border-emerald-600 px-4 py-0.5 focus:outline-none focus:ring">
                 <span
                     className="absolute inset-y-0 left-0 w-[2px] bg-emerald-600 transition-all group-hover:w-full group-active:bg-emerald-500"
                 ></span>
