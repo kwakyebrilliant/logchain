@@ -31,7 +31,6 @@ const PartialNavbar = () => {
             {!nav ? <MenuIcon className='w-5 text-black' /> : <XIcon className='w-5 text-black' />}
 
             <ul className={!nav ? 'hidden' : 'absolute bg-zinc-900 w-fit px-8 h-screen'}>
-                <li className='border-zinc-900 w-fit text-white'><Link to="/adminsummary" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Summary</Link></li>
                 <li className='border-zinc-900 w-fit text-white'><Link to="/manager" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Manager</Link></li>
                 <li className='border-zinc-900 w-fit text-white'><Link to="/manufacturer" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Manaufacturer</Link></li>
                 <li className='border-zinc-900 w-fit text-white'><Link to="/tester" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Tester</Link></li>
