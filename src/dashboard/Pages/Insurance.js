@@ -119,18 +119,18 @@ function Insurance() {
                 </div>
 
                 <div className='m-5 my-12 border grid grid-cols-1 rounded-md shadow-md'>
-    
+
                 <div className='flex px-8 py-2'>
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                    All Orders
+                    All Invoice Factoring
                 </h3>
 
                 <form>
                     <select
                         className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
                         <option value="all">All</option>
-                        <option value="pending">Pending</option>
-                        <option value="returned">Returned</option>
+                        <option value="progress">In-progress</option>
+                        <option value="closed">Closed</option>
                     </select>
                 </form>
                 </div>
@@ -147,34 +147,22 @@ function Insurance() {
                 <thead className="ltr:text-left bg-emerald-50 rtl:text-right">
                 <tr>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                NAME
+                INVOICE NUMBER
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                IMAGE
+                INVOICE AMOUNT
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                ORDER DATE
+                PROVIDER
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                QUANTITY
+                INSURED AMOUNT
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                PRICE
+                START DATE
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                ADDRESS
-                </th>
-                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                STATE
-                </th>
-                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                CITY
-                </th>
-                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                CONTACT
-                </th>
-                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                ZIPCODE
+                END DATE
                 </th>
                 </tr>
                 </thead>
@@ -189,11 +177,8 @@ function Insurance() {
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
                 </tr>
+
 
 
                 </tbody>
@@ -205,18 +190,18 @@ function Insurance() {
 
 
                 <div className='m-5 my-12 border grid grid-cols-1 rounded-md shadow-md'>
-    
+
                 <div className='flex px-8 py-2'>
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                    All Orders
+                    All Trade Financing
                 </h3>
 
                 <form>
                     <select
                         className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
                         <option value="all">All</option>
-                        <option value="pending">Pending</option>
-                        <option value="returned">Returned</option>
+                        <option value="progress">In-progress</option>
+                        <option value="closed">Closed</option>
                     </select>
                 </form>
                 </div>
@@ -233,34 +218,22 @@ function Insurance() {
                 <thead className="ltr:text-left bg-emerald-50 rtl:text-right">
                 <tr>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                NAME
+                INVOICE NUMBER
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                IMAGE
+                INVOICE AMOUNT
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                ORDER DATE
+                PROVIDER
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                QUANTITY
+                INSURED AMOUNT
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                PRICE
+                START DATE
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                ADDRESS
-                </th>
-                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                STATE
-                </th>
-                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                CITY
-                </th>
-                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                CONTACT
-                </th>
-                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                ZIPCODE
+                END DATE
                 </th>
                 </tr>
                 </thead>
@@ -275,11 +248,8 @@ function Insurance() {
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
                 </tr>
+
 
 
                 </tbody>
@@ -291,89 +261,74 @@ function Insurance() {
     
     
                 <div className='m-5 my-12 border grid grid-cols-1 rounded-md shadow-md'>
-    
-                    <div className='flex px-8 py-2'>
-                    <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                        All Orders
-                    </h3>
-    
-                    <form>
-                        <select
-                            className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
-                            <option value="all">All</option>
-                            <option value="pending">Pending</option>
-                            <option value="returned">Returned</option>
-                        </select>
-                    </form>
-                    </div>
-    
-                    <div className="relative">
-                    <div className="flex items-center py-4">
-                    <div className="w-full border-b border-gray-300"></div>
-                    </div>
-                    </div>
-    
-    
-                    <div className="overflow-x-auto px-10">
-                    <table className="min-w-full overflow-x-auto divide-y-2 divide-gray-200 bg-white text-sm">
-                    <thead className="ltr:text-left bg-emerald-50 rtl:text-right">
-                    <tr>
-                    <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                    NAME
-                    </th>
-                    <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                    IMAGE
-                    </th>
-                    <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                    ORDER DATE
-                    </th>
-                    <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                    QUANTITY
-                    </th>
-                    <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                    PRICE
-                    </th>
-                    <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                    ADDRESS
-                    </th>
-                    <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                    STATE
-                    </th>
-                    <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                    CITY
-                    </th>
-                    <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                    CONTACT
-                    </th>
-                    <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                    ZIPCODE
-                    </th>
-                    </tr>
-                    </thead>
-    
-                    <tbody className="divide-y divide-gray-200">
-                    <tr style={{height: 70}}>
-                    <td className="whitespace-nowrap px-4 py-2 text-lg font-medium text-center text-gray-900">
-                    #1
-                    </td>
-                    <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                    <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
-                    <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                    <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
-                    <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                    <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
-                    <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                    <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
-                    <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                    </tr>
-    
-    
-                    </tbody>
-                    </table>
-                    </div>
-    
-    
-                    </div>
+
+                <div className='flex px-8 py-2'>
+                <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
+                    All Invoice Financing
+                </h3>
+
+                <form>
+                    <select
+                        className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
+                        <option value="all">All</option>
+                        <option value="progress">In-progress</option>
+                        <option value="closed">Closed</option>
+                    </select>
+                </form>
+                </div>
+
+                <div className="relative">
+                <div className="flex items-center py-4">
+                <div className="w-full border-b border-gray-300"></div>
+                </div>
+                </div>
+
+
+                <div className="overflow-x-auto px-10">
+                <table className="min-w-full overflow-x-auto divide-y-2 divide-gray-200 bg-white text-sm">
+                <thead className="ltr:text-left bg-emerald-50 rtl:text-right">
+                <tr>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                INVOICE NUMBER
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                INVOICE AMOUNT
+                </th>
+                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
+                PROVIDER
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                INSURED AMOUNT
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                START DATE
+                </th>
+                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
+                END DATE
+                </th>
+                </tr>
+                </thead>
+
+                <tbody className="divide-y divide-gray-200">
+                <tr style={{height: 70}}>
+                <td className="whitespace-nowrap px-4 py-2 text-lg font-medium text-center text-gray-900">
+                #1
+                </td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
+                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
+                </tr>
+
+
+
+                </tbody>
+                </table>
+                </div>
+
+
+                </div>
     
     
                 </div>
