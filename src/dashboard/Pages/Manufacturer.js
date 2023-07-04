@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React, {useState} from 'react'
 import PartialNavbar from '../Partials/PartialNavbar'
 import Sidebar from '../Partials/Sidebar'
 
@@ -7,7 +7,29 @@ import {
     FaExclamation
   } from "react-icons/fa";
 
+import ReactModal from 'react-modal';
+
+  const customStyles = {
+    content: {
+      top: '60%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+      height: '650px', // Set the desired height of the container
+      overflowY: 'scroll', // Enable vertical scrolling
+    },
+  };
+
 function Manufacturer() {
+
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+
+    const closeModal = () => {
+        // Close the modal and perform any additional actions
+        setModalIsOpen(false);
+      };
   return (
     <div className='text-black'>
         <>
@@ -222,7 +244,7 @@ function Manufacturer() {
                 </td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">
                 <a 
-                href='/tokenizationsingle'
+                onClick={() => setModalIsOpen(true)}
                 className="group cursor-pointer relative inline-block overflow-hidden border border-emerald-600 px-4 py-0.5 focus:outline-none focus:ring">
                 <span
                     className="absolute inset-y-0 left-0 w-[2px] bg-emerald-600 transition-all group-hover:w-full group-active:bg-emerald-500"
@@ -242,6 +264,17 @@ function Manufacturer() {
         </div>
 
                 </div>
+
+                <ReactModal
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                contentLabel="Transaction Success Modal"
+                style={customStyles}
+                >
+                <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
+                
+
+                </ReactModal>
 
 
                 <div className='m-5 my-12 border grid grid-cols-1 rounded-md shadow-md'>
