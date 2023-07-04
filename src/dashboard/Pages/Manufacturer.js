@@ -470,6 +470,7 @@ function Manufacturer() {
                             <select
                                 className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
                                 <option value="all">All</option>
+                                <option value="selling">Selling</option>
                                 <option value="reselling">Reselling</option>
                                 <option value="delisted">Delisted</option>
                             </select>
