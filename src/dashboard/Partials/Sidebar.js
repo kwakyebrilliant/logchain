@@ -13,6 +13,7 @@ const Sidebar = () => {
         { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
         { title: 'Summary', path: '/adminsummary', src: <AiFillPieChart /> },
         { title: 'Insurance', path: '/insurance', src: <AiFillPieChart /> },
+        { title: 'Manufacturer', path: '/manufacturer', src: <AiFillPieChart /> },
     ]
 
     return (
