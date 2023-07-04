@@ -10,8 +10,8 @@ import Summary from './dashboard/Pages/Summary';
 import AdminSummary from './dashboard/Pages/AdminSummary';
 import Tokenizationsingle from './dashboard/Single/Tokenizationsingle';
 import Insurance from './dashboard/Pages/Insurance';
+import Manufacturer from './dashboard/Pages/Manufacturer';
 import Manager from './admin/Pages/Manager';
-import Manufacturer from './admin/Pages/Manufacturer';
 import Transporter from './admin/Pages/Transporter';
 import Pharmacy from './admin/Pages/Pharmacy';
 import Dispatcher from './admin/Pages/Dispatcher';
@@ -30,8 +30,8 @@ function App() {
       <Route path="/adminsummary" exact element={<AdminSummary />} />
       <Route path="/tokenizationsingle" exact element={<Tokenizationsingle />} />
       <Route path="/insurance" exact element={<Insurance />} />
-      <Route path="/manager" exact element={<Manager />} />
       <Route path="/manufacturer" exact element={<Manufacturer />} />
+      <Route path="/manager" exact element={<Manager />} />
       <Route path="/transporter" exact element={<Transporter />} />
       <Route path="/pharmacy" exact element={<Pharmacy />} />
       <Route path="/dispatcher" exact element={<Dispatcher />} />
