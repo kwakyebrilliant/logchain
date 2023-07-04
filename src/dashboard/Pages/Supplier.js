@@ -299,13 +299,13 @@ function Supplier() {
                         INVOICE DUE DATE
                         </th>
                         <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                        SUPPLIER NAME
+                        BUYER NAME
                         </th>
                         <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                        SUPPLIER CONTACT
+                        BUYER CONTACT
                         </th>
                         <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                        SUPPLIER ADDRESS
+                        BUYER ADDRESS
                         </th>
                         <th className="whitespace-nowrap px-4 text-sm text-gray-400">
                         INSURANCE PROVIDER
@@ -393,13 +393,13 @@ function Supplier() {
                         INVOICE DUE DATE
                         </th>
                         <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                        SUPPLIER NAME
+                        BUYER NAME
                         </th>
                         <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                        SUPPLIER CONTACT
+                        BUYER CONTACT
                         </th>
                         <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                        SUPPLIER ADDRESS
+                        BUYER ADDRESS
                         </th>
                         <th className="whitespace-nowrap px-4 text-sm text-gray-400">
                         INSURANCE PROVIDER
