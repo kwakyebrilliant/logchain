@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {useState} from 'react'
+import React from 'react'
 import PartialNavbar from '../Partials/PartialNavbar'
 import Sidebar from '../Partials/Sidebar'
 
@@ -7,29 +7,7 @@ import {
     FaExclamation
   } from "react-icons/fa";
 
-import ReactModal from 'react-modal';
-
-  const customStyles = {
-    content: {
-      top: '60%',
-      left: '50%',
-      right: 'auto',
-      bottom: 'auto',
-      marginRight: '-50%',
-      transform: 'translate(-50%, -50%)',
-      height: '650px', // Set the desired height of the container
-      overflowY: 'scroll', // Enable vertical scrolling
-    },
-  };
-
 function Manufacturer() {
-
-    const [modalIsOpen, setModalIsOpen] = useState(false);
-
-    const closeModal = () => {
-        // Close the modal and perform any additional actions
-        setModalIsOpen(false);
-      };
   return (
     <div className='text-black'>
         <>
@@ -200,9 +178,6 @@ function Manufacturer() {
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
                 Tokenization
                 </th>
-                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                DETAILS
-                </th>
             </tr>
             </thead>
 
@@ -242,21 +217,7 @@ function Manufacturer() {
                 <p className="whitespace-nowrap text-sm">Tokenize</p>
                 </span>
                 </td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">
-                <a 
-                onClick={() => setModalIsOpen(true)}
-                className="group cursor-pointer relative inline-block overflow-hidden border border-emerald-600 px-4 py-0.5 focus:outline-none focus:ring">
-                <span
-                    className="absolute inset-y-0 left-0 w-[2px] bg-emerald-600 transition-all group-hover:w-full group-active:bg-emerald-500"
-                ></span>
-
-                <span
-                    className="relative text-sm font-medium text-emerald-600 transition-colors group-hover:text-white"
-                >
-                    View
-                </span>
-                </a>
-                </td>
+                
             </tr>
 
             </tbody>
@@ -264,75 +225,6 @@ function Manufacturer() {
         </div>
 
                 </div>
-
-                <ReactModal
-                isOpen={modalIsOpen}
-                onRequestClose={closeModal}
-                contentLabel="Transaction Success Modal"
-                style={customStyles}
-                >
-                <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
-                <section>
-                <article className="rounded-xl border mt-4 border-gray-100 shadow-lg bg-gray-100 p-4">
-                <div className="flex items-center gap-4">
-                    <img
-                    alt="Developer"
-                    src="https://images.unsplash.com/photo-1614644147724-2d4785d69962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
-                    className="h-16 w-16 rounded-full object-cover"
-                    />
-
-                    <div>
-                    <h3 className="text-lg font-medium text-emerald-600">Claire Mac</h3>
-
-                    <div className="flow-root">
-                        <ul className="-m-1 flex flex-wrap">
-                        <li className="p-1 leading-none">
-                            <a href="#" className="text-xs font-medium text-emerald-900"> Twitter </a>
-                        </li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-
-                <ul className="mt-4 space-y-2">
-                    <li>
-                    <a
-                        className="block h-full rounded-lg border border-gray-700 p-4 hover:border-emerald-600"
-                    >
-                        <strong className="font-medium text-emerald-600 bg-gray-50 p-1.5 rounded-lg shadow-sm">Basic Information</strong>
-
-                        <p className="mt-2 max-w-screen-sm text-xs font-medium text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                        consequuntur deleniti, unde ab ut in!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                        consequuntur deleniti, unde ab ut in!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                        consequuntur deleniti, unde ab ut in!
-                        </p>
-                    </a>
-                    </li>
-
-                    <li>
-                    <a
-                        className="block h-full rounded-lg border border-gray-700 p-4 hover:border-emerald-600"
-                    >
-                        <strong className="font-medium text-emerald-600 bg-gray-50 p-1.5 rounded-lg shadow-sm">Other Information</strong>
-
-                        <p className="mt-2 max-w-screen-sm text-xs font-medium text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                        consequuntur deleniti, unde ab ut in!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                        consequuntur deleniti, unde ab ut in!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                        consequuntur deleniti, unde ab ut in!
-                        </p>
-                    </a>
-                    </li>
-                </ul>
-                </article>
-                </section>
-
-                </ReactModal>
 
 
                 <div className='m-5 my-12 border grid grid-cols-1 rounded-md shadow-md'>
