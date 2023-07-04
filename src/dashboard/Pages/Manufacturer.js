@@ -126,13 +126,12 @@ function Manufacturer() {
                     Invoice Factoring
                 </h3>
 
-                <form>
-                    <select
-                        className="w-full rounded-lg mx-8 bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm">
-                        <option value="all">All</option>
-                        <option value="progress">In-progress</option>
-                        <option value="closed">Closed</option>
-                    </select>
+                <form className='mx-4'>
+                <input
+                        type="text"
+                        className="w-full rounded-lg bg-emerald-50 border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                        placeholder="Enter invoice number"
+                    />
                 </form>
                 </div>
 
