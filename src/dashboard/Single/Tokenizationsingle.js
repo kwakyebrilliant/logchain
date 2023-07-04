@@ -36,6 +36,13 @@ function Tokenizationsingle() {
                             </p>
                         </header>
 
+
+                        <a
+                            className="inline-block cursor-pointer px-12 py-3 mt-4 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
+                        >
+                            Resell
+                        </a>
+
                         
                         </div>
                     </div>
