@@ -167,13 +167,13 @@ function Manufacturer() {
                 INVOICE DUE DATE
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                BUYER NAME
+                SUPPLIER NAME
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                BUYER CONTACT
+                SUPPLIER CONTACT
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                BUYER ADDRESS
+                SUPPLIER ADDRESS
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
                 INSURANCE PROVIDER
