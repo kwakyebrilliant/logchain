@@ -11,6 +11,7 @@ import AdminSummary from './dashboard/Pages/AdminSummary';
 import Tokenizationsingle from './dashboard/Single/Tokenizationsingle';
 import Insurance from './dashboard/Pages/Insurance';
 import Manufacturer from './dashboard/Pages/Manufacturer';
+import Supplier from './dashboard/Pages/Supplier';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route path="/tokenizationsingle" exact element={<Tokenizationsingle />} />
       <Route path="/insurance" exact element={<Insurance />} />
       <Route path="/manufacturer" exact element={<Manufacturer />} />
+      <Route path="/supplier" exact element={<Supplier />} />
       </Routes>
     </Router>
   )
