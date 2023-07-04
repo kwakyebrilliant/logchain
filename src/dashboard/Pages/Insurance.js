@@ -4,7 +4,6 @@ import Sidebar from '../Partials/Sidebar';
 import PartialNavbar from '../Partials/PartialNavbar';
 
 import {
-    FaCheckCircle,
     FaExclamation
   } from "react-icons/fa";
 
@@ -95,7 +94,7 @@ function Insurance() {
                   <div className="pt-4 text-gray-500">
     
                   <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
-                  <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
+                  <FaExclamation className=' text-white lg:w-5 lg:h-5' />
                     </span>
     
                     <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
