@@ -207,22 +207,22 @@ function AdminSummary() {
             <thead className="ltr:text-left bg-emerald-50 rtl:text-right">
             <tr>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                NAME
+                INVOICE NUMBER
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                IMAGE
+                INVOICE AMOUNT
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                ORDER DATE
-                </th>
-                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
                 QUANTITY
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
                 PRICE
                 </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                INVOICE DATE
+                </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                ADDRESS
+                INVOICE DUE DATE
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
                 STATE
