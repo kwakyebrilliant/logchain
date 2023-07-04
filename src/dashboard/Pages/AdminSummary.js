@@ -219,25 +219,22 @@ function AdminSummary() {
                 PRICE
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
+                DISCOUNT RATE
+                </th>
+                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
                 INVOICE DATE
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
                 INVOICE DUE DATE
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                STATE
-                </th>
-                <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                CITY
+                BUYER NAME
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                CONTACT
+                BUYER CONTACT
                 </th>
                 <th className="whitespace-nowrap px-4 text-sm text-gray-400">
-                ZIPCODE
-                </th>
-                <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                REVIEW
+                BUYER ADDRESS
                 </th>
             </tr>
             </thead>
@@ -256,7 +253,6 @@ function AdminSummary() {
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
                 <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">24/05/1995</td>
-                <td className="whitespace-nowrap px-4 py-2 text-lg text-center text-gray-700">Web Developer</td>
             </tr>
 
 
@@ -362,7 +358,7 @@ function AdminSummary() {
                 INVOICE DUE DATE
                 </th>
                 <th className="whitespace-nowrap px-4 ext-sm text-gray-400">
-                ACTION
+                DETAILS
                 </th>
               </tr>
               </thead>
