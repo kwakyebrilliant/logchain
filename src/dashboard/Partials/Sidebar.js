@@ -12,6 +12,7 @@ const Sidebar = () => {
     const Menus = [
         { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
         { title: 'Summary', path: '/adminsummary', src: <AiFillPieChart /> },
+        { title: 'Insurance', path: '/insurance', src: <AiFillPieChart /> },
     ]
 
     return (
