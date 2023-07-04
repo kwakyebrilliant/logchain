@@ -273,65 +273,57 @@ function Manufacturer() {
                 >
                 <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
                 <section>
-                <article class="rounded-xl border mt-4 border-gray-700 bg-gray-100 p-4">
-  <div class="flex items-center gap-4">
-    <img
-      alt="Developer"
-      src="https://images.unsplash.com/photo-1614644147724-2d4785d69962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
-      class="h-16 w-16 rounded-full object-cover"
-    />
+                <article className="rounded-xl border mt-4 border-gray-100 shadow-lg bg-gray-100 p-4">
+                <div className="flex items-center gap-4">
+                    <img
+                    alt="Developer"
+                    src="https://images.unsplash.com/photo-1614644147724-2d4785d69962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
+                    className="h-16 w-16 rounded-full object-cover"
+                    />
 
-    <div>
-      <h3 class="text-lg font-medium text-white">Claire Mac</h3>
+                    <div>
+                    <h3 className="text-lg font-medium text-emerald-600">Claire Mac</h3>
 
-      <div class="flow-root">
-        <ul class="-m-1 flex flex-wrap">
-          <li class="p-1 leading-none">
-            <a href="#" class="text-xs font-medium text-gray-300"> Twitter </a>
-          </li>
+                    <div className="flow-root">
+                        <ul className="-m-1 flex flex-wrap">
+                        <li className="p-1 leading-none">
+                            <a href="#" className="text-xs font-medium text-emerald-900"> Twitter </a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
 
-          <li class="p-1 leading-none">
-            <a href="#" class="text-xs font-medium text-gray-300"> GitHub </a>
-          </li>
+                <ul className="mt-4 space-y-2">
+                    <li>
+                    <a
+                        href="#"
+                        className="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
+                    >
+                        <strong className="font-medium text-white">Project A</strong>
 
-          <li class="p-1 leading-none">
-            <a href="#" class="text-xs font-medium text-gray-300">Website</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+                        <p className="mt-1 text-xs font-medium text-gray-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                        consequuntur deleniti, unde ab ut in!
+                        </p>
+                    </a>
+                    </li>
 
-  <ul class="mt-4 space-y-2">
-    <li>
-      <a
-        href="#"
-        class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
-      >
-        <strong class="font-medium text-white">Project A</strong>
+                    <li>
+                    <a
+                        href="#"
+                        className="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
+                    >
+                        <strong className="font-medium text-white">Project B</strong>
 
-        <p class="mt-1 text-xs font-medium text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          consequuntur deleniti, unde ab ut in!
-        </p>
-      </a>
-    </li>
-
-    <li>
-      <a
-        href="#"
-        class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
-      >
-        <strong class="font-medium text-white">Project B</strong>
-
-        <p class="mt-1 text-xs font-medium text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          cumque saepe sit.
-        </p>
-      </a>
-    </li>
-  </ul>
-</article>
+                        <p className="mt-1 text-xs font-medium text-gray-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+                        cumque saepe sit.
+                        </p>
+                    </a>
+                    </li>
+                </ul>
+                </article>
                 </section>
 
                 </ReactModal>
