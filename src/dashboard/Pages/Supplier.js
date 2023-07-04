@@ -4,7 +4,8 @@ import PartialNavbar from '../Partials/PartialNavbar'
 import Sidebar from '../Partials/Sidebar'
 
 import {
-    FaExclamation
+    FaExclamation,
+    FaPlusCircle
   } from "react-icons/fa";
 
 function Supplier() {
@@ -39,8 +40,18 @@ function Supplier() {
             </header>
             </div>
 
+            <div className='flex m-5 py-4'>
+            <a
+              className="flex rounded border border-emerald-600 bg-emerald-600 px-4 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-emerald-600 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+              href="/get-started"
+            >
+              <FaPlusCircle className="-ml-1 mr-2 h-5 w-5" aria-hidden="true" />
+              Add Invoice
+            </a>
+            </div>
 
-            <div className="m-5 grid mt-12 grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+
+            <div className="m-5 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
             
               
             <a className="relative flex items-start justify-between rounded-xl border border-gray-100 p-4 shadow-md sm:p-6 lg:p-8">
