@@ -4,7 +4,6 @@ import PartialNavbar from '../Partials/PartialNavbar'
 import Sidebar from '../Partials/Sidebar'
 
 import {
-    FaCheckCircle,
     FaExclamation
   } from "react-icons/fa";
 
@@ -52,11 +51,11 @@ function Manufacturer() {
                 </span>
 
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                All Pending Orders
+                All Invoice Factoring
                 </h3>
 
                 <p className="mt-2 hidden text-sm sm:block">
-                  TOTAL NUMBER OF PENDING ORDERS
+                  TOTAL NUMBER OF INVOICE FACTORING
                 </p>
               </div>
 
@@ -75,11 +74,11 @@ function Manufacturer() {
                 </span>
 
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                All Pending Orders
+                All Trade Finance
                 </h3>
 
                 <p className="mt-2 hidden text-sm sm:block">
-                  TOTAL NUMBER OF PENDING ORDERS
+                  TOTAL NUMBER OF TRADE FINANCE
                 </p>
               </div>
 
@@ -95,15 +94,15 @@ function Manufacturer() {
               <div className="pt-4 text-gray-500">
 
               <span className="flex w-fit p-4 rounded-lg bg-emerald-600">
-              <FaCheckCircle className=' text-white lg:w-5 lg:h-5' />
+              <FaExclamation className=' text-white lg:w-5 lg:h-5' />
                 </span>
 
                 <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                  All Confirmed Orders
+                  All Invoice Financing
                 </h3>
 
                 <p className="mt-2 hidden text-sm sm:block">
-                TOTAL NUMBER OF CONFIRMED ORDERS
+                TOTAL NUMBER OF INVOICE FINANCING
                 </p>
               </div>
 
