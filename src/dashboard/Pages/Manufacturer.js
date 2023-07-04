@@ -297,12 +297,15 @@ function Manufacturer() {
                 <ul className="mt-4 space-y-2">
                     <li>
                     <a
-                        href="#"
-                        className="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
+                        className="block h-full rounded-lg border border-gray-700 p-4 hover:border-emerald-600"
                     >
-                        <strong className="font-medium text-white">Project A</strong>
+                        <strong className="font-medium text-emerald-600 bg-gray-50 p-1.5 rounded-lg shadow-sm">Basic Information</strong>
 
-                        <p className="mt-1 text-xs font-medium text-gray-300">
+                        <p className="mt-2 max-w-screen-sm text-xs font-medium text-gray-600">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                        consequuntur deleniti, unde ab ut in!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                        consequuntur deleniti, unde ab ut in!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                         consequuntur deleniti, unde ab ut in!
                         </p>
@@ -311,14 +314,17 @@ function Manufacturer() {
 
                     <li>
                     <a
-                        href="#"
-                        className="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
+                        className="block h-full rounded-lg border border-gray-700 p-4 hover:border-emerald-600"
                     >
-                        <strong className="font-medium text-white">Project B</strong>
+                        <strong className="font-medium text-emerald-600 bg-gray-50 p-1.5 rounded-lg shadow-sm">Other Information</strong>
 
-                        <p className="mt-1 text-xs font-medium text-gray-300">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-                        cumque saepe sit.
+                        <p className="mt-2 max-w-screen-sm text-xs font-medium text-gray-600">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                        consequuntur deleniti, unde ab ut in!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                        consequuntur deleniti, unde ab ut in!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                        consequuntur deleniti, unde ab ut in!
                         </p>
                     </a>
                     </li>
