@@ -33,6 +33,7 @@ const PartialNavbar = () => {
             <ul className={!nav ? 'hidden' : 'absolute bg-zinc-900 w-fit px-8 h-screen'}>
                 <li className='border-zinc-900 w-fit text-white'><Link to="/summary" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Summary</Link></li>
                 <li className='border-zinc-900 w-fit text-white'><Link to="/adminsummary" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Summary</Link></li>
+                <li className='border-zinc-900 w-fit text-white'><Link to="/insurance" className='flex' onClick={handleClose}><AiFillPieChart className='text-2xl mr-4' />Insurance</Link></li>
             </ul>
           
             </div>
