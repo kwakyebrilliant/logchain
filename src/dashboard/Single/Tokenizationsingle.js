@@ -10,7 +10,7 @@ function Tokenizationsingle() {
 
   return (
     <div className='m-8'>
-
+        {/* navigate back icon */}
         <div>
             <a 
             onClick={handleGoBack}
@@ -20,6 +20,8 @@ function Tokenizationsingle() {
             </a>
         </div>
         
+        {/* section starts here */}
+        {/* give full details of tokenization */}
         <section>
                 <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-6">
                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
@@ -294,7 +296,10 @@ function Tokenizationsingle() {
                     </div>
                 </div>
                 </section>
+                {/* section ends here */}
 
+                {/* section starts here */}
+                {/* list previous owners */}
                 <section>
                     <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-6">
                     <div className='border grid grid-cols-1 rounded-md shadow-md'>
@@ -349,6 +354,7 @@ function Tokenizationsingle() {
 
                     </div>
                 </section>
+                {/* section ends here */}
     </div>
   )
 }
