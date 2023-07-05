@@ -13,6 +13,7 @@ function Login() {
 
             <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-lg">
+                {/* Header here */}
                 <h1 className="text-center text-2xl font-bold text-emerald-600 sm:text-3xl">
                 Get started today
                 </h1>
@@ -22,12 +23,13 @@ function Login() {
                     buyers to streamline their financial transactions and mitigate supply chain risks.
                 </p>
 
+                {/* form starts here */}
                 <form
                 action=""
                 className="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8"
                 >
                 <p className="text-center text-lg font-medium">Choose your account</p>
-
+                    {/* dropdown here */}
                 <select
                     className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                     value={selectedOption}
@@ -40,6 +42,7 @@ function Login() {
                 </select>
       
                 {
+                    // additional input
                       selectedOption ==='administrator' && (
 
                         <div>
