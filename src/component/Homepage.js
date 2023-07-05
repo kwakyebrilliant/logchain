@@ -30,6 +30,7 @@ function Homepage() {
       <section>
       <div className="mx-auto max-w-screen-xl px-4 pt-32 lg:flex lg:h-screen lg:items-center">
         <div className="relative mx-auto text-center">
+          {/* header 1 text */}
           <h1
             className="bg-gradient-to-r from-green-600 via-teal-500 to-emerald-400 bg-clip-text text-3xl font-extrabold text-transparent lg:text-7xl"
           >
@@ -37,11 +38,13 @@ function Homepage() {
             <span className="sm:block">On The XRP Ledger (XRPL). </span>
           </h1>
 
+          {/* paragraph text */}
           <p className="mx-auto mt-4 max-w-2xl sm:text-xl/relaxed">
             This comprehensive platform empowers suppliers, manufacturers,
             and buyers to streamline their financial transactions and mitigate supply chain risks.
           </p>
 
+          {/* Button to read more about the platform */}
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               className="block w-full btn-scroll rounded border border-emerald-600 bg-emerald-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-emerald-600 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
@@ -179,8 +182,11 @@ function Homepage() {
         {/* section ends here */}
 
 
+        {/* support starts here */}
+        {/* This section talks about the support the platform owners provide on this platform */}
         <div className='w-full my-14'>
 
+        {/* support background image */}
         <div className='w-full h-[700px] bg-gray-900/90 absolute'>
             <img className='w-full h-full object-cover mix-blend-overlay' src={pharmacy} alt="/" />
         </div>
@@ -312,8 +318,10 @@ function Homepage() {
         </div>
 
         </div>
+        {/* supports ends here */}
 
 
+        {/* section starts here */}
         <section className="relative">
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -362,7 +370,6 @@ function Homepage() {
                   Harvard Business Review
                 </cite>
                 <div className="text-gray-600">
-                  {/* <span>CEO & Co-Founder</span>{" "} */}
                   <a
                     className="text-blue-600 hover:underline"
                     href="https://hbr.org/2020/05/building-a-transparent-supply-chain"
@@ -382,7 +389,10 @@ function Homepage() {
         </div>
       </div>
     </section>
+    {/* section ends here */}
 
+
+  {/* footer here */}
     <section className="relative mt-12">
         <Footer />
       </section>
