@@ -40,6 +40,7 @@ function IFactoring() {
         <Navigation />
 
         <div className="relative">
+        {/* background image */}
         <div
           className="fixed inset-0 z-0"
           style={{
@@ -51,6 +52,7 @@ function IFactoring() {
 
         <div className="relative z-0 py-8">
 
+          {/* breadcrumps here */}
         <nav aria-label="Breadcrumb" className='pt-12'>
             <ol className="flex justify-start items-center gap-1 text-sm text-gray-600">
                 <li>
@@ -133,6 +135,7 @@ function IFactoring() {
             </div>
 
 
+            {/* modal starts here */}
             <ReactModal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
@@ -140,6 +143,7 @@ function IFactoring() {
                 style={customStyles}
             >
                 <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
+                {/* section starts here */}
                 <section>
                 <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
@@ -464,11 +468,13 @@ function IFactoring() {
                     </div>
                 </div>
                 </section>
+                {/* section ends here */}
                 
             </ReactModal>
+            {/* modal ends here */}
             
             <div className="overflow-y-auto h-[600px]">
-              
+              {/* list invoice factoring */}
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-1">
                 
               <a onClick={() => setModalIsOpen(true)} className="rounded-lg cursor-pointer bg-white shadow-md p-8">
@@ -588,7 +594,8 @@ function IFactoring() {
 
 
         </div>
-
+        
+        {/* footer here */}
         <section className="relative">
             <Footer />
           </section>
