@@ -230,6 +230,28 @@ function Supplier() {
                                 </div>
                             </div>
 
+                            <div className='pt-4'>
+                                <label className="text-sm font-medium text-gray-600">Invoice Date</label>
+
+                                <div className="relative">
+                                <input
+                                    type="date"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label className="text-sm font-medium text-gray-600">Invoice Due Date</label>
+
+                                <div className="relative">
+                                <input
+                                    type="date"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                />
+                                </div>
+                            </div>
+
 
                             </div>
 
@@ -311,6 +333,42 @@ function Supplier() {
                                 />
                                 </div>
                             </div>
+
+                            <div className='pt-4'>
+                                    <label className="text-sm font-medium text-gray-600">
+                                        Insurance Coverage
+                                    </label>
+
+                                    <p className='mt-1'>
+                                    <label className="text-sm text-gray-500">
+                                        Start date
+                                    </label>
+                                    <input
+                                        type="date"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+
+                                    <p className='mt-1'>
+                                    <label className="text-sm text-gray-500">
+                                        End date
+                                    </label>
+                                    <input
+                                        type="date"
+                                        className="w-full h-8 focus:outline-none rounded-md bg-transparent border-none ps-4 text-sm sm:text-sm"
+                                    />
+                                    </p>
+                                </div>
+
+                                <div className='pt-8'>
+                                <div className='flex justify-end'>
+                                    <a
+                                    className="flex cursor-pointer rounded border border-emerald-600 bg-emerald-600 px-4 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-emerald-600 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
+                                    Submit Invoice
+                                    </a>
+                                    </div>
+
+                                </div>
 
                             </div>
                 
