@@ -24,6 +24,7 @@ const PartialNavbar = () => {
     
 
   return (
+    // navigation links on mobile view
     <nav className='bg-white shadow-sm border-gray-200 mx-2 px-2 py-2.5 rounded'>
             <div className='container flex justify-between items-center mx-auto'>
 
