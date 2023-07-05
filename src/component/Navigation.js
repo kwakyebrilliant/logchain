@@ -28,6 +28,7 @@ export default function Navigation() {
     
     return (
 
+        // Navigation links on large screen
         <div className='w-screen h-[70px] z-10 bg-emerald-600 fixed drop-shadow-lg'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
       <div className='flex items-center'>
@@ -99,6 +100,7 @@ export default function Navigation() {
       </div>
 
 
+      {/* Navigation links on small screen */}
       <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
             <li className='border-b-2 border-zinc-300 w-full'>
               <Link to="/" onClick={handleClose}>Home</Link>
