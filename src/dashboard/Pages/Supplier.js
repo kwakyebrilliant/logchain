@@ -113,8 +113,13 @@ function Supplier() {
                 {
                       selectedOption ==='incoming' && (
 
-                        <div>
+                        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
                             <div>
+                            <h3 className="font-medium text-lg text-gray-900">
+                                Basic Information
+                            </h3>
+
+                            <div className='pt-4'>
                                 <label for="invoicenumber" className="sr-only">Invoice Number</label>
 
                                 <div className="relative">
@@ -161,7 +166,26 @@ function Supplier() {
                                 />
                                 </div>
                             </div>
+                            </div>
 
+                            <div>
+                            <h3 className="font-medium text-lg text-gray-900">
+                                Other Information
+                            </h3>
+
+                            <div className='pt-4'>
+                                <label for="invoiceprice" className="sr-only">Invoice Price</label>
+
+                                <div className="relative">
+                                <input
+                                    type="number"
+                                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Price"
+                                />
+                                </div>
+                            </div>
+
+                            </div>
                 
                         </div>
                         
