@@ -43,6 +43,7 @@ function IFinancing() {
             
          <div className="relative">
         <div className="fixed inset-0 z-0"></div>
+        {/* image here */}
         <div className="absolute top-0 right-0 h-96 overflow-hidden">
             <img
             src={wave}
@@ -52,6 +53,7 @@ function IFinancing() {
         </div>
 
 
+        {/* breadcrump here */}
         <nav aria-label="Breadcrumb" className='pt-20'>
             <ol className="flex justify-start items-center gap-1 text-sm text-gray-600">
                 <li>
@@ -88,6 +90,7 @@ function IFinancing() {
 
             <div className="mx-auto max-w-screen-xl px-4 py-12 sm:pt-32 lg:flex lg:h-screen lg:items-center">
             <div className="relative mx-auto text-center">
+                {/* header here */}
             <h1
                 className=" text-3xl font-extrabold lg:text-7xl"
             >
@@ -108,6 +111,7 @@ function IFinancing() {
 
         <div className="relative">
         <div className="fixed inset-0 z-0"></div>
+        {/* image here */}
         <div className="absolute -bottom-20 left-0 h-96 overflow-hidden">
             <img
             src={wave}
@@ -118,6 +122,7 @@ function IFinancing() {
 
         </div>
 
+        {/* modal starts here */}
         <ReactModal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
@@ -125,6 +130,7 @@ function IFinancing() {
                 style={customStyles}
             >
                 <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
+                {/* section starts here */}
                 <section>
                 <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
@@ -330,8 +336,6 @@ function IFinancing() {
                                         2 installment
                                     </p>
                                 </div>
-
-
                                 
                             </div>
                             </a>
@@ -447,8 +451,6 @@ function IFinancing() {
                                     />
                                     </p>
                                 </div>
-
-
                                 
                             </div>
                             </a>
@@ -458,9 +460,13 @@ function IFinancing() {
                     </div>
                 </div>
                 </section>
+                {/* section ends here */}
                 
             </ReactModal>
+            {/* modal ends here */}
 
+        
+        {/* section ends here */}
         <div className="bg-gray-50">
         <div className="grid container mx-auto sm:pt-20 py-8  px-8 grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
 
@@ -632,10 +638,13 @@ function IFinancing() {
   
         </div>
         </div>
+        {/* section ends here */}
 
 
+        {/* section starts here */}
         <section className="relative pt-12 px-8 bg-white">
 
+        {/* search input here */}
         <div className="relative px-16 py-8">
               <label for="Search" className="sr-only"> Search </label>
 
@@ -646,10 +655,10 @@ function IFinancing() {
                 className="lg:w-4/12 h-12 focus:outline-none rounded-full border-none border-gray-100 pe-10 ps-4 text-sm  py-2.5 shadow-md sm:text-sm"
               />
 
-            </div>
+        </div>
 
         <div className="lg:px-16 px-4">
-
+        {/* invoice financing here */}
         <div className=" grid grid-cols-1 lg:grid-cols-4 gap-4 gap-x-8 gap-y-8">
         <a onClick={() => setModalIsOpen(true)} className="rounded-lg cursor-pointer bg-white shadow-lg p-8">
             <div className="flex items-center gap-4">
@@ -858,7 +867,6 @@ function IFinancing() {
         </div>
 
 
-
         {/* Diagonal Circles */}
         <div className="absolute -top-40 right-0 flex justify-end items-end mt-20 mr-20">
         <span className="lg:h-40 lg:w-40 absolute inline-flex animate-ping bg-emerald-400 opacity-75 rounded-full shadow-lg transform rotate-45" ></span>
@@ -870,6 +878,7 @@ function IFinancing() {
         </div>
 
         </section>
+        {/* section ends here */}
 
 
         <section className="relative mt-12">
