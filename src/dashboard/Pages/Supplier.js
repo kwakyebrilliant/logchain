@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React, {useState} from 'react'
 import PartialNavbar from '../Partials/PartialNavbar'
 import Sidebar from '../Partials/Sidebar'
 
@@ -8,7 +8,25 @@ import {
     FaPlusCircle
   } from "react-icons/fa";
 
+
+import ReactModal from 'react-modal';
+
+  const customStyles = {
+    content: {
+      top: '60%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+      height: '650px', // Set the desired height of the container
+      overflowY: 'scroll', // Enable vertical scrolling
+    },
+  };
+
 function Supplier() {
+
+    
   return (
     <div className='text-black'>
         <>
