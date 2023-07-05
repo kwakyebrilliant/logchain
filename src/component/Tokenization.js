@@ -48,6 +48,7 @@ function Tokenization() {
       <Navigation />
       
       <div className="relative">
+        {/* background image */}
         <div
           className="fixed inset-0 z-0"
           style={{
@@ -57,6 +58,7 @@ function Tokenization() {
           }}
         ></div>
         
+        {/* section starts here */}
         <div className="relative mb-16 z-0 py-8">
           <div className="grid container mx-auto pt-40 p-8 grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
             <div className="mx-auto max-w-lg lg:mx-0 ltr:lg:text-left rtl:lg:text-right">
@@ -71,6 +73,7 @@ function Tokenization() {
 
        
 
+            {/* Input for search here */}
             <div className="relative mt-8">
               <label for="Search" className="sr-only"> Search </label>
 
@@ -105,18 +108,17 @@ function Tokenization() {
                 </button>
               </span>
             </div>
-
-              
               
             </div>
             
+            {/* tokenization statistics here */}
             <div>
               <h2 className="text-2xl font-bold mb-4 justify-center flex sm:text-3xl">Tokenization Statistics</h2>
               
               <div className="grid grid-cols-2 gap-4 sm:grid-cols-2">
                 <div className="flex flex-col rounded-lg border border-emerald-600 hover:bg-gray-200 hover:border-gray-200 px-4 py-8 text-center">
                   <dt className="order-last text-lg font-medium text-gray-500">
-                    Outstanding Invoices
+                    Selling Tokenization
                   </dt>
                   <dd className="text-4xl font-extrabold mb-4 text-emerald-600 md:text-5xl">
                     4.8m
@@ -125,7 +127,7 @@ function Tokenization() {
                 
                 <div className="flex flex-col rounded-lg border border-emerald-600 hover:bg-gray-200 hover:border-gray-200 px-4 py-8 text-center">
                   <dt className="order-last text-lg font-medium text-gray-500">
-                    Undue Invoices
+                    Reselling Tokenization
                   </dt>
                   <dd className="text-4xl font-extrabold mb-4 text-emerald-600 md:text-5xl">
                     4.8m
@@ -134,7 +136,7 @@ function Tokenization() {
                 
                 <div className="flex flex-col rounded-lg border border-emerald-600 hover:bg-gray-200 hover:border-gray-200 px-4 py-8 text-center">
                   <dt className="order-last text-lg font-medium text-gray-500">
-                    Insurance Coverage
+                    Delisted Tokenization
                   </dt>
                   <dd className="text-4xl font-extrabold mb-4 text-emerald-600 md:text-5xl">
                     4.8m
@@ -153,9 +155,11 @@ function Tokenization() {
             </div>
           </div>
         </div>
+        {/* section ends here */}
 
         
 
+          {/* section starts here */}
         <section className="relative pb-20 bg-white">
 
         <div className="px-4 sm:px-6">
@@ -171,6 +175,7 @@ function Tokenization() {
             </div>
             </div>
 
+            {/* modal starts here */}
             <ReactModal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
@@ -178,6 +183,8 @@ function Tokenization() {
                 style={customStyles}
             >
                 <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
+
+                {/* modal content starts here */}
                 <section>
                 <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
@@ -260,8 +267,6 @@ function Tokenization() {
                             </p>
                             <hr />
                         </div>
-
-                        
 
                         <a
                             className="inline-block cursor-pointer px-12 py-3 mt-4 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
@@ -524,9 +529,13 @@ function Tokenization() {
                     </div>
                 </div>
                 </section>
+                {/* modal content ends here */}
                 
             </ReactModal>
+            {/* modal ends here */}
 
+
+            {/* tokenization lists here */}
             <div className="lg:px-16 px-4">
 
               <div className=" grid grid-cols-1 lg:grid-cols-4 gap-4 gap-x-8 gap-y-8">
@@ -638,6 +647,7 @@ function Tokenization() {
          
         </div>
         </section>
+        {/* section ends here */}
 
 
         <section className="relative bg-white pb-20" style={{ backgroundImage: `url(${banner})` }}>
@@ -677,6 +687,7 @@ function Tokenization() {
 
       {/* Content */}
       <div className="p-4">
+        {/* Today content here */}
         {activeTab === 0 && 
         <div>
 
@@ -828,6 +839,7 @@ function Tokenization() {
           </div>
         </section>
           </div>}
+          {/* This week content here */}
         {activeTab === 1 && 
         <div>
           <section>
@@ -978,6 +990,7 @@ function Tokenization() {
           </div>
         </section>
         </div>}
+        {/* This month content here */}
         {activeTab === 2 &&
          <div>
 
@@ -1129,6 +1142,7 @@ function Tokenization() {
                     </div>
                   </section>
         </div>}
+        {/* This year content here */}
         {activeTab === 3 && 
         <div>
                     <section>
@@ -1285,6 +1299,7 @@ function Tokenization() {
 
           
         </div>
+        {/* circles here */}
         <div className="absolute -top-1 right-0 mr-16 flex justify-end items-end">
           <div className="lg:h-40 lg:w-40 rounded-full bg-emerald-50 shadow-lg transform rotate-45 animate-circle" />
         </div>
@@ -1294,8 +1309,10 @@ function Tokenization() {
       </section>
 
 
+      {/* section starts here */}
       <section className="relative bg-gray-50">
         <div className='flex justify-center lg:pt-16 pt-8'>
+          {/* header here */}
           <h1 className='lg:text-xl text-2xl font-bold text-blue-950'>The platform</h1>
         </div>
         <div className='flex justify-center'>
@@ -1315,14 +1332,17 @@ function Tokenization() {
           </p>
         </div>
 
+          {/* images here */}
         <div className="relative flex justify-center">
           <img className="hidden lg:block w-2/6" src={assets} alt="Image 1" />
           <img className="hidden lg:block animate-bounce-slow w-96 h-88 -bottom-20 left-0 right-0 relative" src={assets2} alt="Image 2" />
           <img className="hidden lg:block w-2/6" src={assets} alt="Image 3" />
         </div>
       </section>
+      {/* section ends here */}
 
 
+      {/* footer here */}
       <section className="relative mt-12">
         <Footer />
       </section>
