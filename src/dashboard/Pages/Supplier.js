@@ -115,16 +115,52 @@ function Supplier() {
 
                         <div>
                             <div>
-                    <label for="invoicenumber" className="sr-only">Invoice Number</label>
+                                <label for="invoicenumber" className="sr-only">Invoice Number</label>
 
-                    <div className="relative">
-                    <input
-                        type="text"
-                        className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-                        placeholder="Enter Invoice Number"
-                    />
-                    </div>
-                </div>
+                                <div className="relative">
+                                <input
+                                    type="text"
+                                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Number"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="invoiceamount" className="sr-only">Invoice Amount</label>
+
+                                <div className="relative">
+                                <input
+                                    type="text"
+                                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Amount"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="invoicequantity" className="sr-only">Invoice Quantity</label>
+
+                                <div className="relative">
+                                <input
+                                    type="text"
+                                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Quantity"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="invoiceprice" className="sr-only">Invoice Price</label>
+
+                                <div className="relative">
+                                <input
+                                    type="number"
+                                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Price"
+                                />
+                                </div>
+                            </div>
 
                 
                         </div>
