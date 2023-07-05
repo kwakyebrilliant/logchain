@@ -377,6 +377,172 @@ function Supplier() {
                       )
                   } 
 
+{
+                      selectedOption ==='outgoing' && (
+
+                        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
+                            <div>
+                            <h3 className="font-medium text-lg text-gray-900">
+                                Basic Information
+                            </h3>
+
+                            <div className='pt-4'>
+                                <label for="invoicenumber" className="sr-only">Invoice Number</label>
+
+                                <div className="relative">
+                                <input
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Number"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="invoiceamount" className="sr-only">Invoice Amount</label>
+
+                                <div className="relative">
+                                <input
+                                    type="number"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Amount"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="invoicequantity" className="sr-only">Invoice Quantity</label>
+
+                                <div className="relative">
+                                <input
+                                    type="number"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Quantity"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="invoiceprice" className="sr-only">Invoice Price</label>
+
+                                <div className="relative">
+                                <input
+                                    type="number"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Price"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="discountrate" className="sr-only">Discount Rate</label>
+
+                                <div className="relative">
+                                <input
+                                    type="number"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Discount Rate"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="invoicedescription" className="sr-only">Invoice Description</label>
+
+                                <div className="relative">
+                                <textarea
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Description"
+                                    rows={4}
+                                />
+                                </div>
+                            </div>
+
+
+                            </div>
+
+                            <div>
+                            <h3 className="font-medium text-lg text-gray-900">
+                                Other Information
+                            </h3>
+
+                            <div className='pt-4'>
+                                <label for="suppliername" className="sr-only">Supplier Name</label>
+
+                                <div className="relative">
+                                <input
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Supplier Name"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="suppliercontact" className="sr-only">Supplier Contact</label>
+
+                                <div className="relative">
+                                <input
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Supplier Contact"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="supplieraddress" className="sr-only">Supplier Address</label>
+
+                                <div className="relative">
+                                <textarea
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Supplier Address"
+                                    rows={4}
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label className="text-sm font-medium text-gray-600">Invoice Date</label>
+
+                                <div className="relative">
+                                <input
+                                    type="date"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label className="text-sm font-medium text-gray-600">Invoice Due Date</label>
+
+                                <div className="relative">
+                                <input
+                                    type="date"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                />
+                                </div>
+                            </div>
+
+                                <div className='pt-8'>
+                                <div className='flex justify-end'>
+                                    <a
+                                    className="flex cursor-pointer rounded border border-emerald-600 bg-emerald-600 px-4 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-emerald-600 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
+                                    Submit Invoice
+                                    </a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                
+                        </div>
+                        
+                      )
+                  } 
+
                 
                 </form>
 
