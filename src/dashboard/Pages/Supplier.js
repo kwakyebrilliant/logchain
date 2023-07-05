@@ -67,13 +67,23 @@ function Supplier() {
 
             <div className='flex m-5 py-4'>
             <a
-              className="flex rounded border border-emerald-600 bg-emerald-600 px-4 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-emerald-600 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-              href="/get-started"
+              className="flex cursor-pointer rounded border border-emerald-600 bg-emerald-600 px-4 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-emerald-600 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+              onClick={() => setModalIsOpen(true)}
             >
               <FaPlusCircle className="-ml-1 mr-2 h-5 w-5" aria-hidden="true" />
               Add Invoice
             </a>
             </div>
+
+            <ReactModal
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                contentLabel="Transaction Success Modal"
+                style={customStyles}
+            >
+                <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
+
+            </ReactModal>
 
 
             <div className="m-5 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
