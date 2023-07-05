@@ -20,6 +20,7 @@ const customStyles = {
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
       width: '80%', // Default width for small screens
+      height: '650px', // Set the desired height of the container
       overflowY: 'scroll', // Enable vertical scrolling
     },
   };
@@ -102,7 +103,7 @@ function Supplier() {
                 <hr /></p>
 
                 <select
-                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                     value={selectedOption}
                     onChange={handleOptionChange}>
                     <option value="">User Invoice Kind</option>
@@ -125,7 +126,7 @@ function Supplier() {
                                 <div className="relative">
                                 <input
                                     type="text"
-                                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                                     placeholder="Enter Invoice Number"
                                 />
                                 </div>
@@ -136,8 +137,8 @@ function Supplier() {
 
                                 <div className="relative">
                                 <input
-                                    type="text"
-                                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    type="number"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                                     placeholder="Enter Invoice Amount"
                                 />
                                 </div>
@@ -148,8 +149,8 @@ function Supplier() {
 
                                 <div className="relative">
                                 <input
-                                    type="text"
-                                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    type="number"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                                     placeholder="Enter Invoice Quantity"
                                 />
                                 </div>
@@ -161,11 +162,75 @@ function Supplier() {
                                 <div className="relative">
                                 <input
                                     type="number"
-                                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                                     placeholder="Enter Invoice Price"
                                 />
                                 </div>
                             </div>
+
+                            <div className='pt-4'>
+                                <label for="discountrate" className="sr-only">Discount Rate</label>
+
+                                <div className="relative">
+                                <input
+                                    type="number"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Discount Rate"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="invoicedescription" className="sr-only">Invoice Description</label>
+
+                                <div className="relative">
+                                <textarea
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Invoice Description"
+                                    rows={4}
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="buyername" className="sr-only">Buyer Name</label>
+
+                                <div className="relative">
+                                <input
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Buyer Name"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="buyercontact" className="sr-only">Buyer Contact</label>
+
+                                <div className="relative">
+                                <input
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Buyer Contact"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="buyeraddress" className="sr-only">Buyer Address</label>
+
+                                <div className="relative">
+                                <textarea
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Buyer Address"
+                                    rows={4}
+                                />
+                                </div>
+                            </div>
+
+
                             </div>
 
                             <div>
@@ -174,12 +239,49 @@ function Supplier() {
                             </h3>
 
                             <div className='pt-4'>
+                                <label for="suppliername" className="sr-only">Supplier Name</label>
+
+                                <div className="relative">
+                                <input
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Supplier Name"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="suppliercontact" className="sr-only">Supplier Contact</label>
+
+                                <div className="relative">
+                                <input
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Supplier Contact"
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="supplieraddress" className="sr-only">Supplier Address</label>
+
+                                <div className="relative">
+                                <textarea
+                                    type="text"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    placeholder="Enter Supplier Address"
+                                    rows={4}
+                                />
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
                                 <label for="invoiceprice" className="sr-only">Invoice Price</label>
 
                                 <div className="relative">
                                 <input
                                     type="number"
-                                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                                     placeholder="Enter Invoice Price"
                                 />
                                 </div>
