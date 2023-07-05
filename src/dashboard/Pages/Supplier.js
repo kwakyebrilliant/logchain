@@ -276,13 +276,38 @@ function Supplier() {
                             </div>
 
                             <div className='pt-4'>
-                                <label for="invoiceprice" className="sr-only">Invoice Price</label>
+                                <label for="repaymentplan" className="sr-only">Repayment Plan</label>
+
+                                <div className="relative">
+                                <select className="w-full bg-gray-50 focus:outline-gray-100 rounded-md bg-transparent border-none p-4 pe-12 text-sm sm:text-sm">
+                                <option value="">Select payment plan</option>
+                                <option value="upfront">Upfront</option>
+                                <option value="2 installment">2 installment</option>
+                                <option value="3 installment">3 installment</option>
+                                </select>
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="insuranceprovider" className="sr-only">Insurance Provider</label>
+
+                                <div className="relative">
+                                <select className="w-full bg-gray-50 focus:outline-gray-100 rounded-md bg-transparent border-none p-4 pe-12 text-sm sm:text-sm">
+                                <option value="">Select insurance provider</option>
+                                <option value="enterprise">Enterprise</option>
+                                <option value="glico">Glico</option>
+                                </select>
+                                </div>
+                            </div>
+
+                            <div className='pt-4'>
+                                <label for="insuredamount" className="sr-only">Insured Amount</label>
 
                                 <div className="relative">
                                 <input
                                     type="number"
                                     className="w-full bg-gray-50 focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-                                    placeholder="Enter Invoice Price"
+                                    placeholder="Enter Insured Amount"
                                 />
                                 </div>
                             </div>
