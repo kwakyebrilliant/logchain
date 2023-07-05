@@ -26,6 +26,7 @@ function Homepage() {
 
       <Navigation />
 
+    {/* section starts here */}
       <section>
       <div className="mx-auto max-w-screen-xl px-4 pt-32 lg:flex lg:h-screen lg:items-center">
         <div className="relative mx-auto text-center">
@@ -61,8 +62,10 @@ function Homepage() {
         </div>
       </div>
     </section>
+    {/* section ends here */}
 
 
+      {/* landing image */}
         <div className="flex lg:p-0 sm:p-0 pt-8 justify-center items-center">
             <div>
               <img alt="logistics2"
@@ -73,6 +76,8 @@ function Homepage() {
         </div>
 
 
+        {/* section starts here */}
+        {/* This section explains how the platform works */}
         <section id="about" className='flex justify-center items-center'>
           <div className="max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
             <div className="max-w-xl">
@@ -171,6 +176,7 @@ function Homepage() {
             </div>
           </div>
         </section>
+        {/* section ends here */}
 
 
         <div className='w-full my-14'>
