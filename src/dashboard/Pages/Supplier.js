@@ -11,7 +11,7 @@ import {
 
 import ReactModal from 'react-modal';
 
-  const customStyles = {
+const customStyles = {
     content: {
       top: '60%',
       left: '50%',
@@ -19,10 +19,15 @@ import ReactModal from 'react-modal';
       bottom: 'auto',
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
-      height: '650px', // Set the desired height of the container
+      width: '80%', // Default width for small screens
       overflowY: 'scroll', // Enable vertical scrolling
     },
   };
+  
+  // Media query to adjust width for large screens
+  if (window.innerWidth > 768) {
+    customStyles.content.width = '80%';
+  }
 
 function Supplier() {
 
@@ -32,6 +37,12 @@ function Supplier() {
         // Close the modal and perform any additional actions
         setModalIsOpen(false);
       };
+
+    const [selectedOption, setSelectedOption] = useState("");
+
+    const handleOptionChange = (event) => {
+        setSelectedOption(event.target.value);
+    };
 
 
   return (
@@ -82,6 +93,47 @@ function Supplier() {
                 style={customStyles}
             >
                 <button className='bg-black hover:bg-red-700 hover:text-white px-1 text-white' onClick={closeModal}>X</button>
+
+                
+                <form
+                className="mb-20 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8"
+                >
+                <p className="text-center text-lg font-medium">Choose invoice kind
+                <hr /></p>
+
+                <select
+                    className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    value={selectedOption}
+                    onChange={handleOptionChange}>
+                    <option value="">User Invoice Kind</option>
+                    <option value="incoming">Incoming</option>
+                    <option value="outgoing">Outgoing</option>
+                </select>
+      
+                {
+                      selectedOption ==='incoming' && (
+
+                        <div>
+                            <div>
+                    <label for="invoicenumber" className="sr-only">Invoice Number</label>
+
+                    <div className="relative">
+                    <input
+                        type="text"
+                        className="w-full focus:outline-gray-100 rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                        placeholder="Enter Invoice Number"
+                    />
+                    </div>
+                </div>
+
+                
+                        </div>
+                        
+                      )
+                  } 
+
+                
+                </form>
 
             </ReactModal>
 
