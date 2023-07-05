@@ -9,6 +9,7 @@ const Sidebar = () => {
     const [open, setOpen] = useState(false)
     const location = useLocation()
 
+    // sidebar menu items
     const Menus = [
         { title: 'Summary', path: '/summary', src: <AiFillPieChart /> },
         { title: 'Summary', path: '/adminsummary', src: <AiFillPieChart /> },
