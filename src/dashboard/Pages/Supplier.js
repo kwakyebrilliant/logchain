@@ -26,7 +26,14 @@ import ReactModal from 'react-modal';
 
 function Supplier() {
 
-    
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+
+    const closeModal = () => {
+        // Close the modal and perform any additional actions
+        setModalIsOpen(false);
+      };
+
+
   return (
     <div className='text-black'>
         <>
