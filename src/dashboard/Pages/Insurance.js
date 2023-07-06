@@ -33,7 +33,6 @@ function Insurance() {
                         </p>
                     </div>
     
-                    
                     </div>
                 </div>
                 </header>
