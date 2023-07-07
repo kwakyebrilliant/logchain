@@ -32,7 +32,7 @@ function Insurance() {
                         Check your statistics on XRChain 🎉
                         </p>
                     </div>
-    
+
                     </div>
                 </div>
                 </header>
